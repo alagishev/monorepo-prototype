@@ -19,22 +19,22 @@ import { memo } from 'react'
 
 import type {
   SpecificationDialogDetail,
-} from '@b41ex/qubership-apihub-ui-shared/components/SpecificationDialog/SpecificationDialog'
+} from '@alagishev/qubership-apihub-ui-shared/components/SpecificationDialog/SpecificationDialog'
 import {
   SHOW_SPECIFICATION_DIALOG,
   SpecificationPopup,
-} from '@b41ex/qubership-apihub-ui-shared/components/SpecificationDialog/SpecificationDialog'
-import { useSpecViewer } from '@b41ex/qubership-apihub-ui-shared/components/SpecificationDialog/useSpecViewer'
+} from '@alagishev/qubership-apihub-ui-shared/components/SpecificationDialog/SpecificationDialog'
+import { useSpecViewer } from '@alagishev/qubership-apihub-ui-shared/components/SpecificationDialog/useSpecViewer'
 import type { PortalSpecificationDialogDetail } from '../../../EventBusProvider'
-import type { PopupProps } from '@b41ex/qubership-apihub-ui-shared/components/PopupDelegate'
-import { PopupDelegate } from '@b41ex/qubership-apihub-ui-shared/components/PopupDelegate'
-import type { SpecViewMode } from '@b41ex/qubership-apihub-ui-shared/components/SpecViewToggler'
+import type { PopupProps } from '@alagishev/qubership-apihub-ui-shared/components/PopupDelegate'
+import { PopupDelegate } from '@alagishev/qubership-apihub-ui-shared/components/PopupDelegate'
+import type { SpecViewMode } from '@alagishev/qubership-apihub-ui-shared/components/SpecViewToggler'
 import {
   DOC_SPEC_VIEW_MODE,
   INTROSPECTION_SPEC_VIEW_MODE,
   SCHEMA_SPEC_VIEW_MODE,
-} from '@b41ex/qubership-apihub-ui-shared/components/SpecViewToggler'
-import { GRAPHQL_SPEC_TYPES } from '@b41ex/qubership-apihub-ui-shared/utils/specs'
+} from '@alagishev/qubership-apihub-ui-shared/components/SpecViewToggler'
+import { GRAPHQL_SPEC_TYPES } from '@alagishev/qubership-apihub-ui-shared/utils/specs'
 
 export const PortalSpecificationDialog: FC = memo(() => {
   return (

@@ -5,18 +5,18 @@ import {
   CONTENT_PLACEHOLDER_AREA,
   NO_SEARCH_RESULTS,
   Placeholder,
-} from '@b41ex/qubership-apihub-ui-shared/components/Placeholder'
-import { CONTRACT_TYPE_DDL } from '@b41ex/qubership-apihub-ui-shared/entities/contract-types'
-import type { Key } from '@b41ex/qubership-apihub-ui-shared/entities/keys'
+} from '@alagishev/qubership-apihub-ui-shared/components/Placeholder'
+import { CONTRACT_TYPE_DDL } from '@alagishev/qubership-apihub-ui-shared/entities/contract-types'
+import type { Key } from '@alagishev/qubership-apihub-ui-shared/entities/keys'
 import {
   useSeverityFiltersSearchParam,
-} from '@b41ex/qubership-apihub-ui-shared/hooks/change-severities/useSeverityFiltersSearchParam'
-import { isNotEmpty } from '@b41ex/qubership-apihub-ui-shared/utils/arrays'
-import { DdlChangesViewTable } from '@b41ex/qubership-apihub-ui-shared/widgets/ChangesViewWidget/components/DdlChangesViewTable'
+} from '@alagishev/qubership-apihub-ui-shared/hooks/change-severities/useSeverityFiltersSearchParam'
+import { isNotEmpty } from '@alagishev/qubership-apihub-ui-shared/utils/arrays'
+import { DdlChangesViewTable } from '@alagishev/qubership-apihub-ui-shared/widgets/ChangesViewWidget/components/DdlChangesViewTable'
 import {
   usePreviousReleasePackageKey,
   usePreviousReleaseVersion,
-} from '@b41ex/qubership-apihub-ui-shared/widgets/ChangesViewWidget/components/PreviousReleaseOptionsProvider'
+} from '@alagishev/qubership-apihub-ui-shared/widgets/ChangesViewWidget/components/PreviousReleaseOptionsProvider'
 
 import { useCurrentPackage } from '@portal/components/CurrentPackageProvider'
 import { useRefSearchParam } from '@portal/routes/root/PortalPage/useRefSearchParam'

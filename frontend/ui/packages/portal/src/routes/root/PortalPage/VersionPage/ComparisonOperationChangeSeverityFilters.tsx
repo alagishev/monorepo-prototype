@@ -21,12 +21,12 @@ import {
   useSetHasComparisonInternalDocument,
   useSetIsApiDiffResultLoading,
 } from '@portal/routes/root/ApiDiffResultProvider'
-import type { Diff } from '@b41ex/qubership-apihub-api-diff'
-import { DIFF_META_KEY } from '@b41ex/qubership-apihub-api-diff'
-import { ChangeSeverityFilters } from '@b41ex/qubership-apihub-ui-shared/components/ChangeSeverityFilters'
-import type { ApiType } from '@b41ex/qubership-apihub-ui-shared/entities/api-types'
-import { DEFAULT_CHANGE_SEVERITY_MAP } from '@b41ex/qubership-apihub-ui-shared/entities/change-severities'
-import { getApiDiffResult } from '@b41ex/qubership-apihub-ui-shared/utils/api-diff-result'
+import type { Diff } from '@alagishev/qubership-apihub-api-diff'
+import { DIFF_META_KEY } from '@alagishev/qubership-apihub-api-diff'
+import { ChangeSeverityFilters } from '@alagishev/qubership-apihub-ui-shared/components/ChangeSeverityFilters'
+import type { ApiType } from '@alagishev/qubership-apihub-ui-shared/entities/api-types'
+import { DEFAULT_CHANGE_SEVERITY_MAP } from '@alagishev/qubership-apihub-ui-shared/entities/change-severities'
+import { getApiDiffResult } from '@alagishev/qubership-apihub-ui-shared/utils/api-diff-result'
 import type { FC } from 'react'
 import { memo, useEffect, useMemo, useState } from 'react'
 import { useComparedOperationsPair } from './ComparedOperationsContext'

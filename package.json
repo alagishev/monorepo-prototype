@@ -1,5 +1,5 @@
 {
-  "name": "@b41ex/apihub-monorepo",
+  "name": "@alagishev/apihub-monorepo",
   "version": "0.0.0",
   "private": true,
   "description": "Third monorepo prototype: the 18 JavaScript components of APIHUB in one pnpm workspace. Local only, no remote, nothing published.",

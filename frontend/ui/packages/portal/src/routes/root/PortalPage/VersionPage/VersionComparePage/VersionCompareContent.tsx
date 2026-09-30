@@ -17,29 +17,29 @@
 import { useBackwardLocationContext, useSetBackwardLocationContext } from '@portal/routes/BackwardLocationProvider'
 import { useEventBus } from '@portal/routes/EventBusProvider'
 import { Box, Card, CardContent } from '@mui/material'
-import { DdlTableTitleWithMeta } from '@b41ex/qubership-apihub-ui-shared/components/Ddl/DdlTableTitleWithMeta'
-import { LoadingIndicator } from '@b41ex/qubership-apihub-ui-shared/components/LoadingIndicator'
+import { DdlTableTitleWithMeta } from '@alagishev/qubership-apihub-ui-shared/components/Ddl/DdlTableTitleWithMeta'
+import { LoadingIndicator } from '@alagishev/qubership-apihub-ui-shared/components/LoadingIndicator'
 import {
   OperationTitleWithMeta,
-} from '@b41ex/qubership-apihub-ui-shared/components/Operations/OperationTitleWithMeta'
-import { CONTENT_PLACEHOLDER_AREA, Placeholder } from '@b41ex/qubership-apihub-ui-shared/components/Placeholder'
-import type { ChangeSeverity } from '@b41ex/qubership-apihub-ui-shared/entities/change-severities'
+} from '@alagishev/qubership-apihub-ui-shared/components/Operations/OperationTitleWithMeta'
+import { CONTENT_PLACEHOLDER_AREA, Placeholder } from '@alagishev/qubership-apihub-ui-shared/components/Placeholder'
+import type { ChangeSeverity } from '@alagishev/qubership-apihub-ui-shared/entities/change-severities'
 import {
   ADD_ACTION_TYPE,
   REMOVE_ACTION_TYPE,
-} from '@b41ex/qubership-apihub-ui-shared/entities/change-severities'
-import { CONTRACT_TYPE_DDL } from '@b41ex/qubership-apihub-ui-shared/entities/contract-types'
-import type { DdlEntityChangeEntry } from '@b41ex/qubership-apihub-ui-shared/entities/contracts-ddl-changelog'
-import { getDdlChangeEntityId } from '@b41ex/qubership-apihub-ui-shared/entities/contracts-ddl-changelog'
-import type { OperationChangeBase } from '@b41ex/qubership-apihub-ui-shared/entities/version-changelog'
+} from '@alagishev/qubership-apihub-ui-shared/entities/change-severities'
+import { CONTRACT_TYPE_DDL } from '@alagishev/qubership-apihub-ui-shared/entities/contract-types'
+import type { DdlEntityChangeEntry } from '@alagishev/qubership-apihub-ui-shared/entities/contracts-ddl-changelog'
+import { getDdlChangeEntityId } from '@alagishev/qubership-apihub-ui-shared/entities/contracts-ddl-changelog'
+import type { OperationChangeBase } from '@alagishev/qubership-apihub-ui-shared/entities/version-changelog'
 import {
   useSeverityFiltersSearchParam,
-} from '@b41ex/qubership-apihub-ui-shared/hooks/change-severities/useSeverityFiltersSearchParam'
-import { isNotEmpty } from '@b41ex/qubership-apihub-ui-shared/utils/arrays'
+} from '@alagishev/qubership-apihub-ui-shared/hooks/change-severities/useSeverityFiltersSearchParam'
+import { isNotEmpty } from '@alagishev/qubership-apihub-ui-shared/utils/arrays'
 import {
   filterChangesBySeverity,
   getMajorSeverity,
-} from '@b41ex/qubership-apihub-ui-shared/utils/change-severities'
+} from '@alagishev/qubership-apihub-ui-shared/utils/change-severities'
 import {
   API_TYPE_SEARCH_PARAM,
   FILTERS_SEARCH_PARAM,
@@ -49,16 +49,16 @@ import {
   REF_SEARCH_PARAM,
   TAG_SEARCH_PARAM,
   VERSION_SEARCH_PARAM,
-} from '@b41ex/qubership-apihub-ui-shared/utils/search-params'
-import { format } from '@b41ex/qubership-apihub-ui-shared/utils/strings'
-import type { Key } from '@b41ex/qubership-apihub-ui-shared/utils/types'
-import { getSplittedVersionKey } from '@b41ex/qubership-apihub-ui-shared/utils/versions'
+} from '@alagishev/qubership-apihub-ui-shared/utils/search-params'
+import { format } from '@alagishev/qubership-apihub-ui-shared/utils/strings'
+import type { Key } from '@alagishev/qubership-apihub-ui-shared/utils/types'
+import { getSplittedVersionKey } from '@alagishev/qubership-apihub-ui-shared/utils/versions'
 import {
   usePagedDetailedVersionChangelog,
-} from '@b41ex/qubership-apihub-ui-shared/widgets/ChangesViewWidget/api/useCommonPagedVersionChangelog'
+} from '@alagishev/qubership-apihub-ui-shared/widgets/ChangesViewWidget/api/useCommonPagedVersionChangelog'
 import {
   useDetailedVersionChangelog,
-} from '@b41ex/qubership-apihub-ui-shared/widgets/ChangesViewWidget/api/useDetailedVersionChangelog'
+} from '@alagishev/qubership-apihub-ui-shared/widgets/ChangesViewWidget/api/useDetailedVersionChangelog'
 import type { FC } from 'react'
 import { memo, useCallback, useEffect, useMemo } from 'react'
 import { useNavigation } from '../../../../NavigationProvider'
@@ -74,7 +74,7 @@ import { VERSION_SWAPPER_HEIGHT } from '../shared-styles'
 import { useTagSearchFilter } from '../useTagSearchFilter'
 import {
   WarningApiProcessorVersion,
-} from '@b41ex/qubership-apihub-ui-shared/components/WarningApiProcessorVersion'
+} from '@alagishev/qubership-apihub-ui-shared/components/WarningApiProcessorVersion'
 import { useDdlChanges } from '../api/useDdlChanges'
 import { useFlatDdlChanges } from '../api/useFlatDdlChanges'
 import { useAutoFetchInfinitePages } from '../useAutoFetchInfinitePages'

@@ -16,18 +16,18 @@
 
 import type { Key, VersionKey } from '@portal/entities/keys'
 import { portalRequestJson } from '@portal/utils/requests'
-import type { BuildType, VersionsComparison } from '@b41ex/qubership-apihub-api-processor'
-import type { IsLoading, IsSuccess } from '@b41ex/qubership-apihub-ui-shared/utils/aliases'
-import type { PublishStatus } from '@b41ex/qubership-apihub-ui-shared/utils/packages-builder'
+import type { BuildType, VersionsComparison } from '@alagishev/qubership-apihub-api-processor'
+import type { IsLoading, IsSuccess } from '@alagishev/qubership-apihub-ui-shared/utils/aliases'
+import type { PublishStatus } from '@alagishev/qubership-apihub-ui-shared/utils/packages-builder'
 import {
   COMPLETE_PUBLISH_STATUS,
   ERROR_PUBLISH_STATUS,
   NONE_PUBLISH_STATUS,
   RUNNING_PUBLISH_STATUS,
   setPublicationDetails,
-} from '@b41ex/qubership-apihub-ui-shared/utils/packages-builder'
-import { optionalSearchParams } from '@b41ex/qubership-apihub-ui-shared/utils/search-params'
-import { onQueryUnauthorized } from '@b41ex/qubership-apihub-ui-shared/utils/security'
+} from '@alagishev/qubership-apihub-ui-shared/utils/packages-builder'
+import { optionalSearchParams } from '@alagishev/qubership-apihub-ui-shared/utils/search-params'
+import { onQueryUnauthorized } from '@alagishev/qubership-apihub-ui-shared/utils/security'
 import { useQuery } from '@tanstack/react-query'
 import { useState } from 'react'
 import { useParams } from 'react-router-dom'

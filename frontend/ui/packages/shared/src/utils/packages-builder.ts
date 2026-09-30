@@ -24,7 +24,7 @@ import type {
   ResolvedOperation,
   ResolvedReferences,
   ResolvedVersionDocuments,
-} from '@b41ex/qubership-apihub-api-processor'
+} from '@alagishev/qubership-apihub-api-processor'
 import { generatePath } from 'react-router-dom'
 import type { ApiType } from '../entities/api-types'
 import type {

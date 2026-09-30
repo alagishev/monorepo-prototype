@@ -16,11 +16,11 @@
 
 import { generatePath } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
-import type { IsLoading } from '@b41ex/qubership-apihub-ui-shared/utils/aliases'
-import { API_V1, requestJson } from '@b41ex/qubership-apihub-ui-shared/utils/requests'
+import type { IsLoading } from '@alagishev/qubership-apihub-ui-shared/utils/aliases'
+import { API_V1, requestJson } from '@alagishev/qubership-apihub-ui-shared/utils/requests'
 import {
   useGetNcServicePrefix,
-} from '@b41ex/qubership-apihub-ui-shared/features/system-extensions/useSystemExtensions'
+} from '@alagishev/qubership-apihub-ui-shared/features/system-extensions/useSystemExtensions'
 
 export type IdpUrlDto = {
   identityProviderUrl: string

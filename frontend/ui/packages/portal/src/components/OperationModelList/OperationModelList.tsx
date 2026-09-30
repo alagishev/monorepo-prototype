@@ -21,7 +21,7 @@ import TreeView from '@mui/lab/TreeView'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
 import ChevronRightIcon from '@mui/icons-material/ChevronRight'
 import { OperationModelListSkeleton } from './OperationModelListSkeleton'
-import type { JsonPath } from '@b41ex/qubership-apihub-json-crawl'
+import type { JsonPath } from '@alagishev/qubership-apihub-json-crawl'
 import { ErrorModelLabel, ModelLabel } from './ModelLabel'
 import { ErrorModelItem, ModelItem, SectionItem } from './ModelListItem'
 import type {
@@ -40,11 +40,11 @@ import {
 import type {
   HashWithTitle,
   VisitorNavigationDetails,
-} from '@b41ex/qubership-apihub-ui-shared/components/SchemaGraphView/oasToClassDiagramService'
-import { isEmpty, isNotEmpty } from '@b41ex/qubership-apihub-ui-shared/utils/arrays'
-import type { Key } from '@b41ex/qubership-apihub-ui-shared/entities/keys'
+} from '@alagishev/qubership-apihub-ui-shared/components/SchemaGraphView/oasToClassDiagramService'
+import { isEmpty, isNotEmpty } from '@alagishev/qubership-apihub-ui-shared/utils/arrays'
+import type { Key } from '@alagishev/qubership-apihub-ui-shared/entities/keys'
 import { useShowInfoNotification } from '@portal/routes/root/BasePage/Notification'
-import { NavigationFailReason } from '@b41ex/qubership-apihub-ui-shared/components/SchemaGraphView/SchemaGraphView'
+import { NavigationFailReason } from '@alagishev/qubership-apihub-ui-shared/components/SchemaGraphView/SchemaGraphView'
 
 // First Order Component //
 export type OperationSidebarProps = {

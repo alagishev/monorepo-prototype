@@ -1,5 +1,5 @@
 import { ApihubApiCompatibilityKind } from '../../consts'
-import { ApiCompatibilityScopeFunction } from '@b41ex/qubership-apihub-api-diff'
+import { ApiCompatibilityScopeFunction } from '@alagishev/qubership-apihub-api-diff'
 
 export type ApiCompatibilityScopeFunctionFactory = (
   prevDocumentApiKind?: ApihubApiCompatibilityKind,

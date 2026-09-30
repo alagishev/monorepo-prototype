@@ -15,8 +15,8 @@
  */
 
 import { useMemo } from 'react'
-import type { SpecType } from '@b41ex/qubership-apihub-ui-shared/utils/specs'
-import { calculateSpecType, getFileExtension } from '@b41ex/qubership-apihub-ui-shared/utils/files'
+import type { SpecType } from '@alagishev/qubership-apihub-ui-shared/utils/specs'
+import { calculateSpecType, getFileExtension } from '@alagishev/qubership-apihub-ui-shared/utils/files'
 
 // TODO: Check usages.
 //  Seems most places can use 'type' from branch cache instead of calculation

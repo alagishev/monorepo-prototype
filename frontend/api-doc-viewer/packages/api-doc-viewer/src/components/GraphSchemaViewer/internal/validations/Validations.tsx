@@ -18,7 +18,7 @@ import {
   GraphApiNodeData,
   GraphSchemaNodeValue,
   IGraphSchemaEnumType
-} from '@b41ex/qubership-apihub-api-data-model'
+} from '@alagishev/qubership-apihub-api-data-model'
 import type { FC } from 'react'
 import { useLayoutMode } from '../../../../contexts/LayoutModeContext'
 import { PropsWithChanges } from '../../../../types/internal/PropsWithChanges'

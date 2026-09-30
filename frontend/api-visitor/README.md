@@ -13,9 +13,9 @@ The APIHUB API Visitor automatically identifies and marks self-references in sch
 
 ## Usage
 ```ts
-import { OpenApiWalker } from '@b41ex/qubership-apihub-api-visitor'
-import { denormalize, normalize } from '@b41ex/qubership-apihub-api-unifier'
-import type { DenormalizeOptions, NormalizeOptions } from '@b41ex/qubership-apihub-api-unifier'
+import { OpenApiWalker } from '@alagishev/qubership-apihub-api-visitor'
+import { denormalize, normalize } from '@alagishev/qubership-apihub-api-unifier'
+import type { DenormalizeOptions, NormalizeOptions } from '@alagishev/qubership-apihub-api-unifier'
 
 const walker = new OpenApiWalker();
 

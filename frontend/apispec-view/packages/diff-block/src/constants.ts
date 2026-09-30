@@ -7,7 +7,7 @@ import {
   nonBreaking,
   risky,
   unclassified,
-} from '@b41ex/qubership-apihub-api-diff'
+} from '@alagishev/qubership-apihub-api-diff'
 import { keys } from 'lodash';
 
 export const diffsMetaKey = Symbol('diffMeta');

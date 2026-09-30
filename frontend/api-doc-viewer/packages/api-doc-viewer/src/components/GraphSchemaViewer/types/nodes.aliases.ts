@@ -22,7 +22,7 @@ import {
   GraphSchemaDiffNodeValue,
   GraphSchemaNodeKind,
   IModelTreeNode
-} from '@b41ex/qubership-apihub-api-data-model'
+} from '@alagishev/qubership-apihub-api-data-model'
 
 export type GraphNode =
   | IModelTreeNode<GraphSchemaDiffNodeValue, GraphSchemaNodeKind, GraphApiDiffNodeMeta>

@@ -30,35 +30,35 @@ import type {
 import { flexRender, getCoreRowModel, getExpandedRowModel, useReactTable } from '@tanstack/react-table'
 import { EndpointTableCell } from './EndpointTableCell'
 import { CUSTOM_METADATA_COLUMN_ID } from './operation-table'
-import { CustomMetadataCell } from '@b41ex/qubership-apihub-ui-shared/components/CustomMetadataCell'
+import { CustomMetadataCell } from '@alagishev/qubership-apihub-ui-shared/components/CustomMetadataCell'
 import type {
   FetchNextOperationList,
   JSONValue,
   OperationData,
-} from '@b41ex/qubership-apihub-ui-shared/entities/operations'
-import { DEFAULT_API_TYPE, DEFAULT_TAG } from '@b41ex/qubership-apihub-ui-shared/entities/operations'
-import type { ColumnModel } from '@b41ex/qubership-apihub-ui-shared/hooks/table-resizing/useColumnResizing'
+} from '@alagishev/qubership-apihub-ui-shared/entities/operations'
+import { DEFAULT_API_TYPE, DEFAULT_TAG } from '@alagishev/qubership-apihub-ui-shared/entities/operations'
+import type { ColumnModel } from '@alagishev/qubership-apihub-ui-shared/hooks/table-resizing/useColumnResizing'
 import {
   DEFAULT_CONTAINER_WIDTH,
   useColumnsSizing,
-} from '@b41ex/qubership-apihub-ui-shared/hooks/table-resizing/useColumnResizing'
-import { insertIntoArrayByIndex, isEmpty, isNotEmpty } from '@b41ex/qubership-apihub-ui-shared/utils/arrays'
-import { CustomTableHeadCell } from '@b41ex/qubership-apihub-ui-shared/components/CustomTableHeadCell'
-import { TextWithOverflowTooltip } from '@b41ex/qubership-apihub-ui-shared/components/TextWithOverflowTooltip'
-import { useIntersectionObserver } from '@b41ex/qubership-apihub-ui-shared/hooks/common/useIntersectionObserver'
-import { ColumnDelimiter } from '@b41ex/qubership-apihub-ui-shared/components/ColumnDelimiter'
-import { CONTENT_PLACEHOLDER_AREA, Placeholder } from '@b41ex/qubership-apihub-ui-shared/components/Placeholder'
-import { createComponents } from '@b41ex/qubership-apihub-ui-shared/utils/components'
-import { DEFAULT_NUMBER_SKELETON_ROWS } from '@b41ex/qubership-apihub-ui-shared/utils/constants'
-import { DASHBOARD_KIND } from '@b41ex/qubership-apihub-ui-shared/entities/packages'
+} from '@alagishev/qubership-apihub-ui-shared/hooks/table-resizing/useColumnResizing'
+import { insertIntoArrayByIndex, isEmpty, isNotEmpty } from '@alagishev/qubership-apihub-ui-shared/utils/arrays'
+import { CustomTableHeadCell } from '@alagishev/qubership-apihub-ui-shared/components/CustomTableHeadCell'
+import { TextWithOverflowTooltip } from '@alagishev/qubership-apihub-ui-shared/components/TextWithOverflowTooltip'
+import { useIntersectionObserver } from '@alagishev/qubership-apihub-ui-shared/hooks/common/useIntersectionObserver'
+import { ColumnDelimiter } from '@alagishev/qubership-apihub-ui-shared/components/ColumnDelimiter'
+import { CONTENT_PLACEHOLDER_AREA, Placeholder } from '@alagishev/qubership-apihub-ui-shared/components/Placeholder'
+import { createComponents } from '@alagishev/qubership-apihub-ui-shared/utils/components'
+import { DEFAULT_NUMBER_SKELETON_ROWS } from '@alagishev/qubership-apihub-ui-shared/utils/constants'
+import { DASHBOARD_KIND } from '@alagishev/qubership-apihub-ui-shared/entities/packages'
 import { useCurrentPackage } from '@portal/components/CurrentPackageProvider'
-import { useResizeObserver } from '@b41ex/qubership-apihub-ui-shared/hooks/common/useResizeObserver'
-import type { ApiType } from '@b41ex/qubership-apihub-ui-shared/entities/api-types'
+import { useResizeObserver } from '@alagishev/qubership-apihub-ui-shared/hooks/common/useResizeObserver'
+import type { ApiType } from '@alagishev/qubership-apihub-ui-shared/entities/api-types'
 import {
   API_TYPE_ASYNCAPI,
   API_TYPE_GRAPHQL,
   API_TYPE_REST,
-} from '@b41ex/qubership-apihub-ui-shared/entities/api-types'
+} from '@alagishev/qubership-apihub-ui-shared/entities/api-types'
 import {
   API_AUDIENCE_COLUMN_ID,
   API_KIND_COLUMN_ID,
@@ -66,8 +66,8 @@ import {
   PACKAGE_COLUMN_ID,
   PROTOCOL_COLUMN_ID,
   TAGS_COLUMN_ID,
-} from '@b41ex/qubership-apihub-ui-shared/entities/table-columns'
-import { isAsyncApiOperation } from '@b41ex/qubership-apihub-ui-shared/entities/operations'
+} from '@alagishev/qubership-apihub-ui-shared/entities/table-columns'
+import { isAsyncApiOperation } from '@alagishev/qubership-apihub-ui-shared/entities/operations'
 import { AsyncApiTableCell } from './AsyncApiTableCell'
 
 export type OperationTableData = {

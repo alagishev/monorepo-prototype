@@ -1,4 +1,4 @@
-import { anyArrayKeys, JsonPath } from '@b41ex/qubership-apihub-json-crawl'
+import { anyArrayKeys, JsonPath } from '@alagishev/qubership-apihub-json-crawl'
 import { breaking, DiffAction, nonBreaking, PARENT_JUMP, strictResolveValueFromContext } from './core'
 import {
   CompareContext,
@@ -22,7 +22,7 @@ import {
   JSON_SCHEMA_NODE_TYPE_OBJECT,
   JSON_SCHEMA_NODE_TYPE_STRING,
   JsonSchemaNodesNormalizedType,
-} from '@b41ex/qubership-apihub-api-unifier'
+} from '@alagishev/qubership-apihub-api-unifier'
 import { OpenAPIV3 } from 'openapi-types'
 
 export const isObject = (value: unknown): value is Record<string | symbol, unknown> => {

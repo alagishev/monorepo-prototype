@@ -81,10 +81,10 @@ export default defineConfig(({ mode }) => {
       // npm link creates a symlink that points outside node_modules and by default such packages are not optimized.
       // Using "include" here forces listed packages to be optimized.
       // For example, without this setting, rolldownOptions are not being applied to the npm-linked
-      // @b41ex/qubership-apihub-api-processor during "pnpm proxy", which leads to reference errors
+      // @alagishev/qubership-apihub-api-processor during "pnpm proxy", which leads to reference errors
       // like "process is not defined" and "Buffer is not defined".
       include: [
-        '@b41ex/qubership-apihub-api-processor',
+        '@alagishev/qubership-apihub-api-processor',
       ],
       // Vite 8 pre-bundles with Rolldown, and esbuild polyfill plugins make its dependency scan fail.
       // `inject` mirrors the production build's inject() below, `define` keeps the `global` alias

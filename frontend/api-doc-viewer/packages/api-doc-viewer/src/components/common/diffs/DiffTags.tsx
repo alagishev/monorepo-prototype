@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 
-import { applyDiffReplaceAlias, applyDiffReplaceAliasBooleanProperty, DiffNodeMeta, DiffNodeValue, inverDiffAction, isDiff, NodeChange } from '@b41ex/qubership-apihub-api-data-model'
-import { Diff } from "@b41ex/qubership-apihub-api-diff"
+import { applyDiffReplaceAlias, applyDiffReplaceAliasBooleanProperty, DiffNodeMeta, DiffNodeValue, inverDiffAction, isDiff, NodeChange } from '@alagishev/qubership-apihub-api-data-model'
+import { Diff } from "@alagishev/qubership-apihub-api-diff"
 import type { FC } from 'react'
 import {
   AMBER_TAG_COLOR_SCHEMA,

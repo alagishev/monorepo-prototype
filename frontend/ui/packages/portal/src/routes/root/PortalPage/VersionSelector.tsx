@@ -18,27 +18,27 @@ import { useAsyncInvalidatePackageVersionContentByVersion } from '@portal/routes
 import KeyboardArrowDownOutlinedIcon from '@mui/icons-material/KeyboardArrowDownOutlined'
 import { TabContext, TabList, TabPanel } from '@mui/lab'
 import { Box, Button, Tab } from '@mui/material'
-import { MenuButtonItems } from '@b41ex/qubership-apihub-ui-shared/components/Buttons/MenuButton'
+import { MenuButtonItems } from '@alagishev/qubership-apihub-ui-shared/components/Buttons/MenuButton'
 import {
   NAVIGATION_PLACEHOLDER_AREA,
   NO_SEARCH_RESULTS,
   Placeholder,
-} from '@b41ex/qubership-apihub-ui-shared/components/Placeholder'
-import { SearchBar } from '@b41ex/qubership-apihub-ui-shared/components/SearchBar'
-import { VersionTitle } from '@b41ex/qubership-apihub-ui-shared/components/Titles/VersionTitle'
-import { VersionsTable } from '@b41ex/qubership-apihub-ui-shared/components/VersionsTable'
-import type { VersionStatus } from '@b41ex/qubership-apihub-ui-shared/entities/version-status'
+} from '@alagishev/qubership-apihub-ui-shared/components/Placeholder'
+import { SearchBar } from '@alagishev/qubership-apihub-ui-shared/components/SearchBar'
+import { VersionTitle } from '@alagishev/qubership-apihub-ui-shared/components/Titles/VersionTitle'
+import { VersionsTable } from '@alagishev/qubership-apihub-ui-shared/components/VersionsTable'
+import type { VersionStatus } from '@alagishev/qubership-apihub-ui-shared/entities/version-status'
 import {
   ARCHIVED_VERSION_STATUS,
   DRAFT_VERSION_STATUS,
   RELEASE_VERSION_STATUS,
-} from '@b41ex/qubership-apihub-ui-shared/entities/version-status'
-import type { PackageVersion } from '@b41ex/qubership-apihub-ui-shared/entities/versions'
-import { usePackageVersions } from '@b41ex/qubership-apihub-ui-shared/hooks/versions/usePackageVersions'
-import type { PackageVersionsSortBy, SortOrder } from '@b41ex/qubership-apihub-ui-shared/types/sorting'
-import { ASC_ORDER, DESC_ORDER, SORT_BY_CREATED_AT, SORT_BY_VERSION } from '@b41ex/qubership-apihub-ui-shared/types/sorting'
-import { isNotEmpty } from '@b41ex/qubership-apihub-ui-shared/utils/arrays'
-import { getSplittedVersionKey } from '@b41ex/qubership-apihub-ui-shared/utils/versions'
+} from '@alagishev/qubership-apihub-ui-shared/entities/version-status'
+import type { PackageVersion } from '@alagishev/qubership-apihub-ui-shared/entities/versions'
+import { usePackageVersions } from '@alagishev/qubership-apihub-ui-shared/hooks/versions/usePackageVersions'
+import type { PackageVersionsSortBy, SortOrder } from '@alagishev/qubership-apihub-ui-shared/types/sorting'
+import { ASC_ORDER, DESC_ORDER, SORT_BY_CREATED_AT, SORT_BY_VERSION } from '@alagishev/qubership-apihub-ui-shared/types/sorting'
+import { isNotEmpty } from '@alagishev/qubership-apihub-ui-shared/utils/arrays'
+import { getSplittedVersionKey } from '@alagishev/qubership-apihub-ui-shared/utils/versions'
 import type { FC, ReactNode } from 'react'
 import { memo, useCallback, useMemo, useState } from 'react'
 import { useParams } from 'react-router-dom'

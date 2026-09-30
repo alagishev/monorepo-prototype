@@ -1,5 +1,5 @@
-import { API_V1, requestJson, requestVoid } from '@b41ex/qubership-apihub-ui-shared/utils/requests'
-import { HttpError } from '@b41ex/qubership-apihub-ui-shared/utils/responses'
+import { API_V1, requestJson, requestVoid } from '@alagishev/qubership-apihub-ui-shared/utils/requests'
+import { HttpError } from '@alagishev/qubership-apihub-ui-shared/utils/responses'
 
 import { toAiChatHttpError } from './errors'
 

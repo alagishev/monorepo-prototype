@@ -62,28 +62,28 @@ import { useConfigureServiceSelection } from '../useConfigureServiceSelection'
 import { ServiceLabelsTableCell } from '../ServiceLabelsTableCell'
 import { serviceFilter } from '../utils'
 import { useServices } from '../../../useServices'
-import type { ServiceKey } from '@b41ex/qubership-apihub-ui-shared/entities/keys'
-import type { ColumnModel } from '@b41ex/qubership-apihub-ui-shared/hooks/table-resizing/useColumnResizing'
+import type { ServiceKey } from '@alagishev/qubership-apihub-ui-shared/entities/keys'
+import type { ColumnModel } from '@alagishev/qubership-apihub-ui-shared/hooks/table-resizing/useColumnResizing'
 import {
   DEFAULT_CONTAINER_WIDTH,
   useColumnsSizing,
-} from '@b41ex/qubership-apihub-ui-shared/hooks/table-resizing/useColumnResizing'
+} from '@alagishev/qubership-apihub-ui-shared/hooks/table-resizing/useColumnResizing'
 import { useCreateSnapshotPublicationOptions } from '../../ServicesPageProvider/ServicesPublicationOptionsProvider'
-import { isEmpty, isNotEmpty } from '@b41ex/qubership-apihub-ui-shared/utils/arrays'
+import { isEmpty, isNotEmpty } from '@alagishev/qubership-apihub-ui-shared/utils/arrays'
 import {
   CONTENT_PLACEHOLDER_AREA,
   NO_SEARCH_RESULTS,
   Placeholder,
-} from '@b41ex/qubership-apihub-ui-shared/components/Placeholder'
-import { ColumnDelimiter } from '@b41ex/qubership-apihub-ui-shared/components/ColumnDelimiter'
+} from '@alagishev/qubership-apihub-ui-shared/components/Placeholder'
+import { ColumnDelimiter } from '@alagishev/qubership-apihub-ui-shared/components/ColumnDelimiter'
 import type { Service } from '@agents/entities/services'
 import type { ServiceConfig } from '@agents/entities/publish-config'
-import type { Spec } from '@b41ex/qubership-apihub-ui-shared/entities/specs'
+import type { Spec } from '@alagishev/qubership-apihub-ui-shared/entities/specs'
 import {
   LOADING_STATUS_MARKER_VARIANT,
   StatusMarker,
-} from '@b41ex/qubership-apihub-ui-shared/components/StatusMarker'
-import { useResizeObserver } from '@b41ex/qubership-apihub-ui-shared/hooks/common/useResizeObserver'
+} from '@alagishev/qubership-apihub-ui-shared/components/StatusMarker'
+import { useResizeObserver } from '@alagishev/qubership-apihub-ui-shared/hooks/common/useResizeObserver'
 
 export type CreateSnapshotStepTableProps = {
   selectable?: boolean

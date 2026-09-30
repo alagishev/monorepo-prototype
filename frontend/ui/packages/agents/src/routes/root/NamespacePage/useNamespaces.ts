@@ -19,16 +19,16 @@ import { useParams } from 'react-router-dom'
 import type {
   Namespaces,
   NamespacesDto,
-} from '@b41ex/qubership-apihub-ui-shared/entities/namespaces'
+} from '@alagishev/qubership-apihub-ui-shared/entities/namespaces'
 import {
   EMPTY_NAMESPACES,
   getNamespaces,
   toNamespaces,
-} from '@b41ex/qubership-apihub-ui-shared/entities/namespaces'
-import type { IsLoading } from '@b41ex/qubership-apihub-ui-shared/utils/aliases'
+} from '@alagishev/qubership-apihub-ui-shared/entities/namespaces'
+import type { IsLoading } from '@alagishev/qubership-apihub-ui-shared/utils/aliases'
 import {
   useGetAgentPrefix,
-} from '@b41ex/qubership-apihub-ui-shared/features/system-extensions/useSystemExtensions'
+} from '@alagishev/qubership-apihub-ui-shared/features/system-extensions/useSystemExtensions'
 
 const NAMESPACES_QUERY_KEY = 'namespaces-query-key'
 

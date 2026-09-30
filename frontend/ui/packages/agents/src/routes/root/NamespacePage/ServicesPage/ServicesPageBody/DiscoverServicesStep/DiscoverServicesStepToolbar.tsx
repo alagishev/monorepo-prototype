@@ -31,9 +31,9 @@ import {
 } from '../../ServicesPageProvider/ServicesStepsProvider'
 import { useServices } from '../../../useServices'
 import { useRunDiscovery } from './useRunDiscovery'
-import type { SearchValue } from '@b41ex/qubership-apihub-ui-shared/components/Selector'
+import type { SearchValue } from '@alagishev/qubership-apihub-ui-shared/components/Selector'
 import { useCreateSnapshotPublicationOptions } from '../../ServicesPageProvider/ServicesPublicationOptionsProvider'
-import { SearchBar } from '@b41ex/qubership-apihub-ui-shared/components/SearchBar'
+import { SearchBar } from '@alagishev/qubership-apihub-ui-shared/components/SearchBar'
 import type { DiscoveryStatus } from '@agents/entities/statuses'
 import {
   COMPLETE_DISCOVERY_STATUS,
@@ -41,7 +41,7 @@ import {
   NONE_DISCOVERY_STATUS,
   RUNNING_DISCOVERY_STATUS,
 } from '@agents/entities/statuses'
-import type { IsError, IsLoading, IsSuccess } from '@b41ex/qubership-apihub-ui-shared/utils/aliases'
+import type { IsError, IsLoading, IsSuccess } from '@alagishev/qubership-apihub-ui-shared/utils/aliases'
 
 export type DiscoverServicesStepToolbarProps = {
   onSearch?: (value: SearchValue) => void

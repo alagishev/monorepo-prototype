@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 
-import type { Package } from '@b41ex/qubership-apihub-ui-shared/entities/packages'
-import type { Key, VersionKey } from '@b41ex/qubership-apihub-ui-shared/entities/keys'
+import type { Package } from '@alagishev/qubership-apihub-ui-shared/entities/packages'
+import type { Key, VersionKey } from '@alagishev/qubership-apihub-ui-shared/entities/keys'
 
 export type PackagesComparisonParams = Partial<{
   changedPackage: Package | null

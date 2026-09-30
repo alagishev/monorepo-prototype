@@ -24,15 +24,15 @@ import { usePackageKind } from '../../usePackageKind'
 import { useFilteredPackageRefs, usePackageRef } from '../../../useRefPackage'
 import { useSetCurrentDocumentsList } from './CurrentDocumentsListProvider'
 import { useNavigation } from '../../../../NavigationProvider'
-import { REF_SEARCH_PARAM } from '@b41ex/qubership-apihub-ui-shared/utils/search-params'
-import { useSearchParam } from '@b41ex/qubership-apihub-ui-shared/hooks/searchparams/useSearchParam'
-import { DASHBOARD_KIND, PACKAGE_KIND } from '@b41ex/qubership-apihub-ui-shared/entities/packages'
-import type { PackageReference } from '@b41ex/qubership-apihub-ui-shared/entities/version-references'
-import { LoadingIndicator } from '@b41ex/qubership-apihub-ui-shared/components/LoadingIndicator'
+import { REF_SEARCH_PARAM } from '@alagishev/qubership-apihub-ui-shared/utils/search-params'
+import { useSearchParam } from '@alagishev/qubership-apihub-ui-shared/hooks/searchparams/useSearchParam'
+import { DASHBOARD_KIND, PACKAGE_KIND } from '@alagishev/qubership-apihub-ui-shared/entities/packages'
+import type { PackageReference } from '@alagishev/qubership-apihub-ui-shared/entities/version-references'
+import { LoadingIndicator } from '@alagishev/qubership-apihub-ui-shared/components/LoadingIndicator'
 import {
   DashboardPackageSelector,
-} from '@b41ex/qubership-apihub-ui-shared/components/OperationFilters/DashboardPackageSelector'
-import { SearchBar } from '@b41ex/qubership-apihub-ui-shared/components/SearchBar'
+} from '@alagishev/qubership-apihub-ui-shared/components/OperationFilters/DashboardPackageSelector'
+import { SearchBar } from '@alagishev/qubership-apihub-ui-shared/components/SearchBar'
 
 export const DocNavigation: FC = memo(() => {
   const { packageId: packageKey, versionId: versionKey } = useParams()

@@ -23,24 +23,24 @@ import { UserPanel } from './UserPanel'
 import type { Theme } from '@mui/material/styles'
 import type { SystemStyleObject } from '@mui/system/styleFunctionSx/styleFunctionSx'
 import { ErrorNotificationHandler, SuccessNotificationHandler } from './NotificationHandler'
-import { cutViewPortStyleCalculator } from '@b41ex/qubership-apihub-ui-shared/utils/themes'
-import { LogoIcon } from '@b41ex/qubership-apihub-ui-shared/icons/LogoIcon'
-import { AppHeader } from '@b41ex/qubership-apihub-ui-shared/components/AppHeader'
-import { MaintenanceNotification } from '@b41ex/qubership-apihub-ui-shared/components/MaintenanceNotification'
-import { SystemInfoPopup, useSystemInfo } from '@b41ex/qubership-apihub-ui-shared/features/system-info'
+import { cutViewPortStyleCalculator } from '@alagishev/qubership-apihub-ui-shared/utils/themes'
+import { LogoIcon } from '@alagishev/qubership-apihub-ui-shared/icons/LogoIcon'
+import { AppHeader } from '@alagishev/qubership-apihub-ui-shared/components/AppHeader'
+import { MaintenanceNotification } from '@alagishev/qubership-apihub-ui-shared/components/MaintenanceNotification'
+import { SystemInfoPopup, useSystemInfo } from '@alagishev/qubership-apihub-ui-shared/features/system-info'
 import * as packageJson from '../../../../package.json'
-import { useVersionInfo } from '@b41ex/qubership-apihub-ui-shared/hooks/frontend-version/useVersionInfo'
-import { agent } from '@b41ex/qubership-apihub-ui-shared/utils/version-info'
+import { useVersionInfo } from '@alagishev/qubership-apihub-ui-shared/hooks/frontend-version/useVersionInfo'
+import { agent } from '@alagishev/qubership-apihub-ui-shared/utils/version-info'
 import {
   ModuleFetchingErrorBoundary,
-} from '@b41ex/qubership-apihub-ui-shared/components/ModuleFetchingErrorBoundary/ModuleFetchingErrorBoundary'
+} from '@alagishev/qubership-apihub-ui-shared/components/ModuleFetchingErrorBoundary/ModuleFetchingErrorBoundary'
 import {
   VsCodeExtensionButton,
-} from '@b41ex/qubership-apihub-ui-shared/components/Buttons/VsCodeExtensionButton/VsCodeExtensionButton'
+} from '@alagishev/qubership-apihub-ui-shared/components/Buttons/VsCodeExtensionButton/VsCodeExtensionButton'
 import {
   AppHeaderDivider,
-} from '@b41ex/qubership-apihub-ui-shared/components/Dividers/AppHeaderDivider/AppHeaderDivider'
-import { useAgentEnabled } from '@b41ex/qubership-apihub-ui-shared/features/system-extensions/useSystemExtensions'
+} from '@alagishev/qubership-apihub-ui-shared/components/Dividers/AppHeaderDivider/AppHeaderDivider'
+import { useAgentEnabled } from '@alagishev/qubership-apihub-ui-shared/features/system-extensions/useSystemExtensions'
 
 export const BasePage: FC = memo(() => {
   const { notification: systemNotification } = useSystemInfo()

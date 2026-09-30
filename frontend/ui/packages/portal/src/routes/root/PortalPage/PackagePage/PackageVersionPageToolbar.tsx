@@ -24,15 +24,15 @@ import { useMcpPublishValidation } from '@portal/routes/root/PortalPage/PackageP
 import { useBackwardLocationContext } from '@portal/routes/BackwardLocationProvider'
 import { useEventBus } from '@portal/routes/EventBusProvider'
 import { useCurrentPackage } from '@portal/components/CurrentPackageProvider'
-import { isNotEmptyRecord } from '@b41ex/qubership-apihub-ui-shared/utils/arrays'
-import { Toolbar } from '@b41ex/qubership-apihub-ui-shared/components/Toolbar'
-import { ToolbarTitle } from '@b41ex/qubership-apihub-ui-shared/components/ToolbarTitle'
-import { ButtonWithHint } from '@b41ex/qubership-apihub-ui-shared/components/Buttons/ButtonWithHint'
-import { ExitIcon } from '@b41ex/qubership-apihub-ui-shared/icons/ExitIcon'
-import { CustomChip } from '@b41ex/qubership-apihub-ui-shared/components/CustomChip'
+import { isNotEmptyRecord } from '@alagishev/qubership-apihub-ui-shared/utils/arrays'
+import { Toolbar } from '@alagishev/qubership-apihub-ui-shared/components/Toolbar'
+import { ToolbarTitle } from '@alagishev/qubership-apihub-ui-shared/components/ToolbarTitle'
+import { ButtonWithHint } from '@alagishev/qubership-apihub-ui-shared/components/Buttons/ButtonWithHint'
+import { ExitIcon } from '@alagishev/qubership-apihub-ui-shared/icons/ExitIcon'
+import { CustomChip } from '@alagishev/qubership-apihub-ui-shared/components/CustomChip'
 import { usePackageVersionContent } from '@portal/routes/root/usePackageVersionContent'
-import { getSplittedVersionKey } from '@b41ex/qubership-apihub-ui-shared/utils/versions'
-import { VersionTitle } from '@b41ex/qubership-apihub-ui-shared/components/Titles/VersionTitle'
+import { getSplittedVersionKey } from '@alagishev/qubership-apihub-ui-shared/utils/versions'
+import { VersionTitle } from '@alagishev/qubership-apihub-ui-shared/components/Titles/VersionTitle'
 
 export const PackageVersionPageToolbar: FC = memo(() => {
   const { packageId, versionId } = useParams()

@@ -19,19 +19,19 @@ import { memo } from 'react'
 import { CardHeader } from '@mui/material'
 import { Header } from './internal/Header'
 import { useSpecRaw } from '../../useSpecRaw'
-import { useSpecViewer } from '@b41ex/qubership-apihub-ui-shared/components/SpecificationDialog/useSpecViewer'
+import { useSpecViewer } from '@alagishev/qubership-apihub-ui-shared/components/SpecificationDialog/useSpecViewer'
 import type {
   SpecificationDialogDetail,
-} from '@b41ex/qubership-apihub-ui-shared/components/SpecificationDialog/SpecificationDialog'
+} from '@alagishev/qubership-apihub-ui-shared/components/SpecificationDialog/SpecificationDialog'
 import {
   SpecificationPopup,
-} from '@b41ex/qubership-apihub-ui-shared/components/SpecificationDialog/SpecificationDialog'
-import type { Spec } from '@b41ex/qubership-apihub-ui-shared/entities/specs'
-import type { ProxyServer } from '@b41ex/qubership-apihub-ui-shared/entities/services'
-import { isGraphQlSpecType } from '@b41ex/qubership-apihub-ui-shared/utils/specs'
+} from '@alagishev/qubership-apihub-ui-shared/components/SpecificationDialog/SpecificationDialog'
+import type { Spec } from '@alagishev/qubership-apihub-ui-shared/entities/specs'
+import type { ProxyServer } from '@alagishev/qubership-apihub-ui-shared/entities/services'
+import { isGraphQlSpecType } from '@alagishev/qubership-apihub-ui-shared/utils/specs'
 import {
   useGetAgentPrefix,
-} from '@b41ex/qubership-apihub-ui-shared/features/system-extensions/useSystemExtensions'
+} from '@alagishev/qubership-apihub-ui-shared/features/system-extensions/useSystemExtensions'
 
 export type CommonSpecificationPopupProps = {
   spec: Spec

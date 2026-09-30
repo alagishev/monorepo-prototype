@@ -23,22 +23,22 @@ import { useCompareBreadcrumbs } from '@portal/routes/root/PortalPage/VersionPag
 import { useComparisonObjects } from '@portal/routes/root/PortalPage/VersionPage/useComparisonObjects'
 import { useComparisonParams } from '@portal/routes/root/PortalPage/VersionPage/useComparisonParams'
 import { groupOperationPairsByTags } from '@portal/utils/operations'
-import { PageLayout } from '@b41ex/qubership-apihub-ui-shared/components/PageLayout'
-import type { ApiType } from '@b41ex/qubership-apihub-ui-shared/entities/api-types'
-import { CONTRACT_TYPE_DDL, getRouteApiTypeTitle, toRouteApiType } from '@b41ex/qubership-apihub-ui-shared/entities/contract-types'
-import { getDdlTableDisplayName } from '@b41ex/qubership-apihub-ui-shared/entities/contracts-ddl'
-import type { OperationData, OperationPair, OperationPairsGroupedByTag, OptionalOperationPair } from '@b41ex/qubership-apihub-ui-shared/entities/operations'
-import type { OperationChangeBase } from '@b41ex/qubership-apihub-ui-shared/entities/version-changelog'
+import { PageLayout } from '@alagishev/qubership-apihub-ui-shared/components/PageLayout'
+import type { ApiType } from '@alagishev/qubership-apihub-ui-shared/entities/api-types'
+import { CONTRACT_TYPE_DDL, getRouteApiTypeTitle, toRouteApiType } from '@alagishev/qubership-apihub-ui-shared/entities/contract-types'
+import { getDdlTableDisplayName } from '@alagishev/qubership-apihub-ui-shared/entities/contracts-ddl'
+import type { OperationData, OperationPair, OperationPairsGroupedByTag, OptionalOperationPair } from '@alagishev/qubership-apihub-ui-shared/entities/operations'
+import type { OperationChangeBase } from '@alagishev/qubership-apihub-ui-shared/entities/version-changelog'
 import type {
   DashboardComparisonSummary,
   RefComparisonSummary,
-} from '@b41ex/qubership-apihub-ui-shared/entities/version-changes-summary'
+} from '@alagishev/qubership-apihub-ui-shared/entities/version-changes-summary'
 import {
   useSeverityFiltersSearchParam,
-} from '@b41ex/qubership-apihub-ui-shared/hooks/change-severities/useSeverityFiltersSearchParam'
-import { usePackageSearchParam } from '@b41ex/qubership-apihub-ui-shared/hooks/routes/package/usePackageSearchParam'
-import { filterChangesBySeverity } from '@b41ex/qubership-apihub-ui-shared/utils/change-severities'
-import { safeOperationKeysPair } from '@b41ex/qubership-apihub-ui-shared/utils/operations'
+} from '@alagishev/qubership-apihub-ui-shared/hooks/change-severities/useSeverityFiltersSearchParam'
+import { usePackageSearchParam } from '@alagishev/qubership-apihub-ui-shared/hooks/routes/package/usePackageSearchParam'
+import { filterChangesBySeverity } from '@alagishev/qubership-apihub-ui-shared/utils/change-severities'
+import { safeOperationKeysPair } from '@alagishev/qubership-apihub-ui-shared/utils/operations'
 import {
   DOCUMENT_SEARCH_PARAM,
   FILTERS_SEARCH_PARAM,
@@ -47,11 +47,11 @@ import {
   PACKAGE_SEARCH_PARAM,
   REF_SEARCH_PARAM,
   VERSION_SEARCH_PARAM,
-} from '@b41ex/qubership-apihub-ui-shared/utils/search-params'
-import { useFlatVersionChangelog } from '@b41ex/qubership-apihub-ui-shared/widgets/ChangesViewWidget'
+} from '@alagishev/qubership-apihub-ui-shared/utils/search-params'
+import { useFlatVersionChangelog } from '@alagishev/qubership-apihub-ui-shared/widgets/ChangesViewWidget'
 import {
   usePagedVersionChangelog,
-} from '@b41ex/qubership-apihub-ui-shared/widgets/ChangesViewWidget/api/useCommonPagedVersionChangelog'
+} from '@alagishev/qubership-apihub-ui-shared/widgets/ChangesViewWidget/api/useCommonPagedVersionChangelog'
 import { Box, Typography } from '@mui/material'
 import type { FC } from 'react'
 import { memo, useEffect, useMemo, useState } from 'react'

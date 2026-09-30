@@ -10,16 +10,16 @@ import {
   OPERATIONS_SUB_PAGE,
   OVERVIEW_SUB_PAGE,
 } from '@portal/routes/root/PortalPage/VersionPage/OpenApiViewer/OpenApiViewer'
-import { DocumentTitleWithVersion } from '@b41ex/qubership-apihub-ui-shared/components/Titles/DocumentTitleWithVersion'
-import { SearchBar } from '@b41ex/qubership-apihub-ui-shared/components/SearchBar'
-import { Toggler } from '@b41ex/qubership-apihub-ui-shared/components/Toggler'
-import type { FileFormat } from '@b41ex/qubership-apihub-ui-shared/utils/files'
+import { DocumentTitleWithVersion } from '@alagishev/qubership-apihub-ui-shared/components/Titles/DocumentTitleWithVersion'
+import { SearchBar } from '@alagishev/qubership-apihub-ui-shared/components/SearchBar'
+import { Toggler } from '@alagishev/qubership-apihub-ui-shared/components/Toggler'
+import type { FileFormat } from '@alagishev/qubership-apihub-ui-shared/utils/files'
 import {
   isAsyncApiSpecType,
   isGraphQlSpecType,
   isOpenApiSpecType,
   type SpecType,
-} from '@b41ex/qubership-apihub-ui-shared/utils/specs'
+} from '@alagishev/qubership-apihub-ui-shared/utils/specs'
 import { DocumentActionsButton } from './DocumentActionsButton'
 import { useSelectedSubPage, useSetSelectedSubPage } from './SelectedSubPageProvider'
 import { ShareabilityDropdown } from './ShareabilityDropdown'

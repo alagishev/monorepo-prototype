@@ -1,20 +1,20 @@
 import { groupBy } from 'lodash-es'
 
-import { detectMcpDocumentType, unwrapJsonRpc } from '@b41ex/qubership-apihub-api-processor'
+import { detectMcpDocumentType, unwrapJsonRpc } from '@alagishev/qubership-apihub-api-processor'
 
-import type { FileLabelsRecord } from '@b41ex/qubership-apihub-ui-shared/components/FileTableUpload/FileTableUpload'
-import { compareMcpDocumentTypes } from '@b41ex/qubership-apihub-ui-shared/entities/contracts-mcp'
+import type { FileLabelsRecord } from '@alagishev/qubership-apihub-ui-shared/components/FileTableUpload/FileTableUpload'
+import { compareMcpDocumentTypes } from '@alagishev/qubership-apihub-ui-shared/entities/contracts-mcp'
 import {
   calculateSpecType,
   getFileExtension,
   JSON_FILE_EXTENSION,
-} from '@b41ex/qubership-apihub-ui-shared/utils/files'
-import { isObject } from '@b41ex/qubership-apihub-ui-shared/utils/objects'
+} from '@alagishev/qubership-apihub-ui-shared/utils/files'
+import { isObject } from '@alagishev/qubership-apihub-ui-shared/utils/objects'
 import {
   isMcpDocumentSpecType,
   type McpDocumentType,
   type SpecType,
-} from '@b41ex/qubership-apihub-ui-shared/utils/specs'
+} from '@alagishev/qubership-apihub-ui-shared/utils/specs'
 
 import type { PackageVersionConfig } from '@portal/entities/package-version-config'
 import { createFilesRecord } from '@portal/routes/root/PortalPage/PackagePage/files'

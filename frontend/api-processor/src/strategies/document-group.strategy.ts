@@ -45,10 +45,10 @@ import {
   NORMALIZE_OPTIONS,
   REST_API_TYPE,
 } from '../consts'
-import { normalize } from '@b41ex/qubership-apihub-api-unifier'
-import { extractOperationBasePath } from '@b41ex/qubership-apihub-api-diff'
+import { normalize } from '@alagishev/qubership-apihub-api-unifier'
+import { extractOperationBasePath } from '@alagishev/qubership-apihub-api-diff'
 import { calculateSpecRefs, extractCommonPathItemProperties } from '../apitypes/rest/rest.operation'
-import { GraphApiSchema, printGraphApi } from '@b41ex/qubership-apihub-graphapi'
+import { GraphApiSchema, printGraphApi } from '@alagishev/qubership-apihub-graphapi'
 import { createOperationSpec } from '../apitypes/graphql/graphql.operation'
 import { createOperationSpecEnrichedWithRefs } from '../apitypes/async/async.operation'
 import { parseGraphQLSource } from '../utils/graphql-transformer'

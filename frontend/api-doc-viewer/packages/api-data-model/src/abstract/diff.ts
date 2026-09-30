@@ -1,5 +1,5 @@
-import type { Diff } from '@b41ex/qubership-apihub-api-diff'
-import { DiffType } from '@b41ex/qubership-apihub-api-diff'
+import type { Diff } from '@alagishev/qubership-apihub-api-diff'
+import { DiffType } from '@alagishev/qubership-apihub-api-diff'
 
 export type NodeChange = Diff & { depth: number }
 export type NodeChangesSummary = Set<DiffType>

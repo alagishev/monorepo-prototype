@@ -10,7 +10,7 @@ no driver-specific types.
 
 | | |
 |---|---|
-| **Name** | `@b41ex/qubership-apihub-ddlapi` |
+| **Name** | `@alagishev/qubership-apihub-ddlapi` |
 | **Location** | `https://github.com/Netcracker/qubership-apihub-ddlapi` |
 | **Output** | Dual CJS + ESM, TypeScript declarations |
 | **Tooling** | Vite 4 + vite-plugin-dts, ts-jest, TypeScript 5.x |
@@ -289,7 +289,7 @@ export interface BoolType {
 Consumers use the appropriate group constant in comparisons and switch cases:
 
 ```typescript
-import { TypeKind, AttrKind, ReferenceOption } from '@b41ex/qubership-apihub-ddlapi'
+import { TypeKind, AttrKind, ReferenceOption } from '@alagishev/qubership-apihub-ddlapi'
 
 switch (col.type.kind) {
   case TypeKind.BoolType:    ...
@@ -942,7 +942,7 @@ publish-ready for a future npm registry. No `publishConfig` yet (registry TBD), 
 
 ```jsonc
 {
-  "name": "@b41ex/qubership-apihub-ddlapi",
+  "name": "@alagishev/qubership-apihub-ddlapi",
   "version": "0.1.0",
   "license": "Apache-2.0",
   "files": ["dist", "package.json"],
@@ -966,7 +966,7 @@ publish-ready for a future npm registry. No `publishConfig` yet (registry TBD), 
 ```
 
 **Acceptance criteria:**
-- [ ] `package.json` name is `@b41ex/qubership-apihub-ddlapi`
+- [ ] `package.json` name is `@alagishev/qubership-apihub-ddlapi`
 - [ ] `npm run build` produces CJS, ESM, and `.d.ts` (even with empty exports initially)
 - [ ] `npm test` runs Jest via ts-jest with zero tests (empty suite is OK)
 - [ ] `src/index.ts` exists as the sole public entry point

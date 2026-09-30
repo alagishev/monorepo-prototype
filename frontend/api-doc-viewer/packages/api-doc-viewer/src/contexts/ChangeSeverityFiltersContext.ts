@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import { DiffType } from '@b41ex/qubership-apihub-api-diff'
+import { DiffType } from '@alagishev/qubership-apihub-api-diff'
 import { createContext, useContext } from 'react'
 
 export const ChangeSeverityFiltersContext = createContext<readonly DiffType[]>([])

@@ -17,7 +17,7 @@
 import type { FC, ReactElement } from 'react'
 import { memo } from 'react'
 
-import { ButtonWithHint } from '@b41ex/qubership-apihub-ui-shared/components/Buttons/ButtonWithHint'
+import { ButtonWithHint } from '@alagishev/qubership-apihub-ui-shared/components/Buttons/ButtonWithHint'
 
 import type { SidePanelId } from './SidePanelManager'
 import { useSidePanel } from './SidePanelManager'

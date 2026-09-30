@@ -1,4 +1,4 @@
-declare module '@b41ex/qubership-apihub-rest-playground';
+declare module '@alagishev/qubership-apihub-rest-playground';
 
 declare global {
   interface HTMLElementTagNameMap {

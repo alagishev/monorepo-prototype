@@ -1,29 +1,29 @@
 import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Typography } from '@mui/material'
-import { ButtonWithHint } from '@b41ex/qubership-apihub-ui-shared/components/Buttons/ButtonWithHint'
+import { ButtonWithHint } from '@alagishev/qubership-apihub-ui-shared/components/Buttons/ButtonWithHint'
 import {
   ConfirmationDialog,
-} from '@b41ex/qubership-apihub-ui-shared/components/ConfirmationDialog/ConfirmationDialog'
-import { CustomChip } from '@b41ex/qubership-apihub-ui-shared/components/CustomChip'
-import { FormattedDate } from '@b41ex/qubership-apihub-ui-shared/components/FormattedDate'
-import { CONTENT_PLACEHOLDER_AREA, Placeholder } from '@b41ex/qubership-apihub-ui-shared/components/Placeholder'
-import { TableCellSkeleton } from '@b41ex/qubership-apihub-ui-shared/components/TableCellSkeleton'
-import { TextWithOverflowTooltip } from '@b41ex/qubership-apihub-ui-shared/components/TextWithOverflowTooltip'
-import { useResizeObserver } from '@b41ex/qubership-apihub-ui-shared/hooks/common/useResizeObserver'
-import type { ColumnModel } from '@b41ex/qubership-apihub-ui-shared/hooks/table-resizing/useColumnResizing'
+} from '@alagishev/qubership-apihub-ui-shared/components/ConfirmationDialog/ConfirmationDialog'
+import { CustomChip } from '@alagishev/qubership-apihub-ui-shared/components/CustomChip'
+import { FormattedDate } from '@alagishev/qubership-apihub-ui-shared/components/FormattedDate'
+import { CONTENT_PLACEHOLDER_AREA, Placeholder } from '@alagishev/qubership-apihub-ui-shared/components/Placeholder'
+import { TableCellSkeleton } from '@alagishev/qubership-apihub-ui-shared/components/TableCellSkeleton'
+import { TextWithOverflowTooltip } from '@alagishev/qubership-apihub-ui-shared/components/TextWithOverflowTooltip'
+import { useResizeObserver } from '@alagishev/qubership-apihub-ui-shared/hooks/common/useResizeObserver'
+import type { ColumnModel } from '@alagishev/qubership-apihub-ui-shared/hooks/table-resizing/useColumnResizing'
 import {
   DEFAULT_CONTAINER_WIDTH,
   useColumnsSizing,
-} from '@b41ex/qubership-apihub-ui-shared/hooks/table-resizing/useColumnResizing'
-import { DeleteIcon } from '@b41ex/qubership-apihub-ui-shared/icons/DeleteIcon'
+} from '@alagishev/qubership-apihub-ui-shared/hooks/table-resizing/useColumnResizing'
+import { DeleteIcon } from '@alagishev/qubership-apihub-ui-shared/icons/DeleteIcon'
 import type {
   DeletePersonalAccessTokenCallback,
   PersonalAccessToken,
   PersonalAccessTokens,
-} from '@b41ex/qubership-apihub-ui-shared/types/tokens'
-import type { IsLoading } from '@b41ex/qubership-apihub-ui-shared/utils/aliases'
-import { isEmpty } from '@b41ex/qubership-apihub-ui-shared/utils/arrays'
-import { createComponents } from '@b41ex/qubership-apihub-ui-shared/utils/components'
-import { DEFAULT_NUMBER_SKELETON_ROWS } from '@b41ex/qubership-apihub-ui-shared/utils/constants'
+} from '@alagishev/qubership-apihub-ui-shared/types/tokens'
+import type { IsLoading } from '@alagishev/qubership-apihub-ui-shared/utils/aliases'
+import { isEmpty } from '@alagishev/qubership-apihub-ui-shared/utils/arrays'
+import { createComponents } from '@alagishev/qubership-apihub-ui-shared/utils/components'
+import { DEFAULT_NUMBER_SKELETON_ROWS } from '@alagishev/qubership-apihub-ui-shared/utils/constants'
 import type { ColumnDef, ColumnSizingInfoState, ColumnSizingState, OnChangeFn } from '@tanstack/react-table'
 import { flexRender, getCoreRowModel, getExpandedRowModel, useReactTable } from '@tanstack/react-table'
 import type { FC } from 'react'

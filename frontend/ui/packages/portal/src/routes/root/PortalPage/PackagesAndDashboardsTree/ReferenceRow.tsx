@@ -35,28 +35,28 @@ import {
   useSetRecursiveDashboardName,
 } from '../DashboardPage/RecursiveDashboardNameContextProvider'
 
-import { getSplittedVersionKey } from '@b41ex/qubership-apihub-ui-shared/utils/versions'
-import type { Key } from '@b41ex/qubership-apihub-ui-shared/entities/keys'
-import { TextWithOverflowTooltip } from '@b41ex/qubership-apihub-ui-shared/components/TextWithOverflowTooltip'
-import { DASHBOARD_KIND, PACKAGE_KIND } from '@b41ex/qubership-apihub-ui-shared/entities/packages'
-import { isNotEmpty } from '@b41ex/qubership-apihub-ui-shared/utils/arrays'
-import { PackageKindLogo } from '@b41ex/qubership-apihub-ui-shared/components/PackageKindLogo'
+import { getSplittedVersionKey } from '@alagishev/qubership-apihub-ui-shared/utils/versions'
+import type { Key } from '@alagishev/qubership-apihub-ui-shared/entities/keys'
+import { TextWithOverflowTooltip } from '@alagishev/qubership-apihub-ui-shared/components/TextWithOverflowTooltip'
+import { DASHBOARD_KIND, PACKAGE_KIND } from '@alagishev/qubership-apihub-ui-shared/entities/packages'
+import { isNotEmpty } from '@alagishev/qubership-apihub-ui-shared/utils/arrays'
+import { PackageKindLogo } from '@alagishev/qubership-apihub-ui-shared/components/PackageKindLogo'
 import {
   RedWarningCircleIcon,
   YellowWarningCircleIcon,
-} from '@b41ex/qubership-apihub-ui-shared/icons/WarningCircleIcon'
-import { RedWarningIcon, YellowWarningIcon } from '@b41ex/qubership-apihub-ui-shared/icons/WarningIcon'
-import { CustomChip } from '@b41ex/qubership-apihub-ui-shared/components/CustomChip'
-import { DeleteIcon } from '@b41ex/qubership-apihub-ui-shared/icons/DeleteIcon'
+} from '@alagishev/qubership-apihub-ui-shared/icons/WarningCircleIcon'
+import { RedWarningIcon, YellowWarningIcon } from '@alagishev/qubership-apihub-ui-shared/icons/WarningIcon'
+import { CustomChip } from '@alagishev/qubership-apihub-ui-shared/components/CustomChip'
+import { DeleteIcon } from '@alagishev/qubership-apihub-ui-shared/icons/DeleteIcon'
 import type {
   PackageReference,
   ReferenceKind,
   UnresolvedReference,
   VersionReferences,
-} from '@b41ex/qubership-apihub-ui-shared/entities/version-references'
+} from '@alagishev/qubership-apihub-ui-shared/entities/version-references'
 import {
   ConfirmationDialog,
-} from '@b41ex/qubership-apihub-ui-shared/components/ConfirmationDialog/ConfirmationDialog'
+} from '@alagishev/qubership-apihub-ui-shared/components/ConfirmationDialog/ConfirmationDialog'
 
 export type ReferenceRowProps = {
   reference: UnresolvedReference

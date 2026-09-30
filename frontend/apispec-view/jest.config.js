@@ -9,11 +9,11 @@ module.exports = {
   // An array of directory names to be searched recursively up from the requiring module's location
   moduleDirectories: ['node_modules'],
   moduleNameMapper: {
-    '^@b41ex/qubership-apihub-apispec-view$': '<rootDir>/../elements/src',
-    '^@b41ex/qubership-apihub-apispec-view/(.*)': '<rootDir>/../elements/src/$1',
-    '^@b41ex/qubership-apihub-apispec-view-elements-core$': '<rootDir>/../elements-core/src',
-    '^@b41ex/qubership-apihub-apispec-view-elements-core/(.*)': '<rootDir>/../elements-core/src/$1',
-    '^@b41ex/qubership-apihub-apispec-view-json-schema-viewer$': '<rootDir>/../json-schema-viewer/src',
-    '^@b41ex/qubership-apihub-apispec-view-json-schema-diff-viewer$': '<rootDir>/../json-schema-diff-viewer/src',
+    '^@alagishev/qubership-apihub-apispec-view$': '<rootDir>/../elements/src',
+    '^@alagishev/qubership-apihub-apispec-view/(.*)': '<rootDir>/../elements/src/$1',
+    '^@alagishev/qubership-apihub-apispec-view-elements-core$': '<rootDir>/../elements-core/src',
+    '^@alagishev/qubership-apihub-apispec-view-elements-core/(.*)': '<rootDir>/../elements-core/src/$1',
+    '^@alagishev/qubership-apihub-apispec-view-json-schema-viewer$': '<rootDir>/../json-schema-viewer/src',
+    '^@alagishev/qubership-apihub-apispec-view-json-schema-diff-viewer$': '<rootDir>/../json-schema-diff-viewer/src',
   },
 };

@@ -18,9 +18,9 @@ import type { InfiniteData } from '@tanstack/react-query'
 import { useInfiniteQuery, useQueryClient } from '@tanstack/react-query'
 
 import { portalRequestJson } from '@portal/utils/requests'
-import type { ApiType } from '@b41ex/qubership-apihub-ui-shared/entities/api-types'
-import type { Key, PackageKey } from '@b41ex/qubership-apihub-ui-shared/entities/keys'
-import type { OperationGroupName } from '@b41ex/qubership-apihub-ui-shared/entities/operation-groups'
+import type { ApiType } from '@alagishev/qubership-apihub-ui-shared/entities/api-types'
+import type { Key, PackageKey } from '@alagishev/qubership-apihub-ui-shared/entities/keys'
+import type { OperationGroupName } from '@alagishev/qubership-apihub-ui-shared/entities/operation-groups'
 import type {
   ApiAudience,
   ApiKind,
@@ -29,7 +29,7 @@ import type {
   OperationsData,
   OperationsDto,
   PagedOperations,
-} from '@b41ex/qubership-apihub-ui-shared/entities/operations'
+} from '@alagishev/qubership-apihub-ui-shared/entities/operations'
 import {
   ALL_API_KIND,
   ALL_DEPRECATED_QUERY_STATUS,
@@ -38,14 +38,14 @@ import {
   DEFAULT_TAG,
   EMPTY_TAG,
   toOperations,
-} from '@b41ex/qubership-apihub-ui-shared/entities/operations'
+} from '@alagishev/qubership-apihub-ui-shared/entities/operations'
 import {
   useResolvedOperationGroupParameters,
-} from '@b41ex/qubership-apihub-ui-shared/hooks/operation-groups/useResolvedOperationGroupParameters'
-import type { HasNextPage, IsFetching, IsFetchingNextPage, IsLoading } from '@b41ex/qubership-apihub-ui-shared/utils/aliases'
-import { getPackageRedirectDetails } from '@b41ex/qubership-apihub-ui-shared/utils/redirects'
-import { optionalSearchParams } from '@b41ex/qubership-apihub-ui-shared/utils/search-params'
-import { isEmptyTag } from '@b41ex/qubership-apihub-ui-shared/utils/tags'
+} from '@alagishev/qubership-apihub-ui-shared/hooks/operation-groups/useResolvedOperationGroupParameters'
+import type { HasNextPage, IsFetching, IsFetchingNextPage, IsLoading } from '@alagishev/qubership-apihub-ui-shared/utils/aliases'
+import { getPackageRedirectDetails } from '@alagishev/qubership-apihub-ui-shared/utils/redirects'
+import { optionalSearchParams } from '@alagishev/qubership-apihub-ui-shared/utils/search-params'
+import { isEmptyTag } from '@alagishev/qubership-apihub-ui-shared/utils/tags'
 import type { QueryKey } from '@tanstack/query-core'
 import { generatePath } from 'react-router-dom'
 import { useVersionWithRevision } from '../../../../../../useVersionWithRevision'

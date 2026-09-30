@@ -16,9 +16,9 @@
 
 import { useMemo } from 'react'
 import type { Key } from '@portal/entities/keys'
-import { useSearchParam } from '@b41ex/qubership-apihub-ui-shared/hooks/searchparams/useSearchParam'
-import { VERSION_SEARCH_PARAM } from '@b41ex/qubership-apihub-ui-shared/utils/search-params'
-import { useSetSearchParams } from '@b41ex/qubership-apihub-ui-shared/hooks/searchparams/useSetSearchParams'
+import { useSearchParam } from '@alagishev/qubership-apihub-ui-shared/hooks/searchparams/useSearchParam'
+import { VERSION_SEARCH_PARAM } from '@alagishev/qubership-apihub-ui-shared/utils/search-params'
+import { useSetSearchParams } from '@alagishev/qubership-apihub-ui-shared/hooks/searchparams/useSetSearchParams'
 
 export function useVersionSearchParam(): [Key | undefined, SetVersionSearchParam] {
   const param = useSearchParam<Key>(VERSION_SEARCH_PARAM)

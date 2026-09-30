@@ -20,10 +20,10 @@ import { generatePath, useNavigate } from 'react-router-dom'
 import { useEvent } from 'react-use'
 import { createEventBus, slot } from 'ts-event-bus'
 
-import type { ApiType } from '@b41ex/qubership-apihub-ui-shared/entities/api-types'
-import type { ContractType } from '@b41ex/qubership-apihub-ui-shared/entities/contract-types'
-import { AGENT_ROUTE } from '@b41ex/qubership-apihub-ui-shared/entities/application-routes'
-import type { Key } from '@b41ex/qubership-apihub-ui-shared/entities/keys'
+import type { ApiType } from '@alagishev/qubership-apihub-ui-shared/entities/api-types'
+import type { ContractType } from '@alagishev/qubership-apihub-ui-shared/entities/contract-types'
+import { AGENT_ROUTE } from '@alagishev/qubership-apihub-ui-shared/entities/application-routes'
+import type { Key } from '@alagishev/qubership-apihub-ui-shared/entities/keys'
 import type {
   API_TYPE_SEARCH_PARAM,
   DOCUMENT_SEARCH_PARAM,
@@ -41,8 +41,8 @@ import type {
   SearchParam,
   TAG_SEARCH_PARAM,
   VERSION_SEARCH_PARAM,
-} from '@b41ex/qubership-apihub-ui-shared/utils/search-params'
-import { optionalSearchParams } from '@b41ex/qubership-apihub-ui-shared/utils/search-params'
+} from '@alagishev/qubership-apihub-ui-shared/utils/search-params'
+import { optionalSearchParams } from '@alagishev/qubership-apihub-ui-shared/utils/search-params'
 import type { Path } from '@remix-run/router'
 import type { OverviewPageRoute, PackageSettingsPageRoute, ProfilePageRoute, SettingsPageRoute } from '../routes'
 import {

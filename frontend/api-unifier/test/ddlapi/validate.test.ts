@@ -10,8 +10,8 @@ import {
   newTable,
   ReferenceOption,
   PgAttrKind,
-} from '@b41ex/qubership-apihub-ddlapi'
-import { buildFromDdl } from '@b41ex/qubership-apihub-ddlapi/parser'
+} from '@alagishev/qubership-apihub-ddlapi'
+import { buildFromDdl } from '@alagishev/qubership-apihub-ddlapi/parser'
 import { normalize, DDL_API_NORMALIZE_OPTIONS } from '../../src'
 import { buildRealmAndAssertValid } from '../helpers/ddlapi'
 

@@ -1,19 +1,19 @@
-import type { DiffType } from '@b41ex/qubership-apihub-api-diff'
+import type { DiffType } from '@alagishev/qubership-apihub-api-diff'
 import type { Path } from '@remix-run/router'
 import { useCallback, useEffect, useMemo } from 'react'
 import { useNavigate } from 'react-router-dom'
 
-import { CONTRACT_TYPE_DDL } from '@b41ex/qubership-apihub-ui-shared/entities/contract-types'
-import type { DdlContractEntity } from '@b41ex/qubership-apihub-ui-shared/entities/contracts-ddl'
+import { CONTRACT_TYPE_DDL } from '@alagishev/qubership-apihub-ui-shared/entities/contract-types'
+import type { DdlContractEntity } from '@alagishev/qubership-apihub-ui-shared/entities/contracts-ddl'
 import {
   type DdlEntityChangeEntry,
   findDdlChangeEntry,
   getDdlChangeEntityId,
   resolveDdlCompareEntityIds,
-} from '@b41ex/qubership-apihub-ui-shared/entities/contracts-ddl-changelog'
-import type { Key, VersionKey } from '@b41ex/qubership-apihub-ui-shared/entities/keys'
-import { useSearchParam } from '@b41ex/qubership-apihub-ui-shared/hooks/searchparams/useSearchParam'
-import { filterChangesBySeverity } from '@b41ex/qubership-apihub-ui-shared/utils/change-severities'
+} from '@alagishev/qubership-apihub-ui-shared/entities/contracts-ddl-changelog'
+import type { Key, VersionKey } from '@alagishev/qubership-apihub-ui-shared/entities/keys'
+import { useSearchParam } from '@alagishev/qubership-apihub-ui-shared/hooks/searchparams/useSearchParam'
+import { filterChangesBySeverity } from '@alagishev/qubership-apihub-ui-shared/utils/change-severities'
 import {
   FILTERS_SEARCH_PARAM,
   MODE_SEARCH_PARAM,
@@ -21,7 +21,7 @@ import {
   PACKAGE_SEARCH_PARAM,
   REF_SEARCH_PARAM,
   VERSION_SEARCH_PARAM,
-} from '@b41ex/qubership-apihub-ui-shared/utils/search-params'
+} from '@alagishev/qubership-apihub-ui-shared/utils/search-params'
 
 import { useDdlChanges } from '../api/useDdlChanges'
 import { useDdlTableDetails } from '../api/useDdlTableDetails'

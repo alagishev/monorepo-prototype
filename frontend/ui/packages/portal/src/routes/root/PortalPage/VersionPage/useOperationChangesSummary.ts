@@ -1,17 +1,17 @@
-import type { DiffType } from '@b41ex/qubership-apihub-api-diff'
-import { type DiffTypeDto, replacePropertyInChangesSummary } from '@b41ex/qubership-apihub-api-processor'
-import type { ApiType } from '@b41ex/qubership-apihub-ui-shared/entities/api-types'
-import type { ChangesSummary } from '@b41ex/qubership-apihub-ui-shared/entities/change-severities'
-import { API_V2, requestJson } from '@b41ex/qubership-apihub-ui-shared/utils/requests'
-import { optionalSearchParams } from '@b41ex/qubership-apihub-ui-shared/utils/search-params'
+import type { DiffType } from '@alagishev/qubership-apihub-api-diff'
+import { type DiffTypeDto, replacePropertyInChangesSummary } from '@alagishev/qubership-apihub-api-processor'
+import type { ApiType } from '@alagishev/qubership-apihub-ui-shared/entities/api-types'
+import type { ChangesSummary } from '@alagishev/qubership-apihub-ui-shared/entities/change-severities'
+import { API_V2, requestJson } from '@alagishev/qubership-apihub-ui-shared/utils/requests'
+import { optionalSearchParams } from '@alagishev/qubership-apihub-ui-shared/utils/search-params'
 import { useQuery } from '@tanstack/react-query'
 import { generatePath, useParams } from 'react-router-dom'
 import { usePackageKind } from '@portal/routes/root/PortalPage/usePackageKind'
-import { DASHBOARD_KIND } from '@b41ex/qubership-apihub-ui-shared/entities/packages'
+import { DASHBOARD_KIND } from '@alagishev/qubership-apihub-ui-shared/entities/packages'
 import { useVersionSearchParam } from '@portal/routes/root/useVersionSearchParam'
 import {
   usePackageSearchParam,
-} from '@b41ex/qubership-apihub-ui-shared/hooks/routes/package/usePackageSearchParam'
+} from '@alagishev/qubership-apihub-ui-shared/hooks/routes/package/usePackageSearchParam'
 
 type Options = {
   packageId: string | undefined

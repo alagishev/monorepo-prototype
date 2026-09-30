@@ -3,10 +3,10 @@ import type {
   Oas2HttpServiceTransformer,
   Oas3HttpOperationTransformer,
   Oas3HttpServiceTransformer,
-} from '@b41ex/qubership-apihub-http-spec/oas'
-import { transformOas2Operation, transformOas2Service } from '@b41ex/qubership-apihub-http-spec/oas2'
-import { transformOas3Operation, transformOas3Service } from '@b41ex/qubership-apihub-http-spec/oas3'
-import { transformOas3WithMetaOperation, transformOas3WithMetaService } from '@b41ex/qubership-apihub-http-spec/oas3WithMeta'
+} from '@alagishev/qubership-apihub-http-spec/oas'
+import { transformOas2Operation, transformOas2Service } from '@alagishev/qubership-apihub-http-spec/oas2'
+import { transformOas3Operation, transformOas3Service } from '@alagishev/qubership-apihub-http-spec/oas3'
+import { transformOas3WithMetaOperation, transformOas3WithMetaService } from '@alagishev/qubership-apihub-http-spec/oas3WithMeta'
 import { encodePointerFragment, pointerToPath } from '@stoplight/json'
 import { IHttpService, NodeType } from '@stoplight/types'
 import { get, isObject, last } from 'lodash'

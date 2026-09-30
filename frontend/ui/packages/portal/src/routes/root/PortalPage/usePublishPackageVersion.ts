@@ -19,22 +19,22 @@ import type {
   BuildConfigRef,
   BuildType,
   VersionStatus,
-} from '@b41ex/qubership-apihub-api-processor'
-import { BUILD_TYPE } from '@b41ex/qubership-apihub-api-processor'
-import type { Key } from '@b41ex/qubership-apihub-ui-shared/entities/keys'
-import type { PackageReference } from '@b41ex/qubership-apihub-ui-shared/entities/version-references'
-import { useUser } from '@b41ex/qubership-apihub-ui-shared/hooks/authorization/useUser'
+} from '@alagishev/qubership-apihub-api-processor'
+import { BUILD_TYPE } from '@alagishev/qubership-apihub-api-processor'
+import type { Key } from '@alagishev/qubership-apihub-ui-shared/entities/keys'
+import type { PackageReference } from '@alagishev/qubership-apihub-ui-shared/entities/version-references'
+import { useUser } from '@alagishev/qubership-apihub-ui-shared/hooks/authorization/useUser'
 import {
   useAsyncInvalidatePackageVersions,
-} from '@b41ex/qubership-apihub-ui-shared/hooks/versions/usePackageVersions'
-import type { IsLoading, IsSuccess } from '@b41ex/qubership-apihub-ui-shared/utils/aliases'
-import type { PublishDetails } from '@b41ex/qubership-apihub-ui-shared/utils/packages-builder'
+} from '@alagishev/qubership-apihub-ui-shared/hooks/versions/usePackageVersions'
+import type { IsLoading, IsSuccess } from '@alagishev/qubership-apihub-ui-shared/utils/aliases'
+import type { PublishDetails } from '@alagishev/qubership-apihub-ui-shared/utils/packages-builder'
 import {
   COMPLETE_PUBLISH_STATUS,
   ERROR_PUBLISH_STATUS,
-} from '@b41ex/qubership-apihub-ui-shared/utils/packages-builder'
-import { isTokenRefreshed, onMutationUnauthorized } from '@b41ex/qubership-apihub-ui-shared/utils/security'
-import { getSplittedVersionKey } from '@b41ex/qubership-apihub-ui-shared/utils/versions'
+} from '@alagishev/qubership-apihub-ui-shared/utils/packages-builder'
+import { isTokenRefreshed, onMutationUnauthorized } from '@alagishev/qubership-apihub-ui-shared/utils/security'
+import { getSplittedVersionKey } from '@alagishev/qubership-apihub-ui-shared/utils/versions'
 import { useMutation } from '@tanstack/react-query'
 import { useCallback } from 'react'
 import { useParams } from 'react-router-dom'

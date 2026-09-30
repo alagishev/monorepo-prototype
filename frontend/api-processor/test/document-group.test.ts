@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import { loadYaml } from '@b41ex/qubership-apihub-api-unifier'
+import { loadYaml } from '@alagishev/qubership-apihub-api-unifier'
 import {
   BUILD_TYPE,
   BuildConfig,

@@ -18,9 +18,9 @@ import type { FC } from 'react'
 import { memo } from 'react'
 import { Typography } from '@mui/material'
 import { NamespaceToolbar } from './NamespacePage/NamespaceToolbar'
-import { PageLayout } from '@b41ex/qubership-apihub-ui-shared/components/PageLayout'
-import { Toolbar } from '@b41ex/qubership-apihub-ui-shared/components/Toolbar'
-import { CONTENT_PLACEHOLDER_AREA, Placeholder } from '@b41ex/qubership-apihub-ui-shared/components/Placeholder'
+import { PageLayout } from '@alagishev/qubership-apihub-ui-shared/components/PageLayout'
+import { Toolbar } from '@alagishev/qubership-apihub-ui-shared/components/Toolbar'
+import { CONTENT_PLACEHOLDER_AREA, Placeholder } from '@alagishev/qubership-apihub-ui-shared/components/Placeholder'
 
 export const WelcomePage: FC = memo(() => {
   return (

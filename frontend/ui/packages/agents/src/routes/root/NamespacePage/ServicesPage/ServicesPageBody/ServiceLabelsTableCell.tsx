@@ -19,8 +19,8 @@ import { memo } from 'react'
 import type { Row } from '@tanstack/react-table'
 import type { Service } from '@agents/entities/services'
 import { Box } from '@mui/material'
-import { OverflowTooltip } from '@b41ex/qubership-apihub-ui-shared/components/OverflowTooltip'
-import { CustomChip } from '@b41ex/qubership-apihub-ui-shared/components/CustomChip'
+import { OverflowTooltip } from '@alagishev/qubership-apihub-ui-shared/components/OverflowTooltip'
+import { CustomChip } from '@alagishev/qubership-apihub-ui-shared/components/CustomChip'
 import { getFormattedLabel } from '../services'
 
 export type ServiceLabelsTableCellProps = {

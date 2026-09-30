@@ -6,11 +6,11 @@ import type {
   McpCollection,
   McpContractEntityDetails,
   McpContractEntityDetailsDto,
-} from '@b41ex/qubership-apihub-ui-shared/entities/contracts-mcp'
-import { mcpCollectionToApiSegment, toMcpContractEntity } from '@b41ex/qubership-apihub-ui-shared/entities/contracts-mcp'
-import type { Key } from '@b41ex/qubership-apihub-ui-shared/entities/keys'
-import type { IsInitialLoading, IsLoading } from '@b41ex/qubership-apihub-ui-shared/utils/aliases'
-import { API_V1, requestJson } from '@b41ex/qubership-apihub-ui-shared/utils/requests'
+} from '@alagishev/qubership-apihub-ui-shared/entities/contracts-mcp'
+import { mcpCollectionToApiSegment, toMcpContractEntity } from '@alagishev/qubership-apihub-ui-shared/entities/contracts-mcp'
+import type { Key } from '@alagishev/qubership-apihub-ui-shared/entities/keys'
+import type { IsInitialLoading, IsLoading } from '@alagishev/qubership-apihub-ui-shared/utils/aliases'
+import { API_V1, requestJson } from '@alagishev/qubership-apihub-ui-shared/utils/requests'
 
 import { useVersionWithRevision } from '../../../useVersionWithRevision'
 

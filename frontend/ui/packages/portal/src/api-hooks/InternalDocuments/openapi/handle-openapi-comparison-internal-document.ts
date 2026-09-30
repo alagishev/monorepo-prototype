@@ -1,8 +1,8 @@
-import type { Diff } from '@b41ex/qubership-apihub-api-diff'
-import { ClassifierType, DiffAction, DIFF_META_KEY, extractOperationBasePath, isDiffAdd, isDiffRemove, isDiffRename, isDiffReplace } from '@b41ex/qubership-apihub-api-diff'
-import { calculateNormalizedRestOperationId } from '@b41ex/qubership-apihub-api-processor'
-import { isRestOperation, type OperationData } from '@b41ex/qubership-apihub-ui-shared/entities/operations'
-import { isObject } from '@b41ex/qubership-apihub-ui-shared/utils/objects'
+import type { Diff } from '@alagishev/qubership-apihub-api-diff'
+import { ClassifierType, DiffAction, DIFF_META_KEY, extractOperationBasePath, isDiffAdd, isDiffRemove, isDiffRename, isDiffReplace } from '@alagishev/qubership-apihub-api-diff'
+import { calculateNormalizedRestOperationId } from '@alagishev/qubership-apihub-api-processor'
+import { isRestOperation, type OperationData } from '@alagishev/qubership-apihub-ui-shared/entities/operations'
+import { isObject } from '@alagishev/qubership-apihub-ui-shared/utils/objects'
 import type { OpenAPIV3 } from 'openapi-types'
 import { detectServerBasePathMigratedToPath } from './detect-server-base-path-migrated-to-path-case'
 

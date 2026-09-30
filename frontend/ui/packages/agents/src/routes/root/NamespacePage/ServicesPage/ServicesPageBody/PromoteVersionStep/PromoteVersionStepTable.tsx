@@ -60,28 +60,28 @@ import { ServiceLabelsTableCell } from '../ServiceLabelsTableCell'
 import { usePromoteVersionStepStatus } from './usePromoteVersionStepStatus'
 import { BwcStatusTableCell } from '../BwcStatusTableCell'
 import { serviceFilter } from '../utils'
-import type { VersionStatus } from '@b41ex/qubership-apihub-ui-shared/entities/version-status'
-import type { ServiceKey } from '@b41ex/qubership-apihub-ui-shared/entities/keys'
-import type { ColumnModel } from '@b41ex/qubership-apihub-ui-shared/hooks/table-resizing/useColumnResizing'
+import type { VersionStatus } from '@alagishev/qubership-apihub-ui-shared/entities/version-status'
+import type { ServiceKey } from '@alagishev/qubership-apihub-ui-shared/entities/keys'
+import type { ColumnModel } from '@alagishev/qubership-apihub-ui-shared/hooks/table-resizing/useColumnResizing'
 import {
   DEFAULT_CONTAINER_WIDTH,
   useColumnsSizing,
-} from '@b41ex/qubership-apihub-ui-shared/hooks/table-resizing/useColumnResizing'
+} from '@alagishev/qubership-apihub-ui-shared/hooks/table-resizing/useColumnResizing'
 import { usePromoteVersionPublicationOptions } from '../../ServicesPageProvider/ServicesPublicationOptionsProvider'
-import { Changes } from '@b41ex/qubership-apihub-ui-shared/components/Changes'
+import { Changes } from '@alagishev/qubership-apihub-ui-shared/components/Changes'
 import { SUCCESS_STEP_STATUS } from '../../ServicesPageProvider/ServicesStepsProvider'
-import { ColumnDelimiter } from '@b41ex/qubership-apihub-ui-shared/components/ColumnDelimiter'
-import { isEmpty } from '@b41ex/qubership-apihub-ui-shared/utils/arrays'
-import type { ChangesSummary } from '@b41ex/qubership-apihub-ui-shared/entities/change-severities'
-import type { Spec } from '@b41ex/qubership-apihub-ui-shared/entities/specs'
+import { ColumnDelimiter } from '@alagishev/qubership-apihub-ui-shared/components/ColumnDelimiter'
+import { isEmpty } from '@alagishev/qubership-apihub-ui-shared/utils/arrays'
+import type { ChangesSummary } from '@alagishev/qubership-apihub-ui-shared/entities/change-severities'
+import type { Spec } from '@alagishev/qubership-apihub-ui-shared/entities/specs'
 import type { ServiceConfig } from '@agents/entities/publish-config'
 import {
   LOADING_STATUS_MARKER_VARIANT,
   StatusMarker,
-} from '@b41ex/qubership-apihub-ui-shared/components/StatusMarker'
-import { createComponents } from '@b41ex/qubership-apihub-ui-shared/utils/components'
-import { DEFAULT_NUMBER_SKELETON_ROWS } from '@b41ex/qubership-apihub-ui-shared/utils/constants'
-import { useResizeObserver } from '@b41ex/qubership-apihub-ui-shared/hooks/common/useResizeObserver'
+} from '@alagishev/qubership-apihub-ui-shared/components/StatusMarker'
+import { createComponents } from '@alagishev/qubership-apihub-ui-shared/utils/components'
+import { DEFAULT_NUMBER_SKELETON_ROWS } from '@alagishev/qubership-apihub-ui-shared/utils/constants'
+import { useResizeObserver } from '@alagishev/qubership-apihub-ui-shared/hooks/common/useResizeObserver'
 
 export type PromoteVersionStepTableProps = {
   services: ReadonlyArray<Service>

@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 
-import { isObject } from '@b41ex/qubership-apihub-api-data-model'
-import { ActionType, DiffAction } from '@b41ex/qubership-apihub-api-diff'
+import { isObject } from '@alagishev/qubership-apihub-api-data-model'
+import { ActionType, DiffAction } from '@alagishev/qubership-apihub-api-diff'
 import { useMemo } from 'react'
 
 type ReplaceAliasCondition = {

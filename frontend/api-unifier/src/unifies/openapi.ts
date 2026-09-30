@@ -1,5 +1,5 @@
 import { UnifyFunction } from '../types'
-import { isArray, isObject } from '@b41ex/qubership-apihub-json-crawl'
+import { isArray, isObject } from '@alagishev/qubership-apihub-json-crawl'
 import { OpenAPIV3 } from 'openapi-types'
 import { OPEN_API_HTTP_METHODS } from '../rules/openapi.const'
 import {

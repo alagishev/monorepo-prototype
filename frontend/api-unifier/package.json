@@ -1,5 +1,5 @@
 {
-  "name": "@b41ex/qubership-apihub-api-unifier",
+  "name": "@alagishev/qubership-apihub-api-unifier",
   "version": "2.9.5",
   "description": "Tools for JsonSchema/Openapi/GraphQL spec for unified processing",
   "module": "./dist/index.es.js",
@@ -38,9 +38,9 @@
     "simplify"
   ],
   "dependencies": {
-    "@b41ex/qubership-apihub-ddlapi": "workspace:^",
-    "@b41ex/qubership-apihub-graphapi": "workspace:^",
-    "@b41ex/qubership-apihub-json-crawl": "workspace:^",
+    "@alagishev/qubership-apihub-ddlapi": "workspace:^",
+    "@alagishev/qubership-apihub-graphapi": "workspace:^",
+    "@alagishev/qubership-apihub-json-crawl": "workspace:^",
     "fast-equals": "^6.0.2",
     "flatted": "^3.2.9",
     "object-hash": "3.0.0"

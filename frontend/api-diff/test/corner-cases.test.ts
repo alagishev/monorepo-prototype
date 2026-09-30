@@ -47,7 +47,7 @@ import {
   JSON_SCHEMA_PROPERTY_ITEMS,
   JSON_SCHEMA_PROPERTY_TYPE,
   OriginLeafs,
-} from '@b41ex/qubership-apihub-api-unifier'
+} from '@alagishev/qubership-apihub-api-unifier'
 
 describe('Corner Cases', () => {
 

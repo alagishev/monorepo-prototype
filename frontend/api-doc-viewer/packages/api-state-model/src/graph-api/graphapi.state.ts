@@ -22,7 +22,7 @@ import {
   GraphApiTreeNode,
   graphSchemaNodeKind,
   IModelTree
-} from '@b41ex/qubership-apihub-api-data-model'
+} from '@alagishev/qubership-apihub-api-data-model'
 import { modelStateNodeType } from '../consts'
 import { GraphSchemaStateCombinaryNode, GraphSchemaStatePropNode } from '../graph-schema'
 import { IModelStateCombinaryNode, IModelStateNode, IModelStatePropNode } from '../types'

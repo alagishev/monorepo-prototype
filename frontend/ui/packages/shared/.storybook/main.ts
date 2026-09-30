@@ -68,9 +68,9 @@ const config: StorybookConfig = {
         /* Array form because the icons entry matches on a pattern, which the
            object form cannot express. */
         alias: [
-          { find: '@b41ex/qubership-apihub-ui-shared', replacement: resolve(__dirname, '../src') },
-          { find: '@b41ex/qubership-apihub-ui-portal', replacement: resolve(__dirname, '../../portal') },
-          { find: '@b41ex/qubership-apihub-ui-agents', replacement: resolve(__dirname, '../../agents') },
+          { find: '@alagishev/qubership-apihub-ui-shared', replacement: resolve(__dirname, '../src') },
+          { find: '@alagishev/qubership-apihub-ui-portal', replacement: resolve(__dirname, '../../portal') },
+          { find: '@alagishev/qubership-apihub-ui-agents', replacement: resolve(__dirname, '../../agents') },
           // Alias @asyncapi/parser to empty module to prevent bundling Node.js-only code
           { find: '@asyncapi/parser', replacement: resolve(__dirname, '../src/utils/asyncapi-parser-stub.ts') },
           {

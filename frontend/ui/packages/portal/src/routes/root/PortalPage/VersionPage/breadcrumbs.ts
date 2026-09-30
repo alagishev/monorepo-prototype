@@ -16,12 +16,12 @@
 
 import { getGroupPath, getOverviewPath, getWorkspacePath } from '../../../NavigationProvider'
 import type { Path } from '@remix-run/router'
-import type { Package, ParentPackage } from '@b41ex/qubership-apihub-ui-shared/entities/packages'
-import { DASHBOARD_KIND, GROUP_KIND, PACKAGE_KIND, WORKSPACE_KIND } from '@b41ex/qubership-apihub-ui-shared/entities/packages'
-import type { Key } from '@b41ex/qubership-apihub-ui-shared/entities/keys'
+import type { Package, ParentPackage } from '@alagishev/qubership-apihub-ui-shared/entities/packages'
+import { DASHBOARD_KIND, GROUP_KIND, PACKAGE_KIND, WORKSPACE_KIND } from '@alagishev/qubership-apihub-ui-shared/entities/packages'
+import type { Key } from '@alagishev/qubership-apihub-ui-shared/entities/keys'
 import { REVISION_DELIMITER } from '@portal/entities/versions'
-import { takeIf } from '@b41ex/qubership-apihub-ui-shared/utils/objects'
-import type { OperationData } from '@b41ex/qubership-apihub-ui-shared/entities/operations'
+import { takeIf } from '@alagishev/qubership-apihub-ui-shared/utils/objects'
+import type { OperationData } from '@alagishev/qubership-apihub-ui-shared/entities/operations'
 import { getFullPrefixGroup } from '@portal/routes/root/PortalPage/VersionPage/useGroupComparisons'
 
 export const COMPARISON_OBJECT_TYPE_DASHBOARD_REVISION = 'DASHBOARD_REVISION'

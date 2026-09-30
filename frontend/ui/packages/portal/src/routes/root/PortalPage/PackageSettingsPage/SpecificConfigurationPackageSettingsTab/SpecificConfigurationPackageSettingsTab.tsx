@@ -19,12 +19,12 @@ import React, { type FC, memo, useCallback } from 'react'
 import type { PackageSettingsTabProps } from '../package-settings'
 import { EditGrouppingPrefixDialog } from './EditGrouppingPrefixDialog'
 import { useEventBus } from '@portal/routes/EventBusProvider'
-import { BodyCard } from '@b41ex/qubership-apihub-ui-shared/components/BodyCard'
-import { transformStringValue } from '@b41ex/qubership-apihub-ui-shared/utils/strings'
-import { GROUP_TYPE_REST_PATH_PREFIX } from '@b41ex/qubership-apihub-ui-shared/entities/operation-groups'
+import { BodyCard } from '@alagishev/qubership-apihub-ui-shared/components/BodyCard'
+import { transformStringValue } from '@alagishev/qubership-apihub-ui-shared/utils/strings'
+import { GROUP_TYPE_REST_PATH_PREFIX } from '@alagishev/qubership-apihub-ui-shared/entities/operation-groups'
 import { SettingsEditableParameter } from '../SettingsEditableParameter/SettingsEditableParameter'
-import { OverflowTooltip } from '@b41ex/qubership-apihub-ui-shared/components/OverflowTooltip'
-import { InfoContextIcon } from '@b41ex/qubership-apihub-ui-shared/icons/InfoContextIcon'
+import { OverflowTooltip } from '@alagishev/qubership-apihub-ui-shared/components/OverflowTooltip'
+import { InfoContextIcon } from '@alagishev/qubership-apihub-ui-shared/icons/InfoContextIcon'
 
 export const SpecificConfigurationPackageSettingsTab: FC<PackageSettingsTabProps> = memo<PackageSettingsTabProps>(({ packageObject }) => {
   const { showEditPackagePrefixDialog } = useEventBus()

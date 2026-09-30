@@ -1,5 +1,5 @@
-import { IAsyncOperation } from '@b41ex/qubership-apihub-http-spec';
-import { NodeTypeAsyncOperation } from '@b41ex/qubership-apihub-apispec-view-elements-core/types';
+import { IAsyncOperation } from '@alagishev/qubership-apihub-http-spec';
+import { NodeTypeAsyncOperation } from '@alagishev/qubership-apihub-apispec-view-elements-core/types';
 import { IHttpOperation, IHttpService, NodeType } from '@stoplight/types';
 import { JSONSchema7 } from 'json-schema';
 

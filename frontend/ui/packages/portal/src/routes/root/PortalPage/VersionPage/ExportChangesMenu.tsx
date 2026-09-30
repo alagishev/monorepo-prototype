@@ -20,15 +20,15 @@ import { useParams } from 'react-router-dom'
 import { useDownloadChangesAsExcel } from './useDownloadChangesAsExcel'
 import { useDownloadDdlChangesAsExcel } from './useDownloadDdlChangesAsExcel'
 import { useOrderedComparisonFiltersSummary } from './useOrderedComparisonFiltersSummary'
-import type { ChangeSeverity } from '@b41ex/qubership-apihub-ui-shared/entities/change-severities'
-import type { ApiAudience, ApiKind } from '@b41ex/qubership-apihub-ui-shared/entities/operations'
-import { CONTRACT_TYPE_DDL } from '@b41ex/qubership-apihub-ui-shared/entities/contract-types'
+import type { ChangeSeverity } from '@alagishev/qubership-apihub-ui-shared/entities/change-severities'
+import type { ApiAudience, ApiKind } from '@alagishev/qubership-apihub-ui-shared/entities/operations'
+import { CONTRACT_TYPE_DDL } from '@alagishev/qubership-apihub-ui-shared/entities/contract-types'
 import {
   useResolvedOperationGroupParameters,
-} from '@b41ex/qubership-apihub-ui-shared/hooks/operation-groups/useResolvedOperationGroupParameters'
-import { ExportMenuButton } from '@b41ex/qubership-apihub-ui-shared/components/Buttons/ExportMenuButton'
-import type { ApiType } from '@b41ex/qubership-apihub-ui-shared/entities/api-types'
-import type { ContractType } from '@b41ex/qubership-apihub-ui-shared/entities/contract-types'
+} from '@alagishev/qubership-apihub-ui-shared/hooks/operation-groups/useResolvedOperationGroupParameters'
+import { ExportMenuButton } from '@alagishev/qubership-apihub-ui-shared/components/Buttons/ExportMenuButton'
+import type { ApiType } from '@alagishev/qubership-apihub-ui-shared/entities/api-types'
+import type { ContractType } from '@alagishev/qubership-apihub-ui-shared/entities/contract-types'
 
 export type ExportChangesMenuProps = {
   textFilter?: string

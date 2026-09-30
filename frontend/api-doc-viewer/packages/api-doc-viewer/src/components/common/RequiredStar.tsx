@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 
-import { DiffRecord, isDiff } from '@b41ex/qubership-apihub-api-data-model'
-import { Diff, DiffAction } from '@b41ex/qubership-apihub-api-diff'
+import { DiffRecord, isDiff } from '@alagishev/qubership-apihub-api-data-model'
+import { Diff, DiffAction } from '@alagishev/qubership-apihub-api-diff'
 import { FC, ReactNode } from 'react'
 import { LayoutMode } from '../../types/LayoutMode'
 import { LayoutSide } from '../../types/internal/LayoutSide'

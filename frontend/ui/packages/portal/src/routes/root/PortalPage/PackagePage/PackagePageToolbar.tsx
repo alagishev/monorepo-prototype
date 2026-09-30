@@ -19,10 +19,10 @@ import { memo, useMemo } from 'react'
 
 import { PackageBreadcrumbs } from '../../PackageBreadcrumbs'
 import { CreateVersionButton } from './CreateVersionButton'
-import type { Package } from '@b41ex/qubership-apihub-ui-shared/entities/packages'
-import { CREATE_VERSION_PERMISSIONS } from '@b41ex/qubership-apihub-ui-shared/entities/package-permissions'
-import { Toolbar } from '@b41ex/qubership-apihub-ui-shared/components/Toolbar'
-import { ToolbarTitle } from '@b41ex/qubership-apihub-ui-shared/components/ToolbarTitle'
+import type { Package } from '@alagishev/qubership-apihub-ui-shared/entities/packages'
+import { CREATE_VERSION_PERMISSIONS } from '@alagishev/qubership-apihub-ui-shared/entities/package-permissions'
+import { Toolbar } from '@alagishev/qubership-apihub-ui-shared/components/Toolbar'
+import { ToolbarTitle } from '@alagishev/qubership-apihub-ui-shared/components/ToolbarTitle'
 
 export type PackagePageToolbarProps = {
   packageObject: Package | null

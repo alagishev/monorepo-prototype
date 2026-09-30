@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-import type { GraphQLOperationViewerProps } from '@b41ex/qubership-apihub-api-doc-viewer'
-import { GraphQLOperationViewer } from '@b41ex/qubership-apihub-api-doc-viewer'
-import '@b41ex/qubership-apihub-api-doc-viewer/dist/style.css'
+import type { GraphQLOperationViewerProps } from '@alagishev/qubership-apihub-api-doc-viewer'
+import { GraphQLOperationViewer } from '@alagishev/qubership-apihub-api-doc-viewer'
+import '@alagishev/qubership-apihub-api-doc-viewer/dist/style.css'
 import type { FC } from 'react'
 import { memo } from 'react'
 import { Box } from '@mui/material'

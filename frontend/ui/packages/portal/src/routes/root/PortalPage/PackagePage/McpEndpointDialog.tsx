@@ -14,12 +14,12 @@ import {
 import { type FC, memo, useCallback, useEffect, useMemo } from 'react'
 import { Controller, useForm, useWatch } from 'react-hook-form'
 
-import { AlertCustom } from '@b41ex/qubership-apihub-ui-shared/components/AlertCustom'
-import { DialogForm } from '@b41ex/qubership-apihub-ui-shared/components/DialogForm'
-import { PopupDelegate, type PopupProps } from '@b41ex/qubership-apihub-ui-shared/components/PopupDelegate'
-import type { TestableProps } from '@b41ex/qubership-apihub-ui-shared/components/Testable'
-import { ALERT_SEVERITY } from '@b41ex/qubership-apihub-ui-shared/themes/alert'
-import { type McpDocumentType } from '@b41ex/qubership-apihub-ui-shared/utils/specs'
+import { AlertCustom } from '@alagishev/qubership-apihub-ui-shared/components/AlertCustom'
+import { DialogForm } from '@alagishev/qubership-apihub-ui-shared/components/DialogForm'
+import { PopupDelegate, type PopupProps } from '@alagishev/qubership-apihub-ui-shared/components/PopupDelegate'
+import type { TestableProps } from '@alagishev/qubership-apihub-ui-shared/components/Testable'
+import { ALERT_SEVERITY } from '@alagishev/qubership-apihub-ui-shared/themes/alert'
+import { type McpDocumentType } from '@alagishev/qubership-apihub-ui-shared/utils/specs'
 
 import type { McpStagedFileMeta } from '@portal/routes/root/PortalPage/PackagePage/mcpPublish'
 import { formatMcpEndpointReplaceStagedFileAlertMessage } from '@portal/routes/root/PortalPage/PackagePage/mcpValidation'

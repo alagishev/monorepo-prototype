@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-import type { PackageKey, VersionKey } from '@b41ex/qubership-apihub-ui-shared/entities/keys'
-import type { OperationKey } from '@b41ex/qubership-apihub-ui-shared/utils/types'
-import type { Operation, Operations } from '@b41ex/qubership-apihub-ui-shared/entities/operations'
+import type { PackageKey, VersionKey } from '@alagishev/qubership-apihub-ui-shared/entities/keys'
+import type { OperationKey } from '@alagishev/qubership-apihub-ui-shared/utils/types'
+import type { Operation, Operations } from '@alagishev/qubership-apihub-ui-shared/entities/operations'
 
 export type UpdatingOperation = Readonly<{
   packageId?: PackageKey

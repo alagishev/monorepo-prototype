@@ -1,5 +1,5 @@
 {
-  "name": "@b41ex/qubership-apihub-api-processor",
+  "name": "@alagishev/qubership-apihub-api-processor",
   "version": "5.7.5",
   "description": "",
   "license": "Apache-2.0",
@@ -46,11 +46,11 @@
   },
   "dependencies": {
     "@asyncapi/parser": "^3.6.0",
-    "@b41ex/qubership-apihub-api-diff": "workspace:^",
-    "@b41ex/qubership-apihub-api-unifier": "workspace:^",
-    "@b41ex/qubership-apihub-ddlapi": "workspace:^",
-    "@b41ex/qubership-apihub-graphapi": "workspace:^",
-    "@b41ex/qubership-apihub-json-crawl": "workspace:^",
+    "@alagishev/qubership-apihub-api-diff": "workspace:^",
+    "@alagishev/qubership-apihub-api-unifier": "workspace:^",
+    "@alagishev/qubership-apihub-ddlapi": "workspace:^",
+    "@alagishev/qubership-apihub-graphapi": "workspace:^",
+    "@alagishev/qubership-apihub-json-crawl": "workspace:^",
     "adm-zip": "0.6.0",
     "ajv": "^8.12.0",
     "ajv-formats": "^2.1.1",

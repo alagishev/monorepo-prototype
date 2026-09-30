@@ -5,7 +5,7 @@ import {
   type JsonPath,
   SyncCloneHook,
   SyncCrawlHook,
-} from '@b41ex/qubership-apihub-json-crawl'
+} from '@alagishev/qubership-apihub-json-crawl'
 
 import {
   ChainItem,

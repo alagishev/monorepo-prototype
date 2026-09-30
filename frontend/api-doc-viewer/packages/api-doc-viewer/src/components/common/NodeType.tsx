@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 
-import { isDiff } from '@b41ex/qubership-apihub-api-data-model'
-import { Diff, DiffAction } from '@b41ex/qubership-apihub-api-diff'
+import { isDiff } from '@alagishev/qubership-apihub-api-data-model'
+import { Diff, DiffAction } from '@alagishev/qubership-apihub-api-diff'
 import type { FC, ReactNode } from 'react'
 import { INLINE_CONTENT_DIFF_COLOR_SCHEMAS } from '../../consts/changes'
 import { NULLABLE_TYPE_SUFFIX_TEXT, UNKNOWN_TYPE_TEXT } from '../../consts/types'

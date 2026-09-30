@@ -15,9 +15,9 @@
  */
 
 import { describe, expect, test } from '@jest/globals'
-import { buildFromDdl } from '@b41ex/qubership-apihub-ddlapi/parser'
-import type { Realm } from '@b41ex/qubership-apihub-ddlapi'
-import { Diff } from '@b41ex/qubership-apihub-api-diff'
+import { buildFromDdl } from '@alagishev/qubership-apihub-ddlapi/parser'
+import type { Realm } from '@alagishev/qubership-apihub-ddlapi'
+import { Diff } from '@alagishev/qubership-apihub-api-diff'
 import { compareDdlDocuments } from '../src/apitypes/ddl/ddl.changes'
 import { DdlComparePairContext } from '../src/types'
 import { LocalRegistry, VERSIONS_PATH, loadFileAsStringFromRegistry } from './helpers'

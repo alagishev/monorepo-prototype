@@ -1,6 +1,6 @@
-import { Diff, DiffAction, DiffAdd, DiffMetaRecord, DiffRemove, isDiffAdd, isDiffRemove, isDiffRename, isDiffReplace } from '@b41ex/qubership-apihub-api-diff'
-import { GraphApiEnumDefinition, isGraphApiAnyUsage, isGraphApiRef } from '@b41ex/qubership-apihub-graphapi'
-import { JsonPath } from '@b41ex/qubership-apihub-json-crawl'
+import { Diff, DiffAction, DiffAdd, DiffMetaRecord, DiffRemove, isDiffAdd, isDiffRemove, isDiffRename, isDiffReplace } from '@alagishev/qubership-apihub-api-diff'
+import { GraphApiEnumDefinition, isGraphApiAnyUsage, isGraphApiRef } from '@alagishev/qubership-apihub-graphapi'
+import { JsonPath } from '@alagishev/qubership-apihub-json-crawl'
 import { DiffNodeMeta, DiffNodeValue, DiffRecord, NodeChangesSummary } from './abstract/diff'
 import { IModelTreeNode, ModelTreeNodeType } from './abstract/model/types'
 

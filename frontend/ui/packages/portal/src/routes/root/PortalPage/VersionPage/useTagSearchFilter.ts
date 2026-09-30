@@ -15,8 +15,8 @@
  */
 
 import { useMemo } from 'react'
-import { useSearchParam } from '@b41ex/qubership-apihub-ui-shared/hooks/searchparams/useSearchParam'
-import { useSetSearchParams } from '@b41ex/qubership-apihub-ui-shared/hooks/searchparams/useSetSearchParams'
+import { useSearchParam } from '@alagishev/qubership-apihub-ui-shared/hooks/searchparams/useSearchParam'
+import { useSetSearchParams } from '@alagishev/qubership-apihub-ui-shared/hooks/searchparams/useSetSearchParams'
 
 export function useTagSearchFilter(): [Tag, SetTagFilter] {
   const param = useSearchParam<Tag>(TAG_SEARCH_PARAM)

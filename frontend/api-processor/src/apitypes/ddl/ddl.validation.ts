@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 
-import { DdlErrorKind } from '@b41ex/qubership-apihub-ddlapi'
-import type { DdlNonFatalError } from '@b41ex/qubership-apihub-ddlapi/parser'
+import { DdlErrorKind } from '@alagishev/qubership-apihub-ddlapi'
+import type { DdlNonFatalError } from '@alagishev/qubership-apihub-ddlapi/parser'
 import { VersionDocument } from '../../types'
 import { MessageSeverity, NotificationMessage } from '../../types/package/notifications'
 import { MESSAGE_SEVERITY } from '../../consts'

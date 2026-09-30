@@ -3,8 +3,8 @@ import {
   takeColumnFlagDiffs as takeColumnFlagDiffsFromModel,
   takeColumnForeignKeyTargetDiffs as takeColumnForeignKeyTargetDiffsFromModel,
   takeIndexFlagDiffs as takeIndexFlagDiffsFromModel,
-} from "@b41ex/qubership-apihub-next-data-model/model/ddlapi/tree-with-diffs/property-row-diffs"
-import { DdlApiTreeNodeWithDiffs } from "@b41ex/qubership-apihub-next-data-model/model/ddlapi/types/aliases"
+} from "@alagishev/qubership-apihub-next-data-model/model/ddlapi/tree-with-diffs/property-row-diffs"
+import { DdlApiTreeNodeWithDiffs } from "@alagishev/qubership-apihub-next-data-model/model/ddlapi/types/aliases"
 import { isColumnNodeWithDiffs, isIndexNodeWithDiffs } from "./node-type-checkers"
 
 export function takeColumnForeignKeyTargetDiffs(

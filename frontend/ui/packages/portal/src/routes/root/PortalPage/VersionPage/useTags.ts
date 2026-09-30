@@ -25,18 +25,18 @@ import type {
   ApiKind,
   OperationTags,
   OperationTagsDto,
-} from '@b41ex/qubership-apihub-ui-shared/entities/operations'
+} from '@alagishev/qubership-apihub-ui-shared/entities/operations'
 import {
   ALL_API_KIND,
   API_AUDIENCE_ALL,
   DEFAULT_API_TYPE,
   DEFAULT_TAG,
-} from '@b41ex/qubership-apihub-ui-shared/entities/operations'
-import type { HasNextPage, IsFetching, IsFetchingNextPage, IsLoading } from '@b41ex/qubership-apihub-ui-shared/utils/aliases'
-import type { Key } from '@b41ex/qubership-apihub-ui-shared/entities/keys'
-import { optionalSearchParams } from '@b41ex/qubership-apihub-ui-shared/utils/search-params'
-import { getPackageRedirectDetails } from '@b41ex/qubership-apihub-ui-shared/utils/redirects'
-import type { ApiType } from '@b41ex/qubership-apihub-ui-shared/entities/api-types'
+} from '@alagishev/qubership-apihub-ui-shared/entities/operations'
+import type { HasNextPage, IsFetching, IsFetchingNextPage, IsLoading } from '@alagishev/qubership-apihub-ui-shared/utils/aliases'
+import type { Key } from '@alagishev/qubership-apihub-ui-shared/entities/keys'
+import { optionalSearchParams } from '@alagishev/qubership-apihub-ui-shared/utils/search-params'
+import { getPackageRedirectDetails } from '@alagishev/qubership-apihub-ui-shared/utils/redirects'
+import type { ApiType } from '@alagishev/qubership-apihub-ui-shared/entities/api-types'
 import { useMemo } from 'react'
 import { useVersionWithRevision } from '../../useVersionWithRevision'
 

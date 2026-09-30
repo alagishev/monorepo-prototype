@@ -1,5 +1,5 @@
 import { isDefined } from '../common/checkers'
-import { DdlApiColumnRowValue } from '@b41ex/qubership-apihub-next-data-model/model/ddlapi/tree/node-value'
+import { DdlApiColumnRowValue } from '@alagishev/qubership-apihub-next-data-model/model/ddlapi/tree/node-value'
 
 export function hasDdlColumnAdditionalInfoRows(
   value: DdlApiColumnRowValue | null | undefined,

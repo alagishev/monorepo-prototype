@@ -1,6 +1,6 @@
 import { NodeId, NodeKey } from "@apihub/next-data-model/utility-types";
-import { Diff, DiffType } from "@b41ex/qubership-apihub-api-diff";
-import { JsonPath } from "@b41ex/qubership-apihub-json-crawl";
+import { Diff, DiffType } from "@alagishev/qubership-apihub-api-diff";
+import { JsonPath } from "@alagishev/qubership-apihub-json-crawl";
 import { ITreeNode, TreeNodeComplexityTypes, TreeNodeParams } from "../tree/tree-node.interface";
 
 export interface TreeNodeWithDiffsParams<

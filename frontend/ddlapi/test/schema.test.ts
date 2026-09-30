@@ -14,7 +14,7 @@ import {
   timeType, jsonType, spatialType, uuidType, unsupportedType, enumType,
   comment, charset, collation, generatedExpr,
   literal, rawExpr, namedDefault,
-} from '@b41ex/qubership-apihub-ddlapi'
+} from '@alagishev/qubership-apihub-ddlapi'
 
 describe('Constants', () => {
   describe('ReferenceOption', () => {

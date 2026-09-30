@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 
-import '@b41ex/qubership-apihub-apispec-view'
-import type { ApispecView } from '@b41ex/qubership-apihub-apispec-view'
+import '@alagishev/qubership-apihub-apispec-view'
+import type { ApispecView } from '@alagishev/qubership-apihub-apispec-view'
 
 export type ApispecViewElementProps = Partial<{
   apiDescriptionDocument: string

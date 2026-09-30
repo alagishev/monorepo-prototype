@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import { JsonPath } from '@b41ex/qubership-apihub-json-crawl'
+import { JsonPath } from '@alagishev/qubership-apihub-json-crawl'
 import type * as TYPE from './async.types'
 import { AsyncOperationActionType, AsyncOperationData, VersionAsyncOperation } from './async.types'
 import { BuildConfig, DeprecateItem, NotificationMessage } from '../../types'
@@ -41,7 +41,7 @@ import {
   JSON_SCHEMA_PROPERTY_DEPRECATED,
   pathItemToFullPath,
   resolveOrigins,
-} from '@b41ex/qubership-apihub-api-unifier'
+} from '@alagishev/qubership-apihub-api-unifier'
 import { calculateHash, ObjectHashCache } from '../../utils/hashes'
 import {
   buildAsyncApiSpecFromDocument,

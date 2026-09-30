@@ -19,7 +19,7 @@ import {
   Diff,
   DIFF_META_KEY,
   DiffMetaRecord,
-} from '@b41ex/qubership-apihub-api-diff'
+} from '@alagishev/qubership-apihub-api-diff'
 
 export type KeyOfConstType<T> = T[keyof T]
 

@@ -19,13 +19,13 @@ import { useCallback, useState } from 'react'
 import { SelfManagedOperationFilters } from '../../../../SelfManagedOperationFilters'
 import { useTags } from '../../../../useTags'
 import { debounce } from '@mui/material'
-import type { PackageReference } from '@b41ex/qubership-apihub-ui-shared/entities/version-references'
-import type { ApiAudience, ApiKind } from '@b41ex/qubership-apihub-ui-shared/entities/operations'
+import type { PackageReference } from '@alagishev/qubership-apihub-ui-shared/entities/version-references'
+import type { ApiAudience, ApiKind } from '@alagishev/qubership-apihub-ui-shared/entities/operations'
 import { useEventBus } from '@portal/routes/EventBusProvider'
-import { DEFAULT_DEBOUNCE } from '@b41ex/qubership-apihub-ui-shared/utils/constants'
+import { DEFAULT_DEBOUNCE } from '@alagishev/qubership-apihub-ui-shared/utils/constants'
 import { useCurrentPackage } from '@portal/components/CurrentPackageProvider'
-import { DASHBOARD_KIND } from '@b41ex/qubership-apihub-ui-shared/entities/packages'
-import type { ApiType } from '@b41ex/qubership-apihub-ui-shared/entities/api-types'
+import { DASHBOARD_KIND } from '@alagishev/qubership-apihub-ui-shared/entities/packages'
+import type { ApiType } from '@alagishev/qubership-apihub-ui-shared/entities/api-types'
 
 export type SidebarProps = {
   apiType: ApiType

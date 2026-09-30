@@ -41,19 +41,19 @@ import {
   BACKWARD_INCOMPATIBLE_MESSAGE,
   BASELINE_VERSION_NOT_FOUND_MESSAGE,
 } from '../ServicesPage/ServicesPageBody/validationMessages'
-import { getSplittedVersionKey } from '@b41ex/qubership-apihub-ui-shared/utils/versions'
-import { OverflowTooltip } from '@b41ex/qubership-apihub-ui-shared/components/OverflowTooltip'
-import { FormattedDate } from '@b41ex/qubership-apihub-ui-shared/components/FormattedDate'
+import { getSplittedVersionKey } from '@alagishev/qubership-apihub-ui-shared/utils/versions'
+import { OverflowTooltip } from '@alagishev/qubership-apihub-ui-shared/components/OverflowTooltip'
+import { FormattedDate } from '@alagishev/qubership-apihub-ui-shared/components/FormattedDate'
 import {
   ERROR_STATUS_MARKER_VARIANT,
   StatusMarker,
   SUCCESS_STATUS_MARKER_VARIANT,
   WARNING_STATUS_MARKER_VARIANT,
-} from '@b41ex/qubership-apihub-ui-shared/components/StatusMarker'
-import { Changes } from '@b41ex/qubership-apihub-ui-shared/components/Changes'
+} from '@alagishev/qubership-apihub-ui-shared/components/StatusMarker'
+import { Changes } from '@alagishev/qubership-apihub-ui-shared/components/Changes'
 import type { Snapshot } from '@agents/entities/snapshots'
 import type { ServicePublishInfo } from '@agents/entities/service-publish-info'
-import type { ChangesSummary } from '@b41ex/qubership-apihub-ui-shared/entities/change-severities'
+import type { ChangesSummary } from '@alagishev/qubership-apihub-ui-shared/entities/change-severities'
 
 export const SnapshotsTable: FC = memo(() => {
   const [{ snapshots }] = useSnapshots()

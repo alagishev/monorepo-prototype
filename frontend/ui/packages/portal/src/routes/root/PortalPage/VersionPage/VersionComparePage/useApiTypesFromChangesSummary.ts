@@ -1,14 +1,14 @@
 import { useMemo } from 'react'
 
-import type { Key } from '@b41ex/qubership-apihub-ui-shared/entities/keys'
-import type { ApiType } from '@b41ex/qubership-apihub-ui-shared/entities/api-types'
-import type { ContractType } from '@b41ex/qubership-apihub-ui-shared/entities/contract-types'
-import { getComparisonApiTypesFromSummary } from '@b41ex/qubership-apihub-ui-shared/entities/contracts-changes-summary'
-import type { VersionChangesSummary } from '@b41ex/qubership-apihub-ui-shared/entities/version-changes-summary'
+import type { Key } from '@alagishev/qubership-apihub-ui-shared/entities/keys'
+import type { ApiType } from '@alagishev/qubership-apihub-ui-shared/entities/api-types'
+import type { ContractType } from '@alagishev/qubership-apihub-ui-shared/entities/contract-types'
+import { getComparisonApiTypesFromSummary } from '@alagishev/qubership-apihub-ui-shared/entities/contracts-changes-summary'
+import type { VersionChangesSummary } from '@alagishev/qubership-apihub-ui-shared/entities/version-changes-summary'
 import {
   isDashboardComparisonSummary,
   isPackageComparisonSummary,
-} from '@b41ex/qubership-apihub-ui-shared/entities/version-changes-summary'
+} from '@alagishev/qubership-apihub-ui-shared/entities/version-changes-summary'
 
 export function useApiTypesFromChangesSummary(
   versionChangesSummary?: VersionChangesSummary,

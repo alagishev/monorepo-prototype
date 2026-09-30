@@ -17,9 +17,9 @@
 import { useCallback } from 'react'
 import { useHash } from 'react-use'
 import { useNavigate, useSearchParams } from 'react-router-dom'
-import { useSearchParam } from '@b41ex/qubership-apihub-ui-shared/hooks/searchparams/useSearchParam'
-import type { SchemaViewMode } from '@b41ex/qubership-apihub-ui-shared/entities/schema-view-mode'
-import { DETAILED_SCHEMA_VIEW_MODE } from '@b41ex/qubership-apihub-ui-shared/entities/schema-view-mode'
+import { useSearchParam } from '@alagishev/qubership-apihub-ui-shared/hooks/searchparams/useSearchParam'
+import type { SchemaViewMode } from '@alagishev/qubership-apihub-ui-shared/entities/schema-view-mode'
+import { DETAILED_SCHEMA_VIEW_MODE } from '@alagishev/qubership-apihub-ui-shared/entities/schema-view-mode'
 
 const SCHEMA_VIEW_MODE_PARAM_KEY = 'schemaViewMode'
 

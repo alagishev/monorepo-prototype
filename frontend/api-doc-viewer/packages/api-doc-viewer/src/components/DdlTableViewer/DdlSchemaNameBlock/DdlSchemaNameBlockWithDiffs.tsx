@@ -7,9 +7,9 @@ import { buildDiffCauseByPathCausedAt } from "../../../utils/common/changes"
 import {
   ChangedPropertyMetaData,
   NodeDiffsSeverities,
-} from "@b41ex/qubership-apihub-next-data-model/model/abstract/tree-with-diffs/tree-node.interface"
-import { DiffsClassesBuilder } from "@b41ex/qubership-apihub-next-data-model/building-service/abstract/tree-with-diffs/node-diffs-data/utilities"
-import { NodeDiffsSeverityPlacemennt } from "@b41ex/qubership-apihub-next-data-model/model/abstract/tree-with-diffs/tree-node.interface"
+} from "@alagishev/qubership-apihub-next-data-model/model/abstract/tree-with-diffs/tree-node.interface"
+import { DiffsClassesBuilder } from "@alagishev/qubership-apihub-next-data-model/building-service/abstract/tree-with-diffs/node-diffs-data/utilities"
+import { NodeDiffsSeverityPlacemennt } from "@alagishev/qubership-apihub-next-data-model/model/abstract/tree-with-diffs/tree-node.interface"
 import { FC, memo, useMemo } from "react"
 import { DiffFloatingBadgeWrapper } from "../../shared-components/DiffFloatingBadgeWrapper/DiffFloatingBadgeWrapper"
 import { OneSideLayout } from "../../shared-components/Layout/OneSideLayout"

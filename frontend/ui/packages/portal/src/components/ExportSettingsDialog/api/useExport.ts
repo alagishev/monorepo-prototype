@@ -1,8 +1,8 @@
-import type { Key, PackageKey, VersionKey } from '@b41ex/qubership-apihub-ui-shared/entities/keys'
-import type { IsLoading } from '@b41ex/qubership-apihub-ui-shared/utils/aliases'
-import { API_V1, requestJson } from '@b41ex/qubership-apihub-ui-shared/utils/requests'
+import type { Key, PackageKey, VersionKey } from '@alagishev/qubership-apihub-ui-shared/entities/keys'
+import type { IsLoading } from '@alagishev/qubership-apihub-ui-shared/utils/aliases'
+import { API_V1, requestJson } from '@alagishev/qubership-apihub-ui-shared/utils/requests'
 import { useQuery, useQueryClient } from '@tanstack/react-query'
-import type { ShareabilityStatus } from '@b41ex/qubership-apihub-api-processor'
+import type { ShareabilityStatus } from '@alagishev/qubership-apihub-api-processor'
 
 export enum ExportedEntityKind {
   VERSION = 'version',

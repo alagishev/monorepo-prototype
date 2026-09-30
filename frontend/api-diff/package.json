@@ -1,5 +1,5 @@
 {
-  "name": "@b41ex/qubership-apihub-api-diff",
+  "name": "@alagishev/qubership-apihub-api-diff",
   "version": "4.0.0",
   "module": "./dist/index.es.js",
   "main": "./dist/index.cjs.js",
@@ -25,15 +25,15 @@
     "test:human-readable": "jest --detectOpenHandles test/human-readable"
   },
   "dependencies": {
-    "@b41ex/qubership-apihub-api-unifier": "workspace:^",
-    "@b41ex/qubership-apihub-ddlapi": "workspace:^",
-    "@b41ex/qubership-apihub-json-crawl": "workspace:^",
+    "@alagishev/qubership-apihub-api-unifier": "workspace:^",
+    "@alagishev/qubership-apihub-ddlapi": "workspace:^",
+    "@alagishev/qubership-apihub-json-crawl": "workspace:^",
     "fast-equals": "^6.0.2"
   },
   "devDependencies": {
     "@asyncapi/parser": "3.6.0",
-    "@b41ex/qubership-apihub-compatibility-suites": "workspace:^",
-    "@b41ex/qubership-apihub-graphapi": "workspace:^",
+    "@alagishev/qubership-apihub-compatibility-suites": "workspace:^",
+    "@alagishev/qubership-apihub-graphapi": "workspace:^",
     "@types/jest": "30.0.0",
     "@types/node": "^24.0.0",
     "@typescript-eslint/eslint-plugin": "7.18.0",

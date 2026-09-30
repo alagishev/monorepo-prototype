@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import { NodeChangesSummary } from '@b41ex/qubership-apihub-api-data-model'
+import { NodeChangesSummary } from '@alagishev/qubership-apihub-api-data-model'
 import { NodeId } from '../aliases/nodes'
 
 export type PropsWithNestedChangesSummary = {

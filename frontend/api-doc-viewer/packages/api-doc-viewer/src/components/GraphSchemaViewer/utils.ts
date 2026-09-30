@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-import { isDiff } from "@b41ex/qubership-apihub-api-data-model";
-import { DiffMetaRecord, Diff } from "@b41ex/qubership-apihub-api-diff";
-import { GRAPH_API_DIRECTIVE_DEPRECATED_DEFAULT_REASON } from "@b41ex/qubership-apihub-graphapi";
-import { isObject } from "@b41ex/qubership-apihub-json-crawl";
+import { isDiff } from "@alagishev/qubership-apihub-api-data-model";
+import { DiffMetaRecord, Diff } from "@alagishev/qubership-apihub-api-diff";
+import { GRAPH_API_DIRECTIVE_DEPRECATED_DEFAULT_REASON } from "@alagishev/qubership-apihub-graphapi";
+import { isObject } from "@alagishev/qubership-apihub-json-crawl";
 
 export function changesToChange(valuesLength: number, changes: DiffMetaRecord): Diff | undefined {
   const changeValues: (Diff | DiffMetaRecord)[] = Object.values(changes)

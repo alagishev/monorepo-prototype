@@ -29,7 +29,7 @@ import { LocalRegistry } from '../registry'
 import { IRegistry } from '../registry/types'
 import fs from 'fs/promises'
 import path from 'path'
-import { loadYaml } from '@b41ex/qubership-apihub-api-unifier'
+import { loadYaml } from '@alagishev/qubership-apihub-api-unifier'
 
 export class Editor {
   state: Map<string, Blob | null> = new Map()

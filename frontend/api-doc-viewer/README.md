@@ -6,7 +6,7 @@ GraphAPI specifications in human-readable way.
 ## Installation
 
 ``
-npm add @b41ex/qubership-apihub-api-doc-viewer
+npm add @alagishev/qubership-apihub-api-doc-viewer
 ``
 
 ## Components
@@ -35,7 +35,7 @@ For more details, see section "Usage & API" below.
 
 ```JavaScript
 import {buildSchema} from "graphql/utilities";
-import {buildFromSchema} from "@b41ex/qubership-apihub-graphapi";
+import {buildFromSchema} from "@alagishev/qubership-apihub-graphapi";
 
 ...
 

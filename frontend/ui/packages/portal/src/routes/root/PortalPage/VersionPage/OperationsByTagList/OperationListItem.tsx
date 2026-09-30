@@ -16,21 +16,21 @@
 
 import type { FC } from 'react'
 import React, { memo } from 'react'
-import type { Operation } from '@b41ex/qubership-apihub-ui-shared/entities/operations'
+import type { Operation } from '@alagishev/qubership-apihub-ui-shared/entities/operations'
 import {
   isAsyncApiOperation,
   isGraphQlOperation,
   isRestOperation,
-} from '@b41ex/qubership-apihub-ui-shared/entities/operations'
-import { METHOD_TYPE_COLOR_MAP } from '@b41ex/qubership-apihub-ui-shared/entities/method-types'
-import type { GraphQlOperationType } from '@b41ex/qubership-apihub-ui-shared/entities/graphql-operation-types'
+} from '@alagishev/qubership-apihub-ui-shared/entities/operations'
+import { METHOD_TYPE_COLOR_MAP } from '@alagishev/qubership-apihub-ui-shared/entities/method-types'
+import type { GraphQlOperationType } from '@alagishev/qubership-apihub-ui-shared/entities/graphql-operation-types'
 import {
   GRAPHQL_OPERATION_TYPE_COLOR_MAP,
-} from '@b41ex/qubership-apihub-ui-shared/entities/graphql-operation-types'
-import { CustomListItem } from '@b41ex/qubership-apihub-ui-shared/components/CustomListItem'
+} from '@alagishev/qubership-apihub-ui-shared/entities/graphql-operation-types'
+import { CustomListItem } from '@alagishev/qubership-apihub-ui-shared/components/CustomListItem'
 import {
   ASYNCAPI_OPERATION_TYPE_COLOR_MAP,
-} from '@b41ex/qubership-apihub-ui-shared/entities/asyncapi-operation-types'
+} from '@alagishev/qubership-apihub-ui-shared/entities/asyncapi-operation-types'
 
 // First Order Component //
 export type OperationsListItemProps = {

@@ -1,4 +1,4 @@
-import { GraphApiArgs } from '@b41ex/qubership-apihub-graphapi'
+import { GraphApiArgs } from '@alagishev/qubership-apihub-graphapi'
 import { UNKNOWN_TYPE } from "../../abstract/constants"
 import { ModelTreeComplexNode } from '../../abstract/model/model-tree-complex-node.impl'
 import { ModelTreeNode } from '../../abstract/model/model-tree-node.impl'

@@ -17,18 +17,18 @@
 import { useShowSuccessNotification } from '@portal/routes/root/BasePage/Notification'
 import { useUsers } from '@portal/routes/root/useUsers'
 import { Box } from '@mui/material'
-import { BodyCard } from '@b41ex/qubership-apihub-ui-shared/components/BodyCard'
-import { GenerateTokenForm } from '@b41ex/qubership-apihub-ui-shared/components/GenerateTokenForm'
-import { TokensTable } from '@b41ex/qubership-apihub-ui-shared/components/TokensTable'
-import { ACCESS_TOKEN_MANAGEMENT_PERMISSION } from '@b41ex/qubership-apihub-ui-shared/entities/package-permissions'
-import { useUser } from '@b41ex/qubership-apihub-ui-shared/hooks/authorization/useUser'
+import { BodyCard } from '@alagishev/qubership-apihub-ui-shared/components/BodyCard'
+import { GenerateTokenForm } from '@alagishev/qubership-apihub-ui-shared/components/GenerateTokenForm'
+import { TokensTable } from '@alagishev/qubership-apihub-ui-shared/components/TokensTable'
+import { ACCESS_TOKEN_MANAGEMENT_PERMISSION } from '@alagishev/qubership-apihub-ui-shared/entities/package-permissions'
+import { useUser } from '@alagishev/qubership-apihub-ui-shared/hooks/authorization/useUser'
 import {
   useAvailablePackageRoles,
   useDeleteApiKey,
   useGenerateApiKey,
   useTokens,
-} from '@b41ex/qubership-apihub-ui-shared/hooks/tokens/useTokens'
-import type { GenerateApiKeyValue } from '@b41ex/qubership-apihub-ui-shared/types/tokens'
+} from '@alagishev/qubership-apihub-ui-shared/hooks/tokens/useTokens'
+import type { GenerateApiKeyValue } from '@alagishev/qubership-apihub-ui-shared/types/tokens'
 import type { FC } from 'react'
 import { memo, useCallback, useMemo, useState } from 'react'
 import { useParams } from 'react-router-dom'

@@ -22,7 +22,7 @@ import {
   IJsonSchemaStringType,
   JsonSchemaDiffNodeValue,
   JsonSchemaDiffTreeNode,
-} from '@b41ex/qubership-apihub-api-data-model'
+} from '@alagishev/qubership-apihub-api-data-model'
 import { isDefined } from '../../../../utils/common/checkers'
 
 export type UseValidationsReturnType = Partial<{

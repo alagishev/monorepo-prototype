@@ -1,6 +1,6 @@
-import { DIFF_META_KEY, extractOperationBasePath, isDiffAdd, isDiffRemove, isDiffRename, isDiffReplace, type Diff } from '@b41ex/qubership-apihub-api-diff'
-import { calculateNormalizedRestOperationId } from '@b41ex/qubership-apihub-api-processor'
-import { isObject } from '@b41ex/qubership-apihub-ui-shared/utils/objects'
+import { DIFF_META_KEY, extractOperationBasePath, isDiffAdd, isDiffRemove, isDiffRename, isDiffReplace, type Diff } from '@alagishev/qubership-apihub-api-diff'
+import { calculateNormalizedRestOperationId } from '@alagishev/qubership-apihub-api-processor'
+import { isObject } from '@alagishev/qubership-apihub-ui-shared/utils/objects'
 import { OpenAPIV3 } from 'openapi-types'
 
 type Result = {

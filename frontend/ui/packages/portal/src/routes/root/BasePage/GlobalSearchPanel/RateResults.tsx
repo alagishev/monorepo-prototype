@@ -18,8 +18,8 @@ import type { FC } from 'react'
 import { memo } from 'react'
 import { hasSearchText } from './search-text'
 import { Box, Typography } from '@mui/material'
-import { OverflowTooltip } from '@b41ex/qubership-apihub-ui-shared/components/OverflowTooltip'
-import { CustomChip } from '@b41ex/qubership-apihub-ui-shared/components/CustomChip'
+import { OverflowTooltip } from '@alagishev/qubership-apihub-ui-shared/components/OverflowTooltip'
+import { CustomChip } from '@alagishev/qubership-apihub-ui-shared/components/CustomChip'
 
 type RateResultsProps = {
   searchText: string

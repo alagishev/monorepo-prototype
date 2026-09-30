@@ -61,8 +61,8 @@ import { GroupComparePage } from '@portal/routes/root/PortalPage/VersionPage/Gro
 import {
   DifferentOperationGroupsComparisonPage,
 } from '@portal/routes/root/PortalPage/VersionPage/OperationsComparisonPage/DifferentOperationGroupsComparisonPage'
-import { ErrorPage, NOT_FOUND_TITLE } from '@b41ex/qubership-apihub-ui-shared/components/ErrorPage'
-import { LoginPage } from '@b41ex/qubership-apihub-ui-shared/pages/login'
+import { ErrorPage, NOT_FOUND_TITLE } from '@alagishev/qubership-apihub-ui-shared/components/ErrorPage'
+import { LoginPage } from '@alagishev/qubership-apihub-ui-shared/pages/login'
 import { ProfilePage } from './root/ProfilePage/ProfilePage'
 
 export const router = createBrowserRouter(

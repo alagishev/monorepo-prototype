@@ -71,7 +71,7 @@ rm -f graph.json
 content_of() { # tag -> the content its manifest names, or nothing
   { oras manifest fetch "$repo:$1" 2>/dev/null || true; } | node -e '
     let s = ""; process.stdin.on("data", (d) => (s += d)).on("end", () => {
-      try { process.stdout.write((JSON.parse(s).annotations || {})["com.b41ex.storybook.content"] || "") } catch {}
+      try { process.stdout.write((JSON.parse(s).annotations || {})["com.alagishev.storybook.content"] || "") } catch {}
     })'
 }
 exists() { oras manifest fetch "$repo:$1" >/dev/null 2>&1; }
@@ -124,12 +124,12 @@ else
     (
       cd "$tmp"
       oras push "$repo:$content" \
-        --artifact-type application/vnd.b41ex.storybook.v1 \
+        --artifact-type application/vnd.alagishev.storybook.v1 \
         --annotation "org.opencontainers.image.source=$source_url" \
         --annotation "org.opencontainers.image.revision=$GITHUB_SHA" \
-        --annotation "com.b41ex.storybook.component=$COMPONENT" \
-        --annotation "com.b41ex.storybook.input=$input" \
-        storybook.tar.gz:application/vnd.b41ex.storybook.layer.v1.tar+gzip
+        --annotation "com.alagishev.storybook.component=$COMPONENT" \
+        --annotation "com.alagishev.storybook.input=$input" \
+        storybook.tar.gz:application/vnd.alagishev.storybook.layer.v1.tar+gzip
     )
     echo "| build | **built and stored** as \`$content\`: $stripped; $files files, $((bytes / 1024)) KiB, packed to $((packed / 1024)) KiB |" >> "$summary"
   fi
@@ -139,8 +139,8 @@ else
   (
     cd "$tmp"
     oras push "$repo:$input" \
-      --artifact-type application/vnd.b41ex.storybook-index.v1 \
-      --annotation "com.b41ex.storybook.content=$content" \
+      --artifact-type application/vnd.alagishev.storybook-index.v1 \
+      --annotation "com.alagishev.storybook.content=$content" \
       --annotation "org.opencontainers.image.source=$source_url" \
       index.txt
   )
@@ -153,9 +153,9 @@ echo "$content" > "$tmp/pointer.txt"
 (
   cd "$tmp"
   oras push "$repo:branch-$slug" \
-    --artifact-type application/vnd.b41ex.storybook-pointer.v1 \
-    --annotation "com.b41ex.storybook.content=$content" \
-    --annotation "com.b41ex.storybook.input=$input" \
+    --artifact-type application/vnd.alagishev.storybook-pointer.v1 \
+    --annotation "com.alagishev.storybook.content=$content" \
+    --annotation "com.alagishev.storybook.input=$input" \
     --annotation "org.opencontainers.image.source=$source_url" \
     --annotation "org.opencontainers.image.revision=$GITHUB_SHA" \
     --annotation "org.opencontainers.image.version=$GITHUB_REF_NAME" \

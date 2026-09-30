@@ -7,7 +7,7 @@ import {
   JSON_SCHEMA_PROPERTY_ANY_OF,
   JSON_SCHEMA_PROPERTY_ONE_OF,
   JSON_SCHEMA_PROPERTY_TYPE,
-} from '@b41ex/qubership-apihub-api-unifier'
+} from '@alagishev/qubership-apihub-api-unifier'
 import { NativeAnySchemaFactory } from './jsonSchema.types'
 
 export const jsonSchemaAdapter: (factory: NativeAnySchemaFactory) => AdapterResolver = (factory) => (value, reference, ctx) => {

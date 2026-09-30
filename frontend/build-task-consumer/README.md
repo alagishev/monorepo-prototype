@@ -118,7 +118,7 @@ The ref and commit are now OCI annotations on the index that each branch tag poi
 is per-tag and can therefore be true for every tag at once:
 
 ```bash
-docker buildx imagetools inspect ghcr.io/b41ex/apihub-build-task-consumer:dev
+docker buildx imagetools inspect ghcr.io/alagishev/apihub-build-task-consumer:dev
 ```
 
 `org.opencontainers.image.version` is the ref and `org.opencontainers.image.revision` the

@@ -19,9 +19,9 @@ import { useCallback, useMemo, useState } from 'react'
 
 import { Box } from '@mui/material'
 import { ActivityType } from '../../entities/activity-enums'
-import { SearchBar } from '@b41ex/qubership-apihub-ui-shared/components/SearchBar'
+import { SearchBar } from '@alagishev/qubership-apihub-ui-shared/components/SearchBar'
 import { DropdownButton } from '../DropdownButton'
-import { FilterIcon } from '@b41ex/qubership-apihub-ui-shared/icons/FilterIcon'
+import { FilterIcon } from '@alagishev/qubership-apihub-ui-shared/icons/FilterIcon'
 
 export type ActivityListFiltersProps = Partial<{
   text: string

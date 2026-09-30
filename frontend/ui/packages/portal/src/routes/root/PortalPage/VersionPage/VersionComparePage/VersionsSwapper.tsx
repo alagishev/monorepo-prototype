@@ -29,9 +29,9 @@ import {
   PACKAGE_SEARCH_PARAM,
   REF_SEARCH_PARAM,
   VERSION_SEARCH_PARAM,
-} from '@b41ex/qubership-apihub-ui-shared/utils/search-params'
-import { Swapper } from '@b41ex/qubership-apihub-ui-shared/components/Swapper'
-import { EditIcon } from '@b41ex/qubership-apihub-ui-shared/icons/EditIcon'
+} from '@alagishev/qubership-apihub-ui-shared/utils/search-params'
+import { Swapper } from '@alagishev/qubership-apihub-ui-shared/components/Swapper'
+import { EditIcon } from '@alagishev/qubership-apihub-ui-shared/icons/EditIcon'
 
 export type VersionsSwapperProps = {
   breadcrumbsData: ComparedPackagesBreadcrumbsData | null

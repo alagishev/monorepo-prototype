@@ -22,7 +22,7 @@ import {
   isDiffMetaRecord,
   isDiffRecord,
   NodeChange,
-} from '@b41ex/qubership-apihub-api-data-model'
+} from '@alagishev/qubership-apihub-api-data-model'
 import {
   ActionType,
   Diff,
@@ -31,7 +31,7 @@ import {
   isDiffAdd,
   isDiffRemove,
   isDiffReplace,
-} from '@b41ex/qubership-apihub-api-diff'
+} from '@alagishev/qubership-apihub-api-diff'
 import type { FC } from 'react'
 import { ReactNode, useMemo } from 'react'
 import { NODE_DIFF_COLOR_MAP } from '../../../../../consts/changes'

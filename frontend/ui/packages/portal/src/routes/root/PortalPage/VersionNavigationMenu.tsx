@@ -1,26 +1,26 @@
 import { type FC, memo, useCallback, useMemo } from 'react'
 import { type To, useNavigate, useParams } from 'react-router-dom'
 
-import type { SidebarMenu } from '@b41ex/qubership-apihub-ui-shared/components/NavigationMenu'
-import { NavigationMenu } from '@b41ex/qubership-apihub-ui-shared/components/NavigationMenu'
-import type { ApiType } from '@b41ex/qubership-apihub-ui-shared/entities/api-types'
-import type { ContractType } from '@b41ex/qubership-apihub-ui-shared/entities/contract-types'
-import { useActiveTabs } from '@b41ex/qubership-apihub-ui-shared/hooks/pathparams/useActiveTabs'
+import type { SidebarMenu } from '@alagishev/qubership-apihub-ui-shared/components/NavigationMenu'
+import { NavigationMenu } from '@alagishev/qubership-apihub-ui-shared/components/NavigationMenu'
+import type { ApiType } from '@alagishev/qubership-apihub-ui-shared/entities/api-types'
+import type { ContractType } from '@alagishev/qubership-apihub-ui-shared/entities/contract-types'
+import { useActiveTabs } from '@alagishev/qubership-apihub-ui-shared/hooks/pathparams/useActiveTabs'
 import {
   EXPAND_NAVIGATION_MENU,
-} from '@b41ex/qubership-apihub-ui-shared/hooks/searchparams/useExpandNavigationMenuSearchParam'
-import { ApiIcon } from '@b41ex/qubership-apihub-ui-shared/icons/ApiIcon'
-import { CertifiedFileIcon } from '@b41ex/qubership-apihub-ui-shared/icons/CertifiedFileIcon'
-import { ComparisonIcon } from '@b41ex/qubership-apihub-ui-shared/icons/ComparisonIcon'
-import { FileIcon } from '@b41ex/qubership-apihub-ui-shared/icons/FileIcon'
-import { ServicesIcon } from '@b41ex/qubership-apihub-ui-shared/icons/ServicesIcon'
-import { SettingIcon } from '@b41ex/qubership-apihub-ui-shared/icons/SettingIcon'
-import { DefaultWarningIcon } from '@b41ex/qubership-apihub-ui-shared/icons/WarningIcon'
-import type { OperationsViewMode } from '@b41ex/qubership-apihub-ui-shared/types/views'
+} from '@alagishev/qubership-apihub-ui-shared/hooks/searchparams/useExpandNavigationMenuSearchParam'
+import { ApiIcon } from '@alagishev/qubership-apihub-ui-shared/icons/ApiIcon'
+import { CertifiedFileIcon } from '@alagishev/qubership-apihub-ui-shared/icons/CertifiedFileIcon'
+import { ComparisonIcon } from '@alagishev/qubership-apihub-ui-shared/icons/ComparisonIcon'
+import { FileIcon } from '@alagishev/qubership-apihub-ui-shared/icons/FileIcon'
+import { ServicesIcon } from '@alagishev/qubership-apihub-ui-shared/icons/ServicesIcon'
+import { SettingIcon } from '@alagishev/qubership-apihub-ui-shared/icons/SettingIcon'
+import { DefaultWarningIcon } from '@alagishev/qubership-apihub-ui-shared/icons/WarningIcon'
+import type { OperationsViewMode } from '@alagishev/qubership-apihub-ui-shared/types/views'
 import {
   EXPAND_NAVIGATION_MENU_SEARCH_PARAM,
   OPERATIONS_VIEW_MODE_PARAM,
-} from '@b41ex/qubership-apihub-ui-shared/utils/search-params'
+} from '@alagishev/qubership-apihub-ui-shared/utils/search-params'
 
 import type { Key } from '@portal/entities/keys'
 import { usePortalPageSettingsContext } from '@portal/routes/PortalPageSettingsProvider'

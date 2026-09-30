@@ -1,8 +1,8 @@
-import { DiffBlock } from "@b41ex/qubership-apihub-apispec-view-diff-block";
+import { DiffBlock } from "@alagishev/qubership-apihub-apispec-view-diff-block";
 import * as React from "react";
-import { useDescriptionWithMeta } from "@b41ex/qubership-apihub-apispec-view-diff-elements-core/hooks/useDescriptionWithMeta";
-import { MarkdownViewer } from "@b41ex/qubership-apihub-apispec-view-diff-elements-core/components/MarkdownViewer";
-import { buildOpenApiDiffCause } from "@b41ex/qubership-apihub-api-doc-viewer";
+import { useDescriptionWithMeta } from "@alagishev/qubership-apihub-apispec-view-diff-elements-core/hooks/useDescriptionWithMeta";
+import { MarkdownViewer } from "@alagishev/qubership-apihub-apispec-view-diff-elements-core/components/MarkdownViewer";
+import { buildOpenApiDiffCause } from "@alagishev/qubership-apihub-api-doc-viewer";
 
 export type DescriptionProps = {
   id: string,

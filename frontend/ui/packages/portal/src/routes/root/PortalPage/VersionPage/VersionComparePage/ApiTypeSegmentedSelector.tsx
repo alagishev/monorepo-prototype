@@ -17,13 +17,13 @@
 import type { FC } from 'react'
 import { memo, useMemo } from 'react'
 
-import { Toggler } from '@b41ex/qubership-apihub-ui-shared/components/Toggler'
-import { API_TYPE_TITLE_MAP } from '@b41ex/qubership-apihub-ui-shared/entities/api-types'
-import { CONTRACT_TYPE_DDL, CONTRACT_TYPE_TITLE_MAP } from '@b41ex/qubership-apihub-ui-shared/entities/contract-types'
-import { getDashboardComparisonApiTypes } from '@b41ex/qubership-apihub-ui-shared/entities/contracts-changes-summary'
+import { Toggler } from '@alagishev/qubership-apihub-ui-shared/components/Toggler'
+import { API_TYPE_TITLE_MAP } from '@alagishev/qubership-apihub-ui-shared/entities/api-types'
+import { CONTRACT_TYPE_DDL, CONTRACT_TYPE_TITLE_MAP } from '@alagishev/qubership-apihub-ui-shared/entities/contract-types'
+import { getDashboardComparisonApiTypes } from '@alagishev/qubership-apihub-ui-shared/entities/contracts-changes-summary'
 import {
   isDashboardComparisonSummary,
-} from '@b41ex/qubership-apihub-ui-shared/entities/version-changes-summary'
+} from '@alagishev/qubership-apihub-ui-shared/entities/version-changes-summary'
 
 import { useChangesSummaryFromContext } from '../ChangesSummaryProvider'
 import { useApiTypeSearchParam } from '../useApiTypeSearchParam'

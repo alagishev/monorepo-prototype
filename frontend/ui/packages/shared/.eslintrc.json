@@ -6,21 +6,21 @@
             {
                 "paths": [
                     {
-                        "name": "@b41ex/qubership-apihub-ui-agents",
+                        "name": "@alagishev/qubership-apihub-ui-agents",
                         "message": "You are not allowed to import APIHUB Agents components in APIHUB Shared."
                     },
                     {
-                        "name": "@b41ex/qubership-apihub-ui-portal",
+                        "name": "@alagishev/qubership-apihub-ui-portal",
                         "message": "You are not allowed to import APIHUB Portal components in APIHUB Shared."
                     }
                 ],
                 "patterns": [
                     {
-                        "group": ["@b41ex/qubership-apihub-ui-agents/*"],
+                        "group": ["@alagishev/qubership-apihub-ui-agents/*"],
                         "message": "You are not allowed to import APIHUB Agents components in APIHUB Shared."
                     },
                     {
-                        "group": ["@b41ex/qubership-apihub-ui-portal/*"],
+                        "group": ["@alagishev/qubership-apihub-ui-portal/*"],
                         "message": "You are not allowed to import APIHUB Portal components in APIHUB Shared."
                     },
                     {

@@ -30,8 +30,8 @@ import {
 import type * as TYPE from './rest.types'
 import { INLINE_REFS_FLAG, MESSAGE_SEVERITY } from '../../consts'
 import { asyncFunction } from '../../utils/async'
-import { normalize, RefErrorType } from '@b41ex/qubership-apihub-api-unifier'
-import { extractOperationBasePath } from '@b41ex/qubership-apihub-api-diff'
+import { normalize, RefErrorType } from '@alagishev/qubership-apihub-api-unifier'
+import { extractOperationBasePath } from '@alagishev/qubership-apihub-api-diff'
 import { REST_EFFECTIVE_NORMALIZE_OPTIONS } from './rest.consts'
 
 type OperationInfo = { path: string; method: string }

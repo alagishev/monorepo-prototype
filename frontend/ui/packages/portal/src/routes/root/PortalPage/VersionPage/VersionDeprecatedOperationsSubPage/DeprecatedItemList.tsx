@@ -21,8 +21,8 @@ import { Box, Divider, Skeleton, Typography } from '@mui/material'
 import { useOperationDeprecatedItems } from './useOperationDeprecatedItems'
 import type {
   OperationListSubComponentProps,
-} from '@b41ex/qubership-apihub-ui-shared/components/Operations/OperationWithMetaClickableList'
-import type { ApiType } from '@b41ex/qubership-apihub-ui-shared/entities/api-types'
+} from '@alagishev/qubership-apihub-ui-shared/components/Operations/OperationWithMetaClickableList'
+import type { ApiType } from '@alagishev/qubership-apihub-ui-shared/entities/api-types'
 
 // High Order Component //
 export const DeprecatedItemsList: FC<OperationListSubComponentProps> = memo<OperationListSubComponentProps>(({ operation }) => {

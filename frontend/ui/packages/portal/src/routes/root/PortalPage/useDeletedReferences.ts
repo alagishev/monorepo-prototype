@@ -25,10 +25,10 @@ import type {
 } from './package-references'
 import { addToMap, markParentPackages, removeFromMap } from './package-references'
 import { useMemo } from 'react'
-import type { Key, PackageKey } from '@b41ex/qubership-apihub-ui-shared/entities/keys'
-import type { IsLoading } from '@b41ex/qubership-apihub-ui-shared/utils/aliases'
-import type { VersionReferences } from '@b41ex/qubership-apihub-ui-shared/entities/version-references'
-import { toVersionReferences } from '@b41ex/qubership-apihub-ui-shared/entities/version-references'
+import type { Key, PackageKey } from '@alagishev/qubership-apihub-ui-shared/entities/keys'
+import type { IsLoading } from '@alagishev/qubership-apihub-ui-shared/utils/aliases'
+import type { VersionReferences } from '@alagishev/qubership-apihub-ui-shared/entities/version-references'
+import { toVersionReferences } from '@alagishev/qubership-apihub-ui-shared/entities/version-references'
 
 const DELETED_REFERENCE_QUERY_KEY = 'deleted-reference-query-key'
 

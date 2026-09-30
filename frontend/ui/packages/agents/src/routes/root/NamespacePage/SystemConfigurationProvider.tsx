@@ -22,8 +22,8 @@ import {
   useEffect,
   useState,
 } from 'react'
-import { useSystemConfiguration } from '@b41ex/qubership-apihub-ui-shared/hooks/authorization/useSystemConfiguration'
-import type { SystemConfiguration } from '@b41ex/qubership-apihub-ui-shared/types/system-configuration'
+import { useSystemConfiguration } from '@alagishev/qubership-apihub-ui-shared/hooks/authorization/useSystemConfiguration'
+import type { SystemConfiguration } from '@alagishev/qubership-apihub-ui-shared/types/system-configuration'
 
 const SystemConfigurationContext = createContext<SystemConfiguration | null | undefined>()
 

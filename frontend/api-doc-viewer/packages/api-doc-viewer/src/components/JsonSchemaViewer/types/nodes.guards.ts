@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-import { IModelTreeNode, JsonSchemaTreeNode } from '@b41ex/qubership-apihub-api-data-model'
+import { IModelTreeNode, JsonSchemaTreeNode } from '@alagishev/qubership-apihub-api-data-model'
 import {
   IModelStateCombinaryNode,
   IModelStateNode,
   IModelStatePropNode,
   modelStateNodeType
-} from '@b41ex/qubership-apihub-api-state-model'
+} from '@alagishev/qubership-apihub-api-state-model'
 
 export function isPropNodeState<T extends IModelTreeNode<any, any, any> = JsonSchemaTreeNode>(
   state: IModelStateNode<T> | null

@@ -30,21 +30,21 @@ import { useAddConflictedReferences } from '../useConflictedReferences'
 import { useEffectOnce } from 'react-use'
 import type { ColumnDef, ColumnSizingInfoState, ColumnSizingState, OnChangeFn } from '@tanstack/react-table'
 import { flexRender, getCoreRowModel, useReactTable } from '@tanstack/react-table'
-import type { Key } from '@b41ex/qubership-apihub-ui-shared/entities/keys'
+import type { Key } from '@alagishev/qubership-apihub-ui-shared/entities/keys'
 import type { PackageReferenceWithStatus } from '@portal/routes/root/PortalPage/DashboardPage/configure-dashboard'
-import type { ReferenceKind } from '@b41ex/qubership-apihub-ui-shared/entities/version-references'
-import type { ColumnModel } from '@b41ex/qubership-apihub-ui-shared/hooks/table-resizing/useColumnResizing'
+import type { ReferenceKind } from '@alagishev/qubership-apihub-ui-shared/entities/version-references'
+import type { ColumnModel } from '@alagishev/qubership-apihub-ui-shared/hooks/table-resizing/useColumnResizing'
 import {
   DEFAULT_CONTAINER_WIDTH,
   useColumnsSizing,
-} from '@b41ex/qubership-apihub-ui-shared/hooks/table-resizing/useColumnResizing'
-import { CustomTableHeadCell } from '@b41ex/qubership-apihub-ui-shared/components/CustomTableHeadCell'
-import { CONTENT_PLACEHOLDER_AREA, Placeholder } from '@b41ex/qubership-apihub-ui-shared/components/Placeholder'
-import { isNotEmpty } from '@b41ex/qubership-apihub-ui-shared/utils/arrays'
-import { ColumnDelimiter } from '@b41ex/qubership-apihub-ui-shared/components/ColumnDelimiter'
-import { createComponents } from '@b41ex/qubership-apihub-ui-shared/utils/components'
-import { DEFAULT_NUMBER_SKELETON_ROWS } from '@b41ex/qubership-apihub-ui-shared/utils/constants'
-import { useResizeObserver } from '@b41ex/qubership-apihub-ui-shared/hooks/common/useResizeObserver'
+} from '@alagishev/qubership-apihub-ui-shared/hooks/table-resizing/useColumnResizing'
+import { CustomTableHeadCell } from '@alagishev/qubership-apihub-ui-shared/components/CustomTableHeadCell'
+import { CONTENT_PLACEHOLDER_AREA, Placeholder } from '@alagishev/qubership-apihub-ui-shared/components/Placeholder'
+import { isNotEmpty } from '@alagishev/qubership-apihub-ui-shared/utils/arrays'
+import { ColumnDelimiter } from '@alagishev/qubership-apihub-ui-shared/components/ColumnDelimiter'
+import { createComponents } from '@alagishev/qubership-apihub-ui-shared/utils/components'
+import { DEFAULT_NUMBER_SKELETON_ROWS } from '@alagishev/qubership-apihub-ui-shared/utils/constants'
+import { useResizeObserver } from '@alagishev/qubership-apihub-ui-shared/hooks/common/useResizeObserver'
 
 export type PackagesAndDashboardsTreeProps = {
   currentDashboardReferences: PackageReferenceWithStatus[]

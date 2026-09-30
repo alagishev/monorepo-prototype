@@ -17,17 +17,17 @@
 import { Box, capitalize, ToggleButton } from '@mui/material'
 import {
   CustomToggleButtonGroup,
-} from '@b41ex/qubership-apihub-ui-shared/components/Buttons/CustomToggleButtonGroup'
-import type { ApiType } from '@b41ex/qubership-apihub-ui-shared/entities/api-types'
+} from '@alagishev/qubership-apihub-ui-shared/components/Buttons/CustomToggleButtonGroup'
+import type { ApiType } from '@alagishev/qubership-apihub-ui-shared/entities/api-types'
 import {
   API_TYPE_ASYNCAPI,
   API_TYPE_GRAPHQL,
   API_TYPE_REST,
-} from '@b41ex/qubership-apihub-ui-shared/entities/api-types'
+} from '@alagishev/qubership-apihub-ui-shared/entities/api-types'
 import {
   DEFAULT_VIEW_MODE_MAP_BY_API_TYPE,
   OPERATION_VIEW_MODES,
-} from '@b41ex/qubership-apihub-ui-shared/entities/operation-view-mode'
+} from '@alagishev/qubership-apihub-ui-shared/entities/operation-view-mode'
 import type { FC, ReactElement } from 'react'
 import { memo } from 'react'
 import { ComparisonSelectorButton } from '../ComparisonSelectorButton'

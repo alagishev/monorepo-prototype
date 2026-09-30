@@ -8,8 +8,8 @@ import {
   SHAREABILITY_STATUS_SHAREABLE,
   SHAREABILITY_STATUS_UNKNOWN,
   type ShareabilityStatus,
-} from '@b41ex/qubership-apihub-api-processor'
-import { MenuButton } from '@b41ex/qubership-apihub-ui-shared/components/Buttons/MenuButton'
+} from '@alagishev/qubership-apihub-api-processor'
+import { MenuButton } from '@alagishev/qubership-apihub-ui-shared/components/Buttons/MenuButton'
 import { ShareabilityMarker } from './ShareabilityMarker'
 
 const DROPDOWN_OPTIONS: ShareabilityStatus[] = [

@@ -19,6 +19,6 @@ import {
   JsonSchemaDiffNodeMeta,
   JsonSchemaDiffNodeValue,
   JsonSchemaNodeKind
-} from '@b41ex/qubership-apihub-api-data-model'
+} from '@alagishev/qubership-apihub-api-data-model'
 
 export type JsonNode = IModelTreeNode<JsonSchemaDiffNodeValue, JsonSchemaNodeKind, JsonSchemaDiffNodeMeta>

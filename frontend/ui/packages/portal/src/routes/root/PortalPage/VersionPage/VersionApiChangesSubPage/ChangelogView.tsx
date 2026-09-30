@@ -22,29 +22,29 @@ import { useOperationsComparisonBrowseLinkHandlers } from '../useOperationsCompa
 import { OperationChangesSubTableWrapper } from './OperationChangesSubTableWrapper'
 import {
   usePagedVersionChangelog,
-} from '@b41ex/qubership-apihub-ui-shared/widgets/ChangesViewWidget/api/useCommonPagedVersionChangelog'
+} from '@alagishev/qubership-apihub-ui-shared/widgets/ChangesViewWidget/api/useCommonPagedVersionChangelog'
 import { useOrderedComparisonFiltersSummary } from '../useOrderedComparisonFiltersSummary'
-import type { Key } from '@b41ex/qubership-apihub-ui-shared/entities/keys'
-import type { ApiAudience, ApiKind } from '@b41ex/qubership-apihub-ui-shared/entities/operations'
-import type { OperationGroupName } from '@b41ex/qubership-apihub-ui-shared/entities/operation-groups'
+import type { Key } from '@alagishev/qubership-apihub-ui-shared/entities/keys'
+import type { ApiAudience, ApiKind } from '@alagishev/qubership-apihub-ui-shared/entities/operations'
+import type { OperationGroupName } from '@alagishev/qubership-apihub-ui-shared/entities/operation-groups'
 import {
   useSeverityFiltersSearchParam,
-} from '@b41ex/qubership-apihub-ui-shared/hooks/change-severities/useSeverityFiltersSearchParam'
+} from '@alagishev/qubership-apihub-ui-shared/hooks/change-severities/useSeverityFiltersSearchParam'
 import {
   ChangesViewTable,
   useFlatVersionChangelog,
-} from '@b41ex/qubership-apihub-ui-shared/widgets/ChangesViewWidget'
+} from '@alagishev/qubership-apihub-ui-shared/widgets/ChangesViewWidget'
 import { useCurrentPackage } from '@portal/components/CurrentPackageProvider'
 import {
   CONTENT_PLACEHOLDER_AREA,
   NO_SEARCH_RESULTS,
   Placeholder,
-} from '@b41ex/qubership-apihub-ui-shared/components/Placeholder'
-import { isNotEmpty } from '@b41ex/qubership-apihub-ui-shared/utils/arrays'
+} from '@alagishev/qubership-apihub-ui-shared/components/Placeholder'
+import { isNotEmpty } from '@alagishev/qubership-apihub-ui-shared/utils/arrays'
 import { useRefSearchParam } from '@portal/routes/root/PortalPage/useRefSearchParam'
-import type { ApiType } from '@b41ex/qubership-apihub-ui-shared/entities/api-types'
-import type { ContractType } from '@b41ex/qubership-apihub-ui-shared/entities/contract-types'
-import { DEFAULT_API_TYPE } from '@b41ex/qubership-apihub-ui-shared/entities/operations'
+import type { ApiType } from '@alagishev/qubership-apihub-ui-shared/entities/api-types'
+import type { ContractType } from '@alagishev/qubership-apihub-ui-shared/entities/contract-types'
+import { DEFAULT_API_TYPE } from '@alagishev/qubership-apihub-ui-shared/entities/operations'
 
 export type ChangelogViewProps = {
   versionKey: Key

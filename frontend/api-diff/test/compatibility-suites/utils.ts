@@ -1,4 +1,4 @@
-import { loadYaml, OriginLeafs } from '@b41ex/qubership-apihub-api-unifier'
+import { loadYaml, OriginLeafs } from '@alagishev/qubership-apihub-api-unifier'
 import {
   getCompatibilitySuite,
   getCompatibilitySuiteSpecificationVersionPairs,
@@ -7,9 +7,9 @@ import {
   TEST_SPEC_TYPE_GRAPH_QL,
   TEST_SPEC_TYPE_OPEN_API,
   TestSpecType,
-} from '@b41ex/qubership-apihub-compatibility-suites'
-import { buildFromSchema, GraphApiDirectiveDefinition } from '@b41ex/qubership-apihub-graphapi'
-import { isObject } from '@b41ex/qubership-apihub-json-crawl'
+} from '@alagishev/qubership-apihub-compatibility-suites'
+import { buildFromSchema, GraphApiDirectiveDefinition } from '@alagishev/qubership-apihub-graphapi'
+import { isObject } from '@alagishev/qubership-apihub-json-crawl'
 import { buildSchema } from 'graphql/utilities'
 import { apiDiff, CompareOptions, CompareResult, Diff, DiffType } from '../../src'
 import { RUNTIME_DIRECTIVE_LOCATIONS } from '../../src/graphapi'

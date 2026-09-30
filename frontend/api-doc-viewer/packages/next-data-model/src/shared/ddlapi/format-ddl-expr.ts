@@ -3,7 +3,7 @@ import {
   ExprKind,
   ObjectKind,
   underlyingExpr,
-} from '@b41ex/qubership-apihub-ddlapi'
+} from '@alagishev/qubership-apihub-ddlapi'
 import {
   isExprWithLiteralValue,
   isExprWithRawText,

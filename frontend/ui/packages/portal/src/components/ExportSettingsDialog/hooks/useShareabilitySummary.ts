@@ -6,7 +6,7 @@ import {
   SHAREABILITY_STATUS_SHAREABLE,
   SHAREABILITY_STATUS_UNKNOWN,
   type ShareabilityStatus,
-} from '@b41ex/qubership-apihub-api-processor'
+} from '@alagishev/qubership-apihub-api-processor'
 
 export type ShareabilitySummary = {
   shareable: number

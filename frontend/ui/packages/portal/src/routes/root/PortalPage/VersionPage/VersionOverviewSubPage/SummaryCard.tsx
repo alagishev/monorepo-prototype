@@ -17,7 +17,7 @@
 import type { FC } from 'react'
 import { memo } from 'react'
 import { SummaryTab } from './SummaryTab/SummaryTab'
-import { BodyCard } from '@b41ex/qubership-apihub-ui-shared/components/BodyCard'
+import { BodyCard } from '@alagishev/qubership-apihub-ui-shared/components/BodyCard'
 
 export const SummaryCard: FC = memo(() => {
   return (

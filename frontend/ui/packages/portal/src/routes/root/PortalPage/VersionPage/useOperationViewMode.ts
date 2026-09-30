@@ -18,18 +18,18 @@ import { useHash } from 'react-use'
 import { useNavigate, useSearchParams } from 'react-router-dom'
 import { useCallback, useEffect } from 'react'
 import type { Key } from '@portal/entities/keys'
-import type { OperationViewMode } from '@b41ex/qubership-apihub-ui-shared/entities/operation-view-mode'
+import type { OperationViewMode } from '@alagishev/qubership-apihub-ui-shared/entities/operation-view-mode'
 import {
   DOC_OPERATION_VIEW_MODE,
   SIMPLE_OPERATION_VIEW_MODE,
-} from '@b41ex/qubership-apihub-ui-shared/entities/operation-view-mode'
-import type { SchemaViewMode } from '@b41ex/qubership-apihub-ui-shared/entities/schema-view-mode'
+} from '@alagishev/qubership-apihub-ui-shared/entities/operation-view-mode'
+import type { SchemaViewMode } from '@alagishev/qubership-apihub-ui-shared/entities/schema-view-mode'
 import {
   DETAILED_SCHEMA_VIEW_MODE,
   SIMPLE_SCHEMA_VIEW_MODE,
-} from '@b41ex/qubership-apihub-ui-shared/entities/schema-view-mode'
-import { MODE_SEARCH_PARAM } from '@b41ex/qubership-apihub-ui-shared/utils/search-params'
-import { useSearchParam } from '@b41ex/qubership-apihub-ui-shared/hooks/searchparams/useSearchParam'
+} from '@alagishev/qubership-apihub-ui-shared/entities/schema-view-mode'
+import { MODE_SEARCH_PARAM } from '@alagishev/qubership-apihub-ui-shared/utils/search-params'
+import { useSearchParam } from '@alagishev/qubership-apihub-ui-shared/hooks/searchparams/useSearchParam'
 
 type OperationViewModeState = {
   mode: OperationViewMode

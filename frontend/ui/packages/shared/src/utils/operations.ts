@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-import type { GraphApiSchema } from '@b41ex/qubership-apihub-graphapi'
-import { printGraphApi as stringifyGraphQl } from '@b41ex/qubership-apihub-graphapi'
+import type { GraphApiSchema } from '@alagishev/qubership-apihub-graphapi'
+import { printGraphApi as stringifyGraphQl } from '@alagishev/qubership-apihub-graphapi'
 import type { Key } from '../entities/keys'
 import type { OperationData } from '../entities/operations'
 import { isAsyncApiOperation, isRestOperation } from '../entities/operations'
-import type { ActionType} from '@b41ex/qubership-apihub-api-diff'
-import { DiffAction } from '@b41ex/qubership-apihub-api-diff'
+import type { ActionType} from '@alagishev/qubership-apihub-api-diff'
+import { DiffAction } from '@alagishev/qubership-apihub-api-diff'
 
 export function stringifyOperation(operationData?: OperationData | null): string {
   if (!operationData) {

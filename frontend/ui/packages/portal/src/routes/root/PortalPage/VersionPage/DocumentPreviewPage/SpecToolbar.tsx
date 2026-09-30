@@ -21,23 +21,23 @@ import { usePackageVersionContent } from '@portal/routes/root/usePackageVersionC
 import ArrowBackIcon from '@mui/icons-material/ArrowBack'
 import KeyboardArrowDownOutlinedIcon from '@mui/icons-material/KeyboardArrowDownOutlined'
 import { Box, IconButton, MenuItem } from '@mui/material'
-import { MenuButton } from '@b41ex/qubership-apihub-ui-shared/components/Buttons/MenuButton'
-import type { SpecViewMode } from '@b41ex/qubership-apihub-ui-shared/components/SpecViewToggler'
-import { Toggler } from '@b41ex/qubership-apihub-ui-shared/components/Toggler'
-import { Toolbar } from '@b41ex/qubership-apihub-ui-shared/components/Toolbar'
-import { ToolbarTitle } from '@b41ex/qubership-apihub-ui-shared/components/ToolbarTitle'
-import type { SchemaViewMode } from '@b41ex/qubership-apihub-ui-shared/entities/schema-view-mode'
+import { MenuButton } from '@alagishev/qubership-apihub-ui-shared/components/Buttons/MenuButton'
+import type { SpecViewMode } from '@alagishev/qubership-apihub-ui-shared/components/SpecViewToggler'
+import { Toggler } from '@alagishev/qubership-apihub-ui-shared/components/Toggler'
+import { Toolbar } from '@alagishev/qubership-apihub-ui-shared/components/Toolbar'
+import { ToolbarTitle } from '@alagishev/qubership-apihub-ui-shared/components/ToolbarTitle'
+import type { SchemaViewMode } from '@alagishev/qubership-apihub-ui-shared/entities/schema-view-mode'
 import {
   DETAILED_SCHEMA_VIEW_MODE,
   SCHEMA_VIEW_MODES,
-} from '@b41ex/qubership-apihub-ui-shared/entities/schema-view-mode'
-import { MD_FILE_FORMAT } from '@b41ex/qubership-apihub-ui-shared/utils/files'
+} from '@alagishev/qubership-apihub-ui-shared/entities/schema-view-mode'
+import { MD_FILE_FORMAT } from '@alagishev/qubership-apihub-ui-shared/utils/files'
 import {
   isAsyncApiSpecType,
   isGraphQlSpecType,
   isOpenApiSpecType,
   UNKNOWN_SPEC_TYPE,
-} from '@b41ex/qubership-apihub-ui-shared/utils/specs'
+} from '@alagishev/qubership-apihub-ui-shared/utils/specs'
 import type { FC } from 'react'
 import { memo, useCallback } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'

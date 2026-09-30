@@ -23,11 +23,11 @@ import {
   GraphApiNodeKind,
   GraphApiNodeMeta,
   ModelTree
-} from '@b41ex/qubership-apihub-api-data-model'
-import { GraphApiState } from '@b41ex/qubership-apihub-api-state-model'
+} from '@alagishev/qubership-apihub-api-data-model'
+import { GraphApiState } from '@alagishev/qubership-apihub-api-state-model'
 import { buildGraphApi } from '../../stories/utils/helpers'
 import { prepareGraphApiSchema } from '../../stories/preprocess'
-import { stringifyCyclicJso } from '@b41ex/qubership-apihub-api-unifier'
+import { stringifyCyclicJso } from '@alagishev/qubership-apihub-api-unifier'
 import { GraphQLOperationViewer } from '../GraphQLOperationViewer/GraphQLOperationViewer'
 import './GraphQLDebugPage.css'
 

@@ -1,7 +1,7 @@
 import { DefaultSMDComponents } from '@stoplight/markdown-viewer';
 import { Box, Flex, Icon } from '@stoplight/mosaic';
 import { HttpParamStyles, IHttpOperation, IHttpRequest, NodeType } from '@stoplight/types';
-import { JsonSchemaViewer } from '@b41ex/qubership-apihub-apispec-view-json-schema-viewer';
+import { JsonSchemaViewer } from '@alagishev/qubership-apihub-apispec-view-json-schema-viewer';
 import { isObject } from 'lodash';
 import React from 'react';
 import URI from 'urijs';

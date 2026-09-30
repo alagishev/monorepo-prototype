@@ -36,7 +36,7 @@ import { getVersionInfoOptions } from '../../utils/version-info'
 // dependency and Nx refuses to run.
 //
 // This file is also what shared's own .eslintrc.json exists to prevent — it bans
-// `@b41ex/qubership-apihub-ui-portal` and `…/*` by name. A relative path matched neither
+// `@alagishev/qubership-apihub-ui-portal` and `…/*` by name. A relative path matched neither
 // pattern, so the rule was aimed at the spelling rather than at the boundary. It now covers
 // the traversal form too.
 //

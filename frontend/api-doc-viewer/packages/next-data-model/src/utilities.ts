@@ -1,5 +1,5 @@
-import { Diff } from '@b41ex/qubership-apihub-api-diff'
-import { JsonPath } from "@b41ex/qubership-apihub-json-crawl"
+import { Diff } from '@alagishev/qubership-apihub-api-diff'
+import { JsonPath } from "@alagishev/qubership-apihub-json-crawl"
 import { AbstractNodeDiffsAggregator } from "./building-service/abstract/tree-with-diffs/node-diffs-data/node-diffs-aggregator"
 
 /** Keyed crawl-time diff map attached under a diffs meta key (values are {@link Diff} or nested keyed maps). */

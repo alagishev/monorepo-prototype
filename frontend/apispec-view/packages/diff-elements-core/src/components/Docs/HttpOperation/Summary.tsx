@@ -1,11 +1,11 @@
 import * as React from "react";
 import { FC } from "react";
 import { Heading, HStack } from "@stoplight/mosaic";
-import { DeprecatedBadge } from "@b41ex/qubership-apihub-apispec-view-diff-elements-core";
-import { InternalBadge } from "@b41ex/qubership-apihub-apispec-view-diff-elements-core/components/Docs/HttpOperation/Badges";
-import { DiffBlock, useValueFromObjWithDiff, WithDiffMetaKey } from "@b41ex/qubership-apihub-apispec-view-diff-block";
-import { Diff } from "@b41ex/qubership-apihub-api-diff";
-import { buildOpenApiDiffCause } from "@b41ex/qubership-apihub-api-doc-viewer";
+import { DeprecatedBadge } from "@alagishev/qubership-apihub-apispec-view-diff-elements-core";
+import { InternalBadge } from "@alagishev/qubership-apihub-apispec-view-diff-elements-core/components/Docs/HttpOperation/Badges";
+import { DiffBlock, useValueFromObjWithDiff, WithDiffMetaKey } from "@alagishev/qubership-apihub-apispec-view-diff-block";
+import { Diff } from "@alagishev/qubership-apihub-api-diff";
+import { buildOpenApiDiffCause } from "@alagishev/qubership-apihub-api-doc-viewer";
 
 export type SummaryProps = {
   data?: WithDiffMetaKey<unknown>

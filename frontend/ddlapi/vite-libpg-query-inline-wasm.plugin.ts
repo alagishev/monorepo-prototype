@@ -38,7 +38,7 @@ const EMSCRIPTEN_FACTORY_SPECIFIER = 'virtual:libpg-query-emscripten-factory'
  *   2. inlines `libpg-query.wasm` as base64 and hands the bytes to Emscripten via
  *      `wasmBinary`, so it never touches locateFile/fetch/fs.
  *
- * Result: `@b41ex/qubership-apihub-ddlapi/parser` runs in Node, the browser and
+ * Result: `@alagishev/qubership-apihub-ddlapi/parser` runs in Node, the browser and
  * Web Workers under any bundler with zero consumer-side configuration.
  */
 export function libpgQueryInlineWasmPlugin(packageRoot: string): Plugin {

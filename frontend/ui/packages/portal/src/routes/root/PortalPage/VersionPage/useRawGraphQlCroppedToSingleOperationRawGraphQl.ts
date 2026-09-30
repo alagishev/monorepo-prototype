@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import { cropRawGraphQlDocumentToRawSingleOperationGraphQlDocument } from '@b41ex/qubership-apihub-api-processor'
+import { cropRawGraphQlDocumentToRawSingleOperationGraphQlDocument } from '@alagishev/qubership-apihub-api-processor'
 
 export function useRawGraphQlCroppedToSingleOperationRawGraphQl(
   originalGraphql: string,

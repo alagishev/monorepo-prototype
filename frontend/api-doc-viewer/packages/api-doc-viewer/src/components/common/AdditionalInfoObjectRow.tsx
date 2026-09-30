@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import { DiffRecord, isDiff } from '@b41ex/qubership-apihub-api-data-model'
+import { DiffRecord, isDiff } from '@alagishev/qubership-apihub-api-data-model'
 import {
   ActionType,
   breaking,
@@ -25,8 +25,8 @@ import {
   DiffRemove,
   DiffReplace,
   DiffType
-} from '@b41ex/qubership-apihub-api-diff'
-import { JsonPath } from '@b41ex/qubership-apihub-json-crawl'
+} from '@alagishev/qubership-apihub-api-diff'
+import { JsonPath } from '@alagishev/qubership-apihub-json-crawl'
 import type { FC, ReactNode } from 'react'
 import {
   BLOCK_CONTENT_DIFF_COLOR_MAP,

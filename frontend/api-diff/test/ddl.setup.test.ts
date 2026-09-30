@@ -1,9 +1,9 @@
-import { buildFromDdl } from '@b41ex/qubership-apihub-ddlapi/parser'
+import { buildFromDdl } from '@alagishev/qubership-apihub-ddlapi/parser'
 import {
   DDL_API_NORMALIZE_OPTIONS,
   resolveSpec,
   SPEC_TYPE_DDL_API_1,
-} from '@b41ex/qubership-apihub-api-unifier'
+} from '@alagishev/qubership-apihub-api-unifier'
 
 // Smoke test: proves the ddlapi dependency and the ddlapi-enabled api-unifier build
 // are wired up and that a Realm parsed from raw DDL is routed to the ddlapi spec type

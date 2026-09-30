@@ -18,13 +18,13 @@ import {
   SHAREABILITY_STATUS_SHAREABLE,
   SHAREABILITY_STATUSES,
   type ShareabilityStatus,
-} from '@b41ex/qubership-apihub-api-processor'
-import { AlertCustom } from '@b41ex/qubership-apihub-ui-shared/components/AlertCustom'
-import { DialogForm } from '@b41ex/qubership-apihub-ui-shared/components/DialogForm'
-import { RadioCustom } from '@b41ex/qubership-apihub-ui-shared/components/RadioCustom'
-import type { Key, PackageKey, VersionKey } from '@b41ex/qubership-apihub-ui-shared/entities/keys'
-import { InfoContextIcon } from '@b41ex/qubership-apihub-ui-shared/icons/InfoContextIcon'
-import { isExportableSpecType, type SpecType } from '@b41ex/qubership-apihub-ui-shared/utils/specs'
+} from '@alagishev/qubership-apihub-api-processor'
+import { AlertCustom } from '@alagishev/qubership-apihub-ui-shared/components/AlertCustom'
+import { DialogForm } from '@alagishev/qubership-apihub-ui-shared/components/DialogForm'
+import { RadioCustom } from '@alagishev/qubership-apihub-ui-shared/components/RadioCustom'
+import type { Key, PackageKey, VersionKey } from '@alagishev/qubership-apihub-ui-shared/entities/keys'
+import { InfoContextIcon } from '@alagishev/qubership-apihub-ui-shared/icons/InfoContextIcon'
+import { isExportableSpecType, type SpecType } from '@alagishev/qubership-apihub-ui-shared/utils/specs'
 import type { ExportConfig } from '../../../routes/root/PortalPage/useExportConfig'
 import {
   ExportedEntityKind,

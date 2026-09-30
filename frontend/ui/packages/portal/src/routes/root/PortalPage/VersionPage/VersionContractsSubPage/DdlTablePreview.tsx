@@ -1,15 +1,15 @@
 import { type FC, memo, useState } from 'react'
 
-import { ContractPreviewPanel } from '@b41ex/qubership-apihub-ui-shared/components/ContractPreviewPanel'
-import { DdlTableTitleWithMeta } from '@b41ex/qubership-apihub-ui-shared/components/Ddl/DdlTableTitleWithMeta'
-import { DdlTableViewModeToggler } from '@b41ex/qubership-apihub-ui-shared/components/Ddl/DdlTableViewModeToggler'
-import type { SpecViewMode } from '@b41ex/qubership-apihub-ui-shared/components/SpecViewToggler'
-import { DOC_SPEC_VIEW_MODE } from '@b41ex/qubership-apihub-ui-shared/components/SpecViewToggler'
+import { ContractPreviewPanel } from '@alagishev/qubership-apihub-ui-shared/components/ContractPreviewPanel'
+import { DdlTableTitleWithMeta } from '@alagishev/qubership-apihub-ui-shared/components/Ddl/DdlTableTitleWithMeta'
+import { DdlTableViewModeToggler } from '@alagishev/qubership-apihub-ui-shared/components/Ddl/DdlTableViewModeToggler'
+import type { SpecViewMode } from '@alagishev/qubership-apihub-ui-shared/components/SpecViewToggler'
+import { DOC_SPEC_VIEW_MODE } from '@alagishev/qubership-apihub-ui-shared/components/SpecViewToggler'
 import type {
   DdlContractEntity,
   DdlContractEntityDetails,
-} from '@b41ex/qubership-apihub-ui-shared/entities/contracts-ddl'
-import type { Key } from '@b41ex/qubership-apihub-ui-shared/entities/keys'
+} from '@alagishev/qubership-apihub-ui-shared/entities/contracts-ddl'
+import type { Key } from '@alagishev/qubership-apihub-ui-shared/entities/keys'
 
 import { DdlTableContentView } from './DdlTableContentView'
 

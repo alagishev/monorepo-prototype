@@ -34,7 +34,7 @@ import { VERSION_SWAPPER_HEIGHT } from '../shared-styles'
 import { useNavigation } from '../../../../NavigationProvider'
 import {
   useSeverityFiltersSearchParam,
-} from '@b41ex/qubership-apihub-ui-shared/hooks/change-severities/useSeverityFiltersSearchParam'
+} from '@alagishev/qubership-apihub-ui-shared/hooks/change-severities/useSeverityFiltersSearchParam'
 import {
   DOCUMENT_SEARCH_PARAM,
   FILTERS_SEARCH_PARAM,
@@ -43,14 +43,14 @@ import {
   PACKAGE_SEARCH_PARAM,
   REF_SEARCH_PARAM,
   VERSION_SEARCH_PARAM,
-} from '@b41ex/qubership-apihub-ui-shared/utils/search-params'
-import { useSearchParam } from '@b41ex/qubership-apihub-ui-shared/hooks/searchparams/useSearchParam'
+} from '@alagishev/qubership-apihub-ui-shared/utils/search-params'
+import { useSearchParam } from '@alagishev/qubership-apihub-ui-shared/hooks/searchparams/useSearchParam'
 import { useEventBus } from '@portal/routes/EventBusProvider'
-import { DOC_OPERATION_VIEW_MODE } from '@b41ex/qubership-apihub-ui-shared/entities/operation-view-mode'
-import { Swapper } from '@b41ex/qubership-apihub-ui-shared/components/Swapper'
-import { EditIcon } from '@b41ex/qubership-apihub-ui-shared/icons/EditIcon'
+import { DOC_OPERATION_VIEW_MODE } from '@alagishev/qubership-apihub-ui-shared/entities/operation-view-mode'
+import { Swapper } from '@alagishev/qubership-apihub-ui-shared/components/Swapper'
+import { EditIcon } from '@alagishev/qubership-apihub-ui-shared/icons/EditIcon'
 import type { ComparedPackagesBreadcrumbsData } from '@portal/routes/root/PortalPage/VersionPage/breadcrumbs'
-import type { ApiType } from '@b41ex/qubership-apihub-ui-shared/entities/api-types'
+import type { ApiType } from '@alagishev/qubership-apihub-ui-shared/entities/api-types'
 
 export type OperationsSwapperProps = {
   displayMode: OperationDisplayMode

@@ -1,7 +1,7 @@
 import { LayoutSide } from "../../../types/internal/LayoutSide"
-import { ChangedPropertyMetaData } from "@b41ex/qubership-apihub-next-data-model/model/abstract/tree-with-diffs/tree-node.interface"
-import { DdlApiForeignKeyTarget } from "@b41ex/qubership-apihub-next-data-model/model/ddlapi/tree/node-value"
-import { DdlApiForeignKeyTargetDiffs } from "@b41ex/qubership-apihub-next-data-model/model/ddlapi/tree-with-diffs/property-row-diffs"
+import { ChangedPropertyMetaData } from "@alagishev/qubership-apihub-next-data-model/model/abstract/tree-with-diffs/tree-node.interface"
+import { DdlApiForeignKeyTarget } from "@alagishev/qubership-apihub-next-data-model/model/ddlapi/tree/node-value"
+import { DdlApiForeignKeyTargetDiffs } from "@alagishev/qubership-apihub-next-data-model/model/ddlapi/tree-with-diffs/property-row-diffs"
 
 export type ColumnRowBadgesValue = {
   isPrimaryKey?: boolean

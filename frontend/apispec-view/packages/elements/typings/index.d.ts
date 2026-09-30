@@ -1,5 +1,5 @@
-import { DiffType } from '@b41ex/qubership-apihub-api-diff';
-import { DiffMetaKeys } from '@b41ex/qubership-apihub-api-doc-viewer';
+import { DiffType } from '@alagishev/qubership-apihub-api-diff';
+import { DiffMetaKeys } from '@alagishev/qubership-apihub-api-doc-viewer';
 
 declare global {
   interface HTMLElementTagNameMap {

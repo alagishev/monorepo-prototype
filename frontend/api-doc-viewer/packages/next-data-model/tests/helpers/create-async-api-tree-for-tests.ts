@@ -1,5 +1,5 @@
-import { denormalize, normalize, NormalizeOptions } from "@b41ex/qubership-apihub-api-unifier";
-import { isObject } from "@b41ex/qubership-apihub-json-crawl";
+import { denormalize, normalize, NormalizeOptions } from "@alagishev/qubership-apihub-api-unifier";
+import { isObject } from "@alagishev/qubership-apihub-json-crawl";
 import { AsyncApiTreeBuilder } from "../../src/building-service/async-api/tree/builder";
 import { AsyncApiTree } from "../../src/model/async-api/tree/tree.impl";
 

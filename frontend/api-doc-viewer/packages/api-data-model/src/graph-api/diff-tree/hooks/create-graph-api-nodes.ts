@@ -1,8 +1,8 @@
-import { buildPointer } from '@b41ex/qubership-apihub-api-unifier'
-// import { DiffType } from '@b41ex/qubership-apihub-api-diff';
-import { DiffType } from '@b41ex/qubership-apihub-api-diff'
-import { GraphApiSchema } from '@b41ex/qubership-apihub-graphapi'
-import { SyncCrawlHook } from '@b41ex/qubership-apihub-json-crawl'
+import { buildPointer } from '@alagishev/qubership-apihub-api-unifier'
+// import { DiffType } from '@alagishev/qubership-apihub-api-diff';
+import { DiffType } from '@alagishev/qubership-apihub-api-diff'
+import { GraphApiSchema } from '@alagishev/qubership-apihub-graphapi'
+import { SyncCrawlHook } from '@alagishev/qubership-apihub-json-crawl'
 import {
   crawlHooksGraphApiDiffTree,
   GraphApiDiffComplexNode,

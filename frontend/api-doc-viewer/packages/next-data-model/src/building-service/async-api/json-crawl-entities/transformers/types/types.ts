@@ -1,4 +1,4 @@
-import { JsonPath } from "@b41ex/qubership-apihub-json-crawl";
+import { JsonPath } from "@alagishev/qubership-apihub-json-crawl";
 
 export type SchemaTransformFunc<S> =
   (

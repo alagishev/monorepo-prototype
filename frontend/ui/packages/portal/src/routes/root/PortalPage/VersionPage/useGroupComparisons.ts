@@ -13,10 +13,10 @@
  * limitations under the License.
  */
 
-import type { VersionsComparison } from '@b41ex/qubership-apihub-api-processor'
-import type { Key, VersionKey } from '@b41ex/qubership-apihub-ui-shared/entities/keys'
-import type { IsLoading } from '@b41ex/qubership-apihub-ui-shared/utils/aliases'
-import { onQueryUnauthorized } from '@b41ex/qubership-apihub-ui-shared/utils/security'
+import type { VersionsComparison } from '@alagishev/qubership-apihub-api-processor'
+import type { Key, VersionKey } from '@alagishev/qubership-apihub-ui-shared/entities/keys'
+import type { IsLoading } from '@alagishev/qubership-apihub-ui-shared/utils/aliases'
+import { onQueryUnauthorized } from '@alagishev/qubership-apihub-ui-shared/utils/security'
 import { useQuery } from '@tanstack/react-query'
 import { usePackage } from '../../usePackage'
 import { getPackageVersionBuilder } from '../package-version-builder'

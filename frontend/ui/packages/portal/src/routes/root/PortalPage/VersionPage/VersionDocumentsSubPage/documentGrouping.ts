@@ -1,7 +1,7 @@
 import { groupBy, sortBy } from 'lodash-es'
 
-import { compareMcpDocumentTypes } from '@b41ex/qubership-apihub-ui-shared/entities/contracts-mcp'
-import { alphabeticallyBy } from '@b41ex/qubership-apihub-ui-shared/utils/comparers'
+import { compareMcpDocumentTypes } from '@alagishev/qubership-apihub-ui-shared/entities/contracts-mcp'
+import { alphabeticallyBy } from '@alagishev/qubership-apihub-ui-shared/utils/comparers'
 import {
   isAsyncApiSpecType,
   isDdlDocumentSpecType,
@@ -13,7 +13,7 @@ import {
   type McpDocumentType,
   PROTOBUF_3_SPEC_TYPE,
   type SpecType,
-} from '@b41ex/qubership-apihub-ui-shared/utils/specs'
+} from '@alagishev/qubership-apihub-ui-shared/utils/specs'
 
 import type { Document } from '@portal/entities/documents'
 import type { Key } from '@portal/entities/keys'

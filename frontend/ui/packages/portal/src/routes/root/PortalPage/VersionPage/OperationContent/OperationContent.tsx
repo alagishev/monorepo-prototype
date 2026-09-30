@@ -28,49 +28,49 @@ import {
 import { getFileDetails } from '@portal/utils/file-details'
 import { isAsyncApiSpecification } from '@portal/utils/internal-documents/type-guards'
 import { Box } from '@mui/material'
-import { LoadingIndicator } from '@b41ex/qubership-apihub-ui-shared/components/LoadingIndicator'
+import { LoadingIndicator } from '@alagishev/qubership-apihub-ui-shared/components/LoadingIndicator'
 import {
   CONTENT_PLACEHOLDER_AREA,
   Placeholder,
   PLACEHOLDER_MESSAGE_NO_INTERNAL_DOCUMENT,
-} from '@b41ex/qubership-apihub-ui-shared/components/Placeholder'
+} from '@alagishev/qubership-apihub-ui-shared/components/Placeholder'
 import {
   SEARCH_RAINY_DAY_PLACEHOLDER_VARIANT,
-} from '@b41ex/qubership-apihub-ui-shared/components/Placeholder/Placeholder'
-import { RawSpecDiffView } from '@b41ex/qubership-apihub-ui-shared/components/RawSpecDiffView'
-import { RawSpecView } from '@b41ex/qubership-apihub-ui-shared/components/SpecificationDialog/RawSpecView'
-import { Toggler } from '@b41ex/qubership-apihub-ui-shared/components/Toggler'
+} from '@alagishev/qubership-apihub-ui-shared/components/Placeholder/Placeholder'
+import { RawSpecDiffView } from '@alagishev/qubership-apihub-ui-shared/components/RawSpecDiffView'
+import { RawSpecView } from '@alagishev/qubership-apihub-ui-shared/components/SpecificationDialog/RawSpecView'
+import { Toggler } from '@alagishev/qubership-apihub-ui-shared/components/Toggler'
 import {
   WarningApiProcessorVersion,
-} from '@b41ex/qubership-apihub-ui-shared/components/WarningApiProcessorVersion'
-import type { ApiType } from '@b41ex/qubership-apihub-ui-shared/entities/api-types'
+} from '@alagishev/qubership-apihub-ui-shared/components/WarningApiProcessorVersion'
+import type { ApiType } from '@alagishev/qubership-apihub-ui-shared/entities/api-types'
 import {
   API_TYPE_ASYNCAPI,
   API_TYPE_GRAPHQL,
   API_TYPE_REST,
-} from '@b41ex/qubership-apihub-ui-shared/entities/api-types'
-import type { FileViewMode } from '@b41ex/qubership-apihub-ui-shared/entities/file-format-view'
-import { FILE_FORMAT_VIEW, YAML_FILE_VIEW_MODE } from '@b41ex/qubership-apihub-ui-shared/entities/file-format-view'
-import { DEFAULT_VIEW_MODE_MAP_BY_API_TYPE } from '@b41ex/qubership-apihub-ui-shared/entities/operation-view-mode'
-import type { OperationData } from '@b41ex/qubership-apihub-ui-shared/entities/operations'
+} from '@alagishev/qubership-apihub-ui-shared/entities/api-types'
+import type { FileViewMode } from '@alagishev/qubership-apihub-ui-shared/entities/file-format-view'
+import { FILE_FORMAT_VIEW, YAML_FILE_VIEW_MODE } from '@alagishev/qubership-apihub-ui-shared/entities/file-format-view'
+import { DEFAULT_VIEW_MODE_MAP_BY_API_TYPE } from '@alagishev/qubership-apihub-ui-shared/entities/operation-view-mode'
+import type { OperationData } from '@alagishev/qubership-apihub-ui-shared/entities/operations'
 import {
   DEFAULT_API_TYPE,
   isAsyncApiOperation,
   isGraphQlOperation,
-} from '@b41ex/qubership-apihub-ui-shared/entities/operations'
-import { useSystemInfo } from '@b41ex/qubership-apihub-ui-shared/features/system-info'
+} from '@alagishev/qubership-apihub-ui-shared/entities/operations'
+import { useSystemInfo } from '@alagishev/qubership-apihub-ui-shared/features/system-info'
 import {
   useSeverityFiltersSearchParam,
-} from '@b41ex/qubership-apihub-ui-shared/hooks/change-severities/useSeverityFiltersSearchParam'
-import { usePublishedDocumentRaw } from '@b41ex/qubership-apihub-ui-shared/hooks/documents/usePublishedDocumentRaw'
+} from '@alagishev/qubership-apihub-ui-shared/hooks/change-severities/useSeverityFiltersSearchParam'
+import { usePublishedDocumentRaw } from '@alagishev/qubership-apihub-ui-shared/hooks/documents/usePublishedDocumentRaw'
 import {
   useIsDocOperationViewMode,
   useIsGraphOperationViewMode,
   useIsRawOperationViewMode,
-} from '@b41ex/qubership-apihub-ui-shared/hooks/operations/useOperationMode'
+} from '@alagishev/qubership-apihub-ui-shared/hooks/operations/useOperationMode'
 import {
   useOperationsPairStringified,
-} from '@b41ex/qubership-apihub-ui-shared/hooks/operations/useOperationsPairAsStrings'
+} from '@alagishev/qubership-apihub-ui-shared/hooks/operations/useOperationsPairAsStrings'
 import type { FC, ReactNode } from 'react'
 import { memo, useCallback, useEffect, useMemo } from 'react'
 import { useParams } from 'react-router-dom'

@@ -14,7 +14,7 @@ import {
   TypeKind,
   UnsupportedType,
   UUIDType,
-} from '@b41ex/qubership-apihub-ddlapi'
+} from '@alagishev/qubership-apihub-ddlapi'
 import { isObject } from '../../../utilities'
 
 export interface PgDomainSchemaType {

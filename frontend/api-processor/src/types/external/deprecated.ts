@@ -15,7 +15,7 @@
  */
 
 import { OperationId, OperationsApiType, PackageId, VersionId } from './types'
-import { JsonPath } from '@b41ex/qubership-apihub-json-crawl'
+import { JsonPath } from '@alagishev/qubership-apihub-json-crawl'
 import { Hash } from '../package'
 
 export type VersionDeprecatedResolver = (

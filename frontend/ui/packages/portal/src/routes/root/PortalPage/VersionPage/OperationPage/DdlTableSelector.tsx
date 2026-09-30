@@ -3,13 +3,13 @@ import { Box, Button, Typography } from '@mui/material'
 import type { Path } from '@remix-run/router'
 import { type FC, memo, useCallback, useState } from 'react'
 
-import { MenuButtonItems } from '@b41ex/qubership-apihub-ui-shared/components/Buttons/MenuButton'
-import { DdlTableWithMetaList } from '@b41ex/qubership-apihub-ui-shared/components/Ddl/DdlTableWithMetaList'
-import { LoadingIndicator } from '@b41ex/qubership-apihub-ui-shared/components/LoadingIndicator'
-import { NAVIGATION_PLACEHOLDER_AREA, Placeholder } from '@b41ex/qubership-apihub-ui-shared/components/Placeholder'
-import type { DdlContractEntity } from '@b41ex/qubership-apihub-ui-shared/entities/contracts-ddl'
-import { DDL_TABLES_EMPTY_MESSAGE } from '@b41ex/qubership-apihub-ui-shared/entities/contracts-ddl'
-import { isNotEmpty } from '@b41ex/qubership-apihub-ui-shared/utils/arrays'
+import { MenuButtonItems } from '@alagishev/qubership-apihub-ui-shared/components/Buttons/MenuButton'
+import { DdlTableWithMetaList } from '@alagishev/qubership-apihub-ui-shared/components/Ddl/DdlTableWithMetaList'
+import { LoadingIndicator } from '@alagishev/qubership-apihub-ui-shared/components/LoadingIndicator'
+import { NAVIGATION_PLACEHOLDER_AREA, Placeholder } from '@alagishev/qubership-apihub-ui-shared/components/Placeholder'
+import type { DdlContractEntity } from '@alagishev/qubership-apihub-ui-shared/entities/contracts-ddl'
+import { DDL_TABLES_EMPTY_MESSAGE } from '@alagishev/qubership-apihub-ui-shared/entities/contracts-ddl'
+import { isNotEmpty } from '@alagishev/qubership-apihub-ui-shared/utils/arrays'
 
 export type DdlTableSelectorProps = {
   tables: ReadonlyArray<DdlContractEntity>

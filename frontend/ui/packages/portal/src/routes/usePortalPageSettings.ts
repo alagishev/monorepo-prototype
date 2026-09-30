@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 
-import type { ExtendedPageSettingsState } from '@b41ex/qubership-apihub-ui-shared/hooks/storages/usePageSettingsState'
-import { usePageSettingsState } from '@b41ex/qubership-apihub-ui-shared/hooks/storages/usePageSettingsState'
+import type { ExtendedPageSettingsState } from '@alagishev/qubership-apihub-ui-shared/hooks/storages/usePageSettingsState'
+import { usePageSettingsState } from '@alagishev/qubership-apihub-ui-shared/hooks/storages/usePageSettingsState'
 
 export function usePortalPageSettings(): ExtendedPageSettingsState {
   return usePageSettingsState()

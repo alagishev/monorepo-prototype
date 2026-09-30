@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-import type { OperationChanges } from '@b41ex/qubership-apihub-api-processor'
+import type { OperationChanges } from '@alagishev/qubership-apihub-api-processor'
 import type {
   Operation,
   OperationPair,
   OperationPairsGroupedByTag,
   OperationsGroupedByTag,
-} from '@b41ex/qubership-apihub-ui-shared/entities/operations'
-import { DEFAULT_TAG, EMPTY_TAG } from '@b41ex/qubership-apihub-ui-shared/entities/operations'
-import { isEmpty } from '@b41ex/qubership-apihub-ui-shared/utils/arrays'
-import { matchPaths, OPEN_API_PROPERTY_PATHS, PREDICATE_NOT_OAS_EXTENSION } from '@b41ex/qubership-apihub-api-unifier'
-import { DiffAction } from '@b41ex/qubership-apihub-api-diff'
+} from '@alagishev/qubership-apihub-ui-shared/entities/operations'
+import { DEFAULT_TAG, EMPTY_TAG } from '@alagishev/qubership-apihub-ui-shared/entities/operations'
+import { isEmpty } from '@alagishev/qubership-apihub-ui-shared/utils/arrays'
+import { matchPaths, OPEN_API_PROPERTY_PATHS, PREDICATE_NOT_OAS_EXTENSION } from '@alagishev/qubership-apihub-api-unifier'
+import { DiffAction } from '@alagishev/qubership-apihub-api-diff'
 
 export function groupOperationsByTags<T extends Operation>(
   operations: ReadonlyArray<T>,

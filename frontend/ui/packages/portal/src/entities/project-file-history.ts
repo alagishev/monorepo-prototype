@@ -15,7 +15,7 @@
  */
 
 import type { Key } from './keys'
-import type { User, UserDto } from '@b41ex/qubership-apihub-ui-shared/types/user'
+import type { User, UserDto } from '@alagishev/qubership-apihub-ui-shared/types/user'
 
 export type ProjectFileHistory = ReadonlyArray<ProjectFileChangeHistory>
 

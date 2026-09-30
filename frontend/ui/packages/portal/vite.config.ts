@@ -12,7 +12,7 @@ import createVersionJsonFilePlugin from '../../vite-create-version-json'
 import { createRequire } from 'module'
 
 // The three apispec-view assets copied below were addressed by the literal path
-// ../../node_modules/@b41ex/qubership-apihub-apispec-view/dist/... , which is
+// ../../node_modules/@alagishev/qubership-apihub-apispec-view/dist/... , which is
 // correct only while node_modules sits two levels up from this package. Resolve the
 // package entry point and take the directory beside it instead.
 //
@@ -25,7 +25,7 @@ const requireFromHere = createRequire(import.meta.url)
 // character - so an absolute Windows path matches nothing, the build still exits 0, and
 // the three assets are silently absent from dist. Measured: 431 files instead of 434.
 // Posix separators throughout.
-const apispecViewDist = path.dirname(requireFromHere.resolve('@b41ex/qubership-apihub-apispec-view'))
+const apispecViewDist = path.dirname(requireFromHere.resolve('@alagishev/qubership-apihub-apispec-view'))
   .split(path.sep)
   .join('/')
 
@@ -97,10 +97,10 @@ export default defineConfig(({ mode }) => {
       // npm link creates a symlink that points outside node_modules and by default such packages are not optimized.
       // Using "include" here forces listed packages to be optimized.
       // For example, without this setting, rolldownOptions are not being applied to the npm-linked
-      // @b41ex/qubership-apihub-api-processor during "pnpm proxy", which leads to reference errors
+      // @alagishev/qubership-apihub-api-processor during "pnpm proxy", which leads to reference errors
       // like "process is not defined" and "Buffer is not defined".
       include: [
-        '@b41ex/qubership-apihub-api-processor',
+        '@alagishev/qubership-apihub-api-processor',
       ],
       // Vite 8 pre-bundles with Rolldown, and esbuild polyfill plugins make its dependency scan fail.
       // `inject` mirrors the production build's inject() below, `define` keeps the `global` alias

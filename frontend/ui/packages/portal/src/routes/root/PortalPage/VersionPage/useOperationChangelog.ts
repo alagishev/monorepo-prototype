@@ -17,11 +17,11 @@
 import { useQuery } from '@tanstack/react-query'
 import type {
   UseOperationChangelogOptions,
-} from '@b41ex/qubership-apihub-ui-shared/widgets/ChangesViewWidget/api/getOperationChangelog'
-import { getOperationChangeLog } from '@b41ex/qubership-apihub-ui-shared/widgets/ChangesViewWidget/api/getOperationChangelog'
-import type { OperationChanges, OperationChangesDto } from '@b41ex/qubership-apihub-ui-shared/entities/operation-changelog'
-import { toOperationChanges } from '@b41ex/qubership-apihub-ui-shared/entities/operation-changelog'
-import type { IsLoading, IsSuccess } from '@b41ex/qubership-apihub-ui-shared/utils/aliases'
+} from '@alagishev/qubership-apihub-ui-shared/widgets/ChangesViewWidget/api/getOperationChangelog'
+import { getOperationChangeLog } from '@alagishev/qubership-apihub-ui-shared/widgets/ChangesViewWidget/api/getOperationChangelog'
+import type { OperationChanges, OperationChangesDto } from '@alagishev/qubership-apihub-ui-shared/entities/operation-changelog'
+import { toOperationChanges } from '@alagishev/qubership-apihub-ui-shared/entities/operation-changelog'
+import type { IsLoading, IsSuccess } from '@alagishev/qubership-apihub-ui-shared/utils/aliases'
 import { useMemo } from 'react'
 
 const OPERATION_CHANGELOG = 'operation-changelog-query-key'

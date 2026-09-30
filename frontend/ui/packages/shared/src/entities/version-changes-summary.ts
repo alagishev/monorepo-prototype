@@ -17,8 +17,8 @@
 import type {
   DiffTypeDto,
   OperationType,
-} from '@b41ex/qubership-apihub-api-processor'
-import { convertDtoFieldOperationTypes } from '@b41ex/qubership-apihub-api-processor'
+} from '@alagishev/qubership-apihub-api-processor'
+import { convertDtoFieldOperationTypes } from '@alagishev/qubership-apihub-api-processor'
 
 import type { PackageRef, PackagesRefs } from './operations'
 import { toPackageRef } from './operations'

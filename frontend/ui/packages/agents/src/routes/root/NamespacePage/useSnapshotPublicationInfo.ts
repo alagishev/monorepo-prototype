@@ -29,16 +29,16 @@ import type {
   IsInitialLoading,
   IsLoading,
   IsSuccess,
-} from '@b41ex/qubership-apihub-ui-shared/utils/aliases'
-import type { SnapshotKey } from '@b41ex/qubership-apihub-ui-shared/entities/keys'
+} from '@alagishev/qubership-apihub-ui-shared/utils/aliases'
+import type { SnapshotKey } from '@alagishev/qubership-apihub-ui-shared/entities/keys'
 import {
   useCreateSnapshotPublicationOptions,
 } from './ServicesPage/ServicesPageProvider/ServicesPublicationOptionsProvider'
-import { WORKSPACE_SEARCH_PARAM } from '@b41ex/qubership-apihub-ui-shared/utils/search-params'
-import { useSearchParam } from '@b41ex/qubership-apihub-ui-shared/hooks/searchparams/useSearchParam'
+import { WORKSPACE_SEARCH_PARAM } from '@alagishev/qubership-apihub-ui-shared/utils/search-params'
+import { useSearchParam } from '@alagishev/qubership-apihub-ui-shared/hooks/searchparams/useSearchParam'
 import {
   useGetAgentPrefix,
-} from '@b41ex/qubership-apihub-ui-shared/features/system-extensions/useSystemExtensions'
+} from '@alagishev/qubership-apihub-ui-shared/features/system-extensions/useSystemExtensions'
 
 const SNAPSHOT_PUBLICATION_INFO_QUERY_KEY = 'snapshot-publish-info-query-key'
 

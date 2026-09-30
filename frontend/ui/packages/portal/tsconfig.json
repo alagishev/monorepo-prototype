@@ -17,10 +17,10 @@
       "@portal/utils/*": [
         "./src/utils/*"
       ],
-      "@b41ex/qubership-apihub-ui-shared": [
+      "@alagishev/qubership-apihub-ui-shared": [
         "./../shared/src"
       ],
-      "@b41ex/qubership-apihub-ui-shared/*": [
+      "@alagishev/qubership-apihub-ui-shared/*": [
         "./../shared/src/*"
       ]
     }

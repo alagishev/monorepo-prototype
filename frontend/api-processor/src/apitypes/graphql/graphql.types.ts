@@ -15,7 +15,7 @@
  */
 
 import { GRAPHQL_DOCUMENT_TYPE, GRAPHQL_TYPE } from './graphql.consts'
-import { GraphApiSchema } from '@b41ex/qubership-apihub-graphapi'
+import { GraphApiSchema } from '@alagishev/qubership-apihub-graphapi'
 
 import type { ApiOperation, VersionDocument } from '../../types'
 

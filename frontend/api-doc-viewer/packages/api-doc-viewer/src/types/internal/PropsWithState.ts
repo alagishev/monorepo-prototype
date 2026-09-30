@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 
-import { IModelStateCombinaryNode, IModelStatePropNode } from '@b41ex/qubership-apihub-api-state-model'
-import { GraphApiDiffTreeNode, GraphApiTreeNode, JsonSchemaDiffTreeNode } from '@b41ex/qubership-apihub-api-data-model'
+import { IModelStateCombinaryNode, IModelStatePropNode } from '@alagishev/qubership-apihub-api-state-model'
+import { GraphApiDiffTreeNode, GraphApiTreeNode, JsonSchemaDiffTreeNode } from '@alagishev/qubership-apihub-api-data-model'
 import { AnyTreeNode } from '../aliases/nodes'
 
 export type GraphPropNodePropsWithState = {

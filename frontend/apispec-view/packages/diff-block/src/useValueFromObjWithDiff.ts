@@ -1,7 +1,7 @@
 import { useDiffContext } from './DiffContext';
 import { applyReplacedFromMeta } from './util';
-import { useDiffsMetaKey } from '@b41ex/qubership-apihub-apispec-view/containers/DiffsMetaKeyContext';
-import { DiffAction } from '@b41ex/qubership-apihub-api-diff';
+import { useDiffsMetaKey } from '@alagishev/qubership-apihub-apispec-view/containers/DiffsMetaKeyContext';
+import { DiffAction } from '@alagishev/qubership-apihub-api-diff';
 
 export function useValueFromObjWithDiff(data: any, key: string): unknown {
   const diffMetaKey = useDiffsMetaKey();

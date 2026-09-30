@@ -193,13 +193,13 @@ importers:
 
   frontend/api-diff:
     dependencies:
-      '@b41ex/qubership-apihub-api-unifier':
+      '@alagishev/qubership-apihub-api-unifier':
         specifier: workspace:^
         version: link:../api-unifier
-      '@b41ex/qubership-apihub-ddlapi':
+      '@alagishev/qubership-apihub-ddlapi':
         specifier: workspace:^
         version: link:../ddlapi
-      '@b41ex/qubership-apihub-json-crawl':
+      '@alagishev/qubership-apihub-json-crawl':
         specifier: workspace:^
         version: link:../json-crawl
       fast-equals:
@@ -209,10 +209,10 @@ importers:
       '@asyncapi/parser':
         specifier: 3.6.0
         version: 3.6.0(encoding@0.1.13)
-      '@b41ex/qubership-apihub-compatibility-suites':
+      '@alagishev/qubership-apihub-compatibility-suites':
         specifier: workspace:^
         version: link:../compatibility-suites
-      '@b41ex/qubership-apihub-graphapi':
+      '@alagishev/qubership-apihub-graphapi':
         specifier: workspace:^
         version: link:../graphapi
       '@types/jest':
@@ -281,26 +281,26 @@ importers:
 
   frontend/api-doc-viewer:
     dependencies:
-      '@b41ex/qubership-apihub-api-diff':
+      '@alagishev/qubership-apihub-api-diff':
         specifier: workspace:^
         version: link:../api-diff
-      '@b41ex/qubership-apihub-api-unifier':
+      '@alagishev/qubership-apihub-api-unifier':
         specifier: workspace:^
         version: link:../api-unifier
-      '@b41ex/qubership-apihub-ddlapi':
+      '@alagishev/qubership-apihub-ddlapi':
         specifier: workspace:^
         version: link:../ddlapi
-      '@b41ex/qubership-apihub-graphapi':
+      '@alagishev/qubership-apihub-graphapi':
         specifier: workspace:^
         version: link:../graphapi
-      '@b41ex/qubership-apihub-json-crawl':
+      '@alagishev/qubership-apihub-json-crawl':
         specifier: workspace:^
         version: link:../json-crawl
     devDependencies:
-      '@b41ex/qubership-apihub-compatibility-suites':
+      '@alagishev/qubership-apihub-compatibility-suites':
         specifier: workspace:^
         version: link:../compatibility-suites
-      '@b41ex/qubership-apihub-jest-chrome-in-docker-environment':
+      '@alagishev/qubership-apihub-jest-chrome-in-docker-environment':
         specifier: workspace:^
         version: link:../../tools/jest-chrome-in-docker-environment
       '@types/jest':
@@ -351,16 +351,16 @@ importers:
 
   frontend/api-doc-viewer/packages/api-data-model:
     dependencies:
-      '@b41ex/qubership-apihub-api-diff':
+      '@alagishev/qubership-apihub-api-diff':
         specifier: workspace:^
         version: link:../../../api-diff
-      '@b41ex/qubership-apihub-api-unifier':
+      '@alagishev/qubership-apihub-api-unifier':
         specifier: workspace:^
         version: link:../../../api-unifier
-      '@b41ex/qubership-apihub-graphapi':
+      '@alagishev/qubership-apihub-graphapi':
         specifier: workspace:^
         version: link:../../../graphapi
-      '@b41ex/qubership-apihub-json-crawl':
+      '@alagishev/qubership-apihub-json-crawl':
         specifier: workspace:^
         version: link:../../../json-crawl
       graphql:
@@ -388,22 +388,22 @@ importers:
 
   frontend/api-doc-viewer/packages/api-doc-viewer:
     dependencies:
-      '@b41ex/qubership-apihub-api-diff':
+      '@alagishev/qubership-apihub-api-diff':
         specifier: workspace:^
         version: link:../../../api-diff
-      '@b41ex/qubership-apihub-api-unifier':
+      '@alagishev/qubership-apihub-api-unifier':
         specifier: workspace:^
         version: link:../../../api-unifier
-      '@b41ex/qubership-apihub-compatibility-suites':
+      '@alagishev/qubership-apihub-compatibility-suites':
         specifier: workspace:^
         version: link:../../../compatibility-suites
-      '@b41ex/qubership-apihub-ddlapi':
+      '@alagishev/qubership-apihub-ddlapi':
         specifier: workspace:^
         version: link:../../../ddlapi
-      '@b41ex/qubership-apihub-graphapi':
+      '@alagishev/qubership-apihub-graphapi':
         specifier: workspace:^
         version: link:../../../graphapi
-      '@b41ex/qubership-apihub-json-crawl':
+      '@alagishev/qubership-apihub-json-crawl':
         specifier: workspace:^
         version: link:../../../json-crawl
       lodash-es:
@@ -431,19 +431,19 @@ importers:
       '@asyncapi/parser':
         specifier: ^3.4.0
         version: 3.6.0(encoding@0.1.13)
-      '@b41ex/qubership-apihub-api-data-model':
+      '@alagishev/qubership-apihub-api-data-model':
         specifier: workspace:*
         version: link:../api-data-model
-      '@b41ex/qubership-apihub-api-state-model':
+      '@alagishev/qubership-apihub-api-state-model':
         specifier: workspace:*
         version: link:../api-state-model
-      '@b41ex/qubership-apihub-jest-chrome-in-docker-environment':
+      '@alagishev/qubership-apihub-jest-chrome-in-docker-environment':
         specifier: workspace:^
         version: link:../../../../tools/jest-chrome-in-docker-environment
-      '@b41ex/qubership-apihub-next-data-model':
+      '@alagishev/qubership-apihub-next-data-model':
         specifier: workspace:*
         version: link:../next-data-model
-      '@b41ex/qubership-apihub-samples':
+      '@alagishev/qubership-apihub-samples':
         specifier: workspace:*
         version: link:../samples
       '@clack/prompts':
@@ -551,10 +551,10 @@ importers:
 
   frontend/api-doc-viewer/packages/api-state-model:
     dependencies:
-      '@b41ex/qubership-apihub-api-data-model':
+      '@alagishev/qubership-apihub-api-data-model':
         specifier: workspace:*
         version: link:../api-data-model
-      '@b41ex/qubership-apihub-graphapi':
+      '@alagishev/qubership-apihub-graphapi':
         specifier: workspace:^
         version: link:../../../graphapi
 
@@ -563,16 +563,16 @@ importers:
       '@asyncapi/parser':
         specifier: 3.6.0
         version: 3.6.0(encoding@0.1.13)
-      '@b41ex/qubership-apihub-api-diff':
+      '@alagishev/qubership-apihub-api-diff':
         specifier: workspace:^
         version: link:../../../api-diff
-      '@b41ex/qubership-apihub-api-unifier':
+      '@alagishev/qubership-apihub-api-unifier':
         specifier: workspace:^
         version: link:../../../api-unifier
-      '@b41ex/qubership-apihub-ddlapi':
+      '@alagishev/qubership-apihub-ddlapi':
         specifier: workspace:^
         version: link:../../../ddlapi
-      '@b41ex/qubership-apihub-json-crawl':
+      '@alagishev/qubership-apihub-json-crawl':
         specifier: workspace:^
         version: link:../../../json-crawl
     devDependencies:
@@ -596,19 +596,19 @@ importers:
       '@asyncapi/parser':
         specifier: ^3.6.0
         version: 3.6.0(encoding@0.1.13)
-      '@b41ex/qubership-apihub-api-diff':
+      '@alagishev/qubership-apihub-api-diff':
         specifier: workspace:^
         version: link:../api-diff
-      '@b41ex/qubership-apihub-api-unifier':
+      '@alagishev/qubership-apihub-api-unifier':
         specifier: workspace:^
         version: link:../api-unifier
-      '@b41ex/qubership-apihub-ddlapi':
+      '@alagishev/qubership-apihub-ddlapi':
         specifier: workspace:^
         version: link:../ddlapi
-      '@b41ex/qubership-apihub-graphapi':
+      '@alagishev/qubership-apihub-graphapi':
         specifier: workspace:^
         version: link:../graphapi
-      '@b41ex/qubership-apihub-json-crawl':
+      '@alagishev/qubership-apihub-json-crawl':
         specifier: workspace:^
         version: link:../json-crawl
       adm-zip:
@@ -733,13 +733,13 @@ importers:
 
   frontend/api-unifier:
     dependencies:
-      '@b41ex/qubership-apihub-ddlapi':
+      '@alagishev/qubership-apihub-ddlapi':
         specifier: workspace:^
         version: link:../ddlapi
-      '@b41ex/qubership-apihub-graphapi':
+      '@alagishev/qubership-apihub-graphapi':
         specifier: workspace:^
         version: link:../graphapi
-      '@b41ex/qubership-apihub-json-crawl':
+      '@alagishev/qubership-apihub-json-crawl':
         specifier: workspace:^
         version: link:../json-crawl
       fast-equals:
@@ -830,10 +830,10 @@ importers:
 
   frontend/api-visitor:
     dependencies:
-      '@b41ex/qubership-apihub-api-unifier':
+      '@alagishev/qubership-apihub-api-unifier':
         specifier: workspace:^
         version: link:../api-unifier
-      '@b41ex/qubership-apihub-json-crawl':
+      '@alagishev/qubership-apihub-json-crawl':
         specifier: workspace:^
         version: link:../json-crawl
     devDependencies:
@@ -888,22 +888,22 @@ importers:
 
   frontend/apispec-view:
     devDependencies:
-      '@b41ex/qubership-apihub-api-diff':
+      '@alagishev/qubership-apihub-api-diff':
         specifier: workspace:^
         version: link:../api-diff
-      '@b41ex/qubership-apihub-api-doc-viewer':
+      '@alagishev/qubership-apihub-api-doc-viewer':
         specifier: workspace:^
         version: link:../api-doc-viewer/packages/api-doc-viewer
-      '@b41ex/qubership-apihub-api-unifier':
+      '@alagishev/qubership-apihub-api-unifier':
         specifier: workspace:^
         version: link:../api-unifier
-      '@b41ex/qubership-apihub-compatibility-suites':
+      '@alagishev/qubership-apihub-compatibility-suites':
         specifier: workspace:^
         version: link:../compatibility-suites
-      '@b41ex/qubership-apihub-http-spec':
+      '@alagishev/qubership-apihub-http-spec':
         specifier: workspace:^
         version: link:../http-spec
-      '@b41ex/qubership-apihub-jest-chrome-in-docker-environment':
+      '@alagishev/qubership-apihub-jest-chrome-in-docker-environment':
         specifier: workspace:^
         version: link:../../tools/jest-chrome-in-docker-environment
       '@babel/core':
@@ -1290,7 +1290,7 @@ importers:
 
   frontend/apispec-view/packages/diff-block:
     devDependencies:
-      '@b41ex/qubership-apihub-api-diff':
+      '@alagishev/qubership-apihub-api-diff':
         specifier: workspace:^
         version: link:../../../api-diff
       '@stoplight/mosaic':
@@ -1315,13 +1315,13 @@ importers:
         specifier: 4.10.1
         version: 4.10.1
     devDependencies:
-      '@b41ex/qubership-apihub-api-diff':
+      '@alagishev/qubership-apihub-api-diff':
         specifier: workspace:^
         version: link:../../../api-diff
-      '@b41ex/qubership-apihub-api-doc-viewer':
+      '@alagishev/qubership-apihub-api-doc-viewer':
         specifier: workspace:^
         version: link:../../../api-doc-viewer/packages/api-doc-viewer
-      '@b41ex/qubership-apihub-http-spec':
+      '@alagishev/qubership-apihub-http-spec':
         specifier: workspace:^
         version: link:../../../http-spec
       '@fortawesome/free-solid-svg-icons':
@@ -1421,25 +1421,25 @@ importers:
         specifier: 2.0.2
         version: 2.0.2
     devDependencies:
-      '@b41ex/qubership-apihub-api-diff':
+      '@alagishev/qubership-apihub-api-diff':
         specifier: workspace:^
         version: link:../../../api-diff
-      '@b41ex/qubership-apihub-api-doc-viewer':
+      '@alagishev/qubership-apihub-api-doc-viewer':
         specifier: workspace:^
         version: link:../../../api-doc-viewer/packages/api-doc-viewer
-      '@b41ex/qubership-apihub-api-unifier':
+      '@alagishev/qubership-apihub-api-unifier':
         specifier: workspace:^
         version: link:../../../api-unifier
-      '@b41ex/qubership-apihub-apispec-view-samples':
+      '@alagishev/qubership-apihub-apispec-view-samples':
         specifier: workspace:*
         version: link:../samples
-      '@b41ex/qubership-apihub-compatibility-suites':
+      '@alagishev/qubership-apihub-compatibility-suites':
         specifier: workspace:^
         version: link:../../../compatibility-suites
-      '@b41ex/qubership-apihub-http-spec':
+      '@alagishev/qubership-apihub-http-spec':
         specifier: workspace:^
         version: link:../../../http-spec
-      '@b41ex/qubership-apihub-jest-chrome-in-docker-environment':
+      '@alagishev/qubership-apihub-jest-chrome-in-docker-environment':
         specifier: workspace:^
         version: link:../../../../tools/jest-chrome-in-docker-environment
       '@fortawesome/fontawesome-svg-core':
@@ -1539,13 +1539,13 @@ importers:
         specifier: 2.0.2
         version: 2.0.2
     devDependencies:
-      '@b41ex/qubership-apihub-api-doc-viewer':
+      '@alagishev/qubership-apihub-api-doc-viewer':
         specifier: workspace:^
         version: link:../../../api-doc-viewer/packages/api-doc-viewer
-      '@b41ex/qubership-apihub-api-unifier':
+      '@alagishev/qubership-apihub-api-unifier':
         specifier: workspace:^
         version: link:../../../api-unifier
-      '@b41ex/qubership-apihub-http-spec':
+      '@alagishev/qubership-apihub-http-spec':
         specifier: workspace:^
         version: link:../../../http-spec
       '@fortawesome/free-solid-svg-icons':
@@ -1644,7 +1644,7 @@ importers:
 
   frontend/apispec-view/packages/json-schema-diff-viewer:
     devDependencies:
-      '@b41ex/qubership-apihub-api-diff':
+      '@alagishev/qubership-apihub-api-diff':
         specifier: workspace:^
         version: link:../../../api-diff
       '@fortawesome/fontawesome-svg-core':
@@ -1746,7 +1746,7 @@ importers:
 
   frontend/build-task-consumer:
     dependencies:
-      '@b41ex/qubership-apihub-api-processor':
+      '@alagishev/qubership-apihub-api-processor':
         specifier: workspace:^
         version: link:../api-processor
       '@nestjs/axios':
@@ -1798,7 +1798,7 @@ importers:
         specifier: ^11.1.0
         version: 11.1.1
     devDependencies:
-      '@b41ex/qubership-apihub-api-unifier':
+      '@alagishev/qubership-apihub-api-unifier':
         specifier: workspace:^
         version: link:../api-unifier
       '@nestjs/cli':
@@ -1901,7 +1901,7 @@ importers:
         specifier: ^1.0.0
         version: 1.5.0
     devDependencies:
-      '@b41ex/qubership-apihub-jest-chrome-in-docker-environment':
+      '@alagishev/qubership-apihub-jest-chrome-in-docker-environment':
         specifier: workspace:^
         version: link:../../tools/jest-chrome-in-docker-environment
       '@storybook/addon-actions':
@@ -2345,7 +2345,7 @@ importers:
         specifier: 0.52.2
         version: 0.52.2
     devDependencies:
-      '@b41ex/qubership-apihub-http-spec':
+      '@alagishev/qubership-apihub-http-spec':
         specifier: workspace:^
         version: link:../http-spec
       '@babel/core':
@@ -2666,34 +2666,34 @@ importers:
       '@asyncapi/parser':
         specifier: 3.6.0
         version: 3.6.0(encoding@0.1.13)
-      '@b41ex/qubership-apihub-api-diff':
+      '@alagishev/qubership-apihub-api-diff':
         specifier: workspace:^
         version: link:../api-diff
-      '@b41ex/qubership-apihub-api-doc-viewer':
+      '@alagishev/qubership-apihub-api-doc-viewer':
         specifier: workspace:^
         version: link:../api-doc-viewer/packages/api-doc-viewer
-      '@b41ex/qubership-apihub-api-processor':
+      '@alagishev/qubership-apihub-api-processor':
         specifier: workspace:^
         version: link:../api-processor
-      '@b41ex/qubership-apihub-api-unifier':
+      '@alagishev/qubership-apihub-api-unifier':
         specifier: workspace:^
         version: link:../api-unifier
-      '@b41ex/qubership-apihub-api-visitor':
+      '@alagishev/qubership-apihub-api-visitor':
         specifier: workspace:^
         version: link:../api-visitor
-      '@b41ex/qubership-apihub-apispec-view':
+      '@alagishev/qubership-apihub-apispec-view':
         specifier: workspace:^
         version: link:../apispec-view/packages/elements
-      '@b41ex/qubership-apihub-class-view':
+      '@alagishev/qubership-apihub-class-view':
         specifier: workspace:^
         version: link:../class-view
-      '@b41ex/qubership-apihub-ddlapi':
+      '@alagishev/qubership-apihub-ddlapi':
         specifier: workspace:^
         version: link:../ddlapi
-      '@b41ex/qubership-apihub-graphapi':
+      '@alagishev/qubership-apihub-graphapi':
         specifier: workspace:^
         version: link:../graphapi
-      '@b41ex/qubership-apihub-rest-playground':
+      '@alagishev/qubership-apihub-rest-playground':
         specifier: workspace:^
         version: link:../rest-playground
       '@emotion/react':
@@ -3054,7 +3054,7 @@ importers:
 
   frontend/ui/packages/agents:
     dependencies:
-      '@b41ex/qubership-apihub-api-processor':
+      '@alagishev/qubership-apihub-api-processor':
         specifier: workspace:^
         version: link:../../../api-processor
       '@graphql-tools/merge':
@@ -3133,7 +3133,7 @@ importers:
         specifier: ^11.1.0
         version: 11.1.1
     devDependencies:
-      '@b41ex/qubership-apihub-ui-shared':
+      '@alagishev/qubership-apihub-ui-shared':
         specifier: workspace:*
         version: link:../shared
       '@rollup/plugin-inject':
@@ -3196,37 +3196,37 @@ importers:
       '@asyncapi/parser':
         specifier: 3.6.0
         version: 3.6.0(encoding@0.1.13)
-      '@b41ex/qubership-apihub-api-diff':
+      '@alagishev/qubership-apihub-api-diff':
         specifier: workspace:^
         version: link:../../../api-diff
-      '@b41ex/qubership-apihub-api-doc-viewer':
+      '@alagishev/qubership-apihub-api-doc-viewer':
         specifier: workspace:^
         version: link:../../../api-doc-viewer/packages/api-doc-viewer
-      '@b41ex/qubership-apihub-api-processor':
+      '@alagishev/qubership-apihub-api-processor':
         specifier: workspace:^
         version: link:../../../api-processor
-      '@b41ex/qubership-apihub-api-unifier':
+      '@alagishev/qubership-apihub-api-unifier':
         specifier: workspace:^
         version: link:../../../api-unifier
-      '@b41ex/qubership-apihub-api-visitor':
+      '@alagishev/qubership-apihub-api-visitor':
         specifier: workspace:^
         version: link:../../../api-visitor
-      '@b41ex/qubership-apihub-apispec-view':
+      '@alagishev/qubership-apihub-apispec-view':
         specifier: workspace:^
         version: link:../../../apispec-view/packages/elements
-      '@b41ex/qubership-apihub-class-view':
+      '@alagishev/qubership-apihub-class-view':
         specifier: workspace:^
         version: link:../../../class-view
-      '@b41ex/qubership-apihub-ddlapi':
+      '@alagishev/qubership-apihub-ddlapi':
         specifier: workspace:^
         version: link:../../../ddlapi
-      '@b41ex/qubership-apihub-graphapi':
+      '@alagishev/qubership-apihub-graphapi':
         specifier: workspace:^
         version: link:../../../graphapi
-      '@b41ex/qubership-apihub-json-crawl':
+      '@alagishev/qubership-apihub-json-crawl':
         specifier: workspace:^
         version: link:../../../json-crawl
-      '@b41ex/qubership-apihub-rest-playground':
+      '@alagishev/qubership-apihub-rest-playground':
         specifier: workspace:^
         version: link:../../../rest-playground
       '@lit-labs/react':
@@ -3362,7 +3362,7 @@ importers:
         specifier: ^11.1.0
         version: 11.1.1
     devDependencies:
-      '@b41ex/qubership-apihub-ui-shared':
+      '@alagishev/qubership-apihub-ui-shared':
         specifier: workspace:*
         version: link:../shared
       '@rollup/plugin-inject':
@@ -3461,31 +3461,31 @@ importers:
 
   frontend/ui/packages/shared:
     dependencies:
-      '@b41ex/qubership-apihub-api-diff':
+      '@alagishev/qubership-apihub-api-diff':
         specifier: workspace:^
         version: link:../../../api-diff
-      '@b41ex/qubership-apihub-api-doc-viewer':
+      '@alagishev/qubership-apihub-api-doc-viewer':
         specifier: workspace:^
         version: link:../../../api-doc-viewer/packages/api-doc-viewer
-      '@b41ex/qubership-apihub-api-processor':
+      '@alagishev/qubership-apihub-api-processor':
         specifier: workspace:^
         version: link:../../../api-processor
-      '@b41ex/qubership-apihub-api-unifier':
+      '@alagishev/qubership-apihub-api-unifier':
         specifier: workspace:^
         version: link:../../../api-unifier
-      '@b41ex/qubership-apihub-api-visitor':
+      '@alagishev/qubership-apihub-api-visitor':
         specifier: workspace:^
         version: link:../../../api-visitor
-      '@b41ex/qubership-apihub-apispec-view':
+      '@alagishev/qubership-apihub-apispec-view':
         specifier: workspace:^
         version: link:../../../apispec-view/packages/elements
-      '@b41ex/qubership-apihub-class-view':
+      '@alagishev/qubership-apihub-class-view':
         specifier: workspace:^
         version: link:../../../class-view
-      '@b41ex/qubership-apihub-graphapi':
+      '@alagishev/qubership-apihub-graphapi':
         specifier: workspace:^
         version: link:../../../graphapi
-      '@b41ex/qubership-apihub-json-crawl':
+      '@alagishev/qubership-apihub-json-crawl':
         specifier: workspace:^
         version: link:../../../json-crawl
       '@emotion/react':

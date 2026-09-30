@@ -33,18 +33,18 @@ import {
   Typography,
 } from '@mui/material'
 import { LoadingButton } from '@mui/lab'
-import { DialogForm } from '@b41ex/qubership-apihub-ui-shared/components/DialogForm'
-import type { IsLoading } from '@b41ex/qubership-apihub-ui-shared/utils/aliases'
+import { DialogForm } from '@alagishev/qubership-apihub-ui-shared/components/DialogForm'
+import type { IsLoading } from '@alagishev/qubership-apihub-ui-shared/utils/aliases'
 import ExpandMoreOutlinedIcon from '@mui/icons-material/ExpandMoreOutlined'
 import { TemplateUpload } from './TemplateUpload'
-import { InfoContextIcon } from '@b41ex/qubership-apihub-ui-shared/icons/InfoContextIcon'
-import type { ApiType } from '@b41ex/qubership-apihub-ui-shared/entities/api-types'
+import { InfoContextIcon } from '@alagishev/qubership-apihub-ui-shared/icons/InfoContextIcon'
+import type { ApiType } from '@alagishev/qubership-apihub-ui-shared/entities/api-types'
 import {
   API_TYPE_ASYNCAPI,
   API_TYPE_GRAPHQL,
   API_TYPE_REST,
   API_TYPE_TITLE_MAP,
-} from '@b41ex/qubership-apihub-ui-shared/entities/api-types'
+} from '@alagishev/qubership-apihub-ui-shared/entities/api-types'
 
 export type OperationGroupParameters = {
   groupName: string

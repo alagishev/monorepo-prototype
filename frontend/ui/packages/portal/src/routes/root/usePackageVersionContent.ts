@@ -16,18 +16,18 @@
 
 import type { QueryKey, UseQueryOptions } from '@tanstack/react-query'
 import { useQuery, useQueryClient } from '@tanstack/react-query'
-import type { Key, VersionKey } from '@b41ex/qubership-apihub-ui-shared/entities/keys'
+import type { Key, VersionKey } from '@alagishev/qubership-apihub-ui-shared/entities/keys'
 import type {
   PackageVersionContent,
   PackageVersionContentDto,
-} from '@b41ex/qubership-apihub-ui-shared/entities/version-contents'
-import type { InvalidateQuery, IsLoading, RefetchQuery } from '@b41ex/qubership-apihub-ui-shared/utils/aliases'
-import { SPECIAL_VERSION_KEY } from '@b41ex/qubership-apihub-ui-shared/entities/versions'
-import { DEFAULT_REFETCH_INTERVAL } from '@b41ex/qubership-apihub-ui-shared/utils/requests'
+} from '@alagishev/qubership-apihub-ui-shared/entities/version-contents'
+import type { InvalidateQuery, IsLoading, RefetchQuery } from '@alagishev/qubership-apihub-ui-shared/utils/aliases'
+import { SPECIAL_VERSION_KEY } from '@alagishev/qubership-apihub-ui-shared/entities/versions'
+import { DEFAULT_REFETCH_INTERVAL } from '@alagishev/qubership-apihub-ui-shared/utils/requests'
 import {
   getPackageVersionContent, PACKAGE_VERSION_CONTENT_QUERY_KEY,
   toPackageVersionContent,
-} from '@b41ex/qubership-apihub-ui-shared/hooks/package-version-content/usePackageVersionContent'
+} from '@alagishev/qubership-apihub-ui-shared/hooks/package-version-content/usePackageVersionContent'
 
 type InvalidateVersion = {
   packageKey: Key

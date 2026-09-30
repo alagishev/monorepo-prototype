@@ -15,9 +15,9 @@
  */
 
 import { useMemo } from 'react'
-import type { Key } from '@b41ex/qubership-apihub-ui-shared/entities/keys'
-import { useSearchParam } from '@b41ex/qubership-apihub-ui-shared/hooks/searchparams/useSearchParam'
-import { useSetSearchParams } from '@b41ex/qubership-apihub-ui-shared/hooks/searchparams/useSetSearchParams'
+import type { Key } from '@alagishev/qubership-apihub-ui-shared/entities/keys'
+import { useSearchParam } from '@alagishev/qubership-apihub-ui-shared/hooks/searchparams/useSearchParam'
+import { useSetSearchParams } from '@alagishev/qubership-apihub-ui-shared/hooks/searchparams/useSetSearchParams'
 
 export function useChangeSearchParam(): [Key | undefined, SetEditorSelectedChangeKey] {
   const param = useSearchParam<Key>('change')

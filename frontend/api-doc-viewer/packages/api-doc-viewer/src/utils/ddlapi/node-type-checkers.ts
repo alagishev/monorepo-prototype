@@ -1,10 +1,10 @@
-import { SimpleTreeNodeWithDiffs } from "@b41ex/qubership-apihub-next-data-model/model/abstract/tree-with-diffs/simple-node.impl"
-import { ITreeNode } from "@b41ex/qubership-apihub-next-data-model/model/abstract/tree/tree-node.interface"
-import { DdlApiTreeNode, DdlApiTreeNodeWithDiffs } from "@b41ex/qubership-apihub-next-data-model/model/ddlapi/types/aliases"
+import { SimpleTreeNodeWithDiffs } from "@alagishev/qubership-apihub-next-data-model/model/abstract/tree-with-diffs/simple-node.impl"
+import { ITreeNode } from "@alagishev/qubership-apihub-next-data-model/model/abstract/tree/tree-node.interface"
+import { DdlApiTreeNode, DdlApiTreeNodeWithDiffs } from "@alagishev/qubership-apihub-next-data-model/model/ddlapi/types/aliases"
 import {
   DdlApiTreeNodeKinds,
   DdlApiTreeNodeKindsList,
-} from "@b41ex/qubership-apihub-next-data-model/model/ddlapi/types/node-kind"
+} from "@alagishev/qubership-apihub-next-data-model/model/ddlapi/types/node-kind"
 
 export function isDdlApiTreeNode(node: ITreeNode): node is DdlApiTreeNode {
   return (DdlApiTreeNodeKindsList as readonly string[]).includes(node.kind)

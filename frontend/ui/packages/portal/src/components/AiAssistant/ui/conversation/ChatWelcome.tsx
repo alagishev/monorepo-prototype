@@ -7,7 +7,7 @@ import {
   CONTENT_PLACEHOLDER_AREA,
   Placeholder,
   ROBOT_PLACEHOLDER_VARIANT,
-} from '@b41ex/qubership-apihub-ui-shared/components/Placeholder'
+} from '@alagishev/qubership-apihub-ui-shared/components/Placeholder'
 
 const IMAGE_MAX_HEIGHT = 160
 

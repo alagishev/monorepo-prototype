@@ -39,36 +39,36 @@ import { useUpdatingPackageKeyWritableContext } from './UpdatingPackageKeyProvid
 import type { ColumnDef, ColumnSizingInfoState, ColumnSizingState, OnChangeFn } from '@tanstack/react-table'
 import { flexRender, getCoreRowModel, useReactTable } from '@tanstack/react-table'
 import { usePagedPackages } from '../usePagedPackages'
-import { MAIN_PAGE_REFERER } from '@b41ex/qubership-apihub-ui-shared/entities/referer-pages-names'
-import type { Package, PackageKind } from '@b41ex/qubership-apihub-ui-shared/entities/packages'
-import { GROUP_KIND, WORKSPACE_KIND } from '@b41ex/qubership-apihub-ui-shared/entities/packages'
-import { useIntersectionObserver } from '@b41ex/qubership-apihub-ui-shared/hooks/common/useIntersectionObserver'
-import type { ColumnModel } from '@b41ex/qubership-apihub-ui-shared/hooks/table-resizing/useColumnResizing'
+import { MAIN_PAGE_REFERER } from '@alagishev/qubership-apihub-ui-shared/entities/referer-pages-names'
+import type { Package, PackageKind } from '@alagishev/qubership-apihub-ui-shared/entities/packages'
+import { GROUP_KIND, WORKSPACE_KIND } from '@alagishev/qubership-apihub-ui-shared/entities/packages'
+import { useIntersectionObserver } from '@alagishev/qubership-apihub-ui-shared/hooks/common/useIntersectionObserver'
+import type { ColumnModel } from '@alagishev/qubership-apihub-ui-shared/hooks/table-resizing/useColumnResizing'
 import {
   DEFAULT_CONTAINER_WIDTH,
   useColumnsSizing,
-} from '@b41ex/qubership-apihub-ui-shared/hooks/table-resizing/useColumnResizing'
-import { CustomTableHeadCell } from '@b41ex/qubership-apihub-ui-shared/components/CustomTableHeadCell'
-import { PackageKindLogo } from '@b41ex/qubership-apihub-ui-shared/components/PackageKindLogo'
-import { TextWithOverflowTooltip } from '@b41ex/qubership-apihub-ui-shared/components/TextWithOverflowTooltip'
+} from '@alagishev/qubership-apihub-ui-shared/hooks/table-resizing/useColumnResizing'
+import { CustomTableHeadCell } from '@alagishev/qubership-apihub-ui-shared/components/CustomTableHeadCell'
+import { PackageKindLogo } from '@alagishev/qubership-apihub-ui-shared/components/PackageKindLogo'
+import { TextWithOverflowTooltip } from '@alagishev/qubership-apihub-ui-shared/components/TextWithOverflowTooltip'
 import { PackageSettingsButton } from '@portal/components/PackageSettingsButton'
-import { getSplittedVersionKey } from '@b41ex/qubership-apihub-ui-shared/utils/versions'
-import { StatusMarker } from '@b41ex/qubership-apihub-ui-shared/components/StatusMarker'
+import { getSplittedVersionKey } from '@alagishev/qubership-apihub-ui-shared/utils/versions'
+import { StatusMarker } from '@alagishev/qubership-apihub-ui-shared/components/StatusMarker'
 import {
   CONTENT_PLACEHOLDER_AREA,
   NO_SEARCH_RESULTS,
   Placeholder,
-} from '@b41ex/qubership-apihub-ui-shared/components/Placeholder'
-import { isNotEmpty } from '@b41ex/qubership-apihub-ui-shared/utils/arrays'
-import { ColumnDelimiter } from '@b41ex/qubership-apihub-ui-shared/components/ColumnDelimiter'
-import type { Key } from '@b41ex/qubership-apihub-ui-shared/entities/keys'
-import { format } from '@b41ex/qubership-apihub-ui-shared/utils/strings'
-import { createComponents } from '@b41ex/qubership-apihub-ui-shared/utils/components'
-import { DEFAULT_NUMBER_SKELETON_ROWS } from '@b41ex/qubership-apihub-ui-shared/utils/constants'
-import { useSuperAdminCheck } from '@b41ex/qubership-apihub-ui-shared/hooks/user-roles/useSuperAdminCheck'
-import { useResizeObserver } from '@b41ex/qubership-apihub-ui-shared/hooks/common/useResizeObserver'
-import { getTooltipMessage } from '@b41ex/qubership-apihub-ui-shared/utils/tooltip-message'
-import { getBwcData } from '@b41ex/qubership-apihub-ui-shared/utils/change-severities'
+} from '@alagishev/qubership-apihub-ui-shared/components/Placeholder'
+import { isNotEmpty } from '@alagishev/qubership-apihub-ui-shared/utils/arrays'
+import { ColumnDelimiter } from '@alagishev/qubership-apihub-ui-shared/components/ColumnDelimiter'
+import type { Key } from '@alagishev/qubership-apihub-ui-shared/entities/keys'
+import { format } from '@alagishev/qubership-apihub-ui-shared/utils/strings'
+import { createComponents } from '@alagishev/qubership-apihub-ui-shared/utils/components'
+import { DEFAULT_NUMBER_SKELETON_ROWS } from '@alagishev/qubership-apihub-ui-shared/utils/constants'
+import { useSuperAdminCheck } from '@alagishev/qubership-apihub-ui-shared/hooks/user-roles/useSuperAdminCheck'
+import { useResizeObserver } from '@alagishev/qubership-apihub-ui-shared/hooks/common/useResizeObserver'
+import { getTooltipMessage } from '@alagishev/qubership-apihub-ui-shared/utils/tooltip-message'
+import { getBwcData } from '@alagishev/qubership-apihub-ui-shared/utils/change-severities'
 
 export type PackagesTableProps = {
   rootPackageKey?: Key

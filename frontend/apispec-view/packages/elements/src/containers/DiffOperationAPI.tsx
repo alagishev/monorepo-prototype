@@ -1,4 +1,4 @@
-import { DiffType } from '@b41ex/qubership-apihub-api-diff'
+import { DiffType } from '@alagishev/qubership-apihub-api-diff'
 import {
   COMPARE_DISPLAY_MODE,
   OperationDisplayModeContext,
@@ -14,25 +14,25 @@ import {
   withQueryClientProvider,
   withRouter,
   withStyles,
-} from '@b41ex/qubership-apihub-apispec-view-elements-core'
-import { IServer } from '@b41ex/qubership-apihub-apispec-view-elements-core/utils/http-spec/IServer'
+} from '@alagishev/qubership-apihub-apispec-view-elements-core'
+import { IServer } from '@alagishev/qubership-apihub-apispec-view-elements-core/utils/http-spec/IServer'
 import { Box, Flex, Icon, Provider } from '@stoplight/mosaic'
 import { IHttpOperation } from '@stoplight/types'
-import { SchemaViewMode } from '@b41ex/qubership-apihub-apispec-view-json-schema-viewer'
+import { SchemaViewMode } from '@alagishev/qubership-apihub-apispec-view-json-schema-viewer'
 import { flow } from 'lodash'
 import * as React from 'react'
 import { useEffect, useMemo } from 'react'
 
-import { buildOpenApiDiffCause } from '@b41ex/qubership-apihub-api-doc-viewer'
+import { buildOpenApiDiffCause } from '@alagishev/qubership-apihub-api-doc-viewer'
 import { DiffsMetaKeyContext } from './DiffsMetaKeyContext'
-import { DiffBlock, DiffContainer } from '@b41ex/qubership-apihub-apispec-view-diff-block'
+import { DiffBlock, DiffContainer } from '@alagishev/qubership-apihub-apispec-view-diff-block'
 import { APIWithOperation } from '../components/API/APIWithOperation'
 import { useExportDocumentProps } from '../hooks/useExportDocumentProps'
 import { transformOasToServiceNodeWithDiffMeta } from '../utils/oas'
 import { AggregatedDiffsMetaKeyContext } from './AggregatedDiffsMetaKeyContext'
 import { ChangeSeverityFiltersContext } from './ChangeSeverityFiltersContext'
 
-// import '@b41ex/qubership-apihub-api-doc-viewer/dist/style.css'
+// import '@alagishev/qubership-apihub-api-doc-viewer/dist/style.css'
 
 export type DiffAPIProps = DiffAPIPropsWithOperation;
 

@@ -1,10 +1,10 @@
-import { DiffMetaKeys } from "@b41ex/qubership-apihub-next-data-model/building-service/abstract/tree-with-diffs/node-diffs-data/diff-meta-keys"
-import { ChangedPropertyMetaData } from "@b41ex/qubership-apihub-next-data-model/model/abstract/tree-with-diffs/tree-node.interface"
-import { AsyncApiNodeJsoPropertyValueTypes } from "@b41ex/qubership-apihub-next-data-model/model/async-api/types/node-value-type"
-import { JsoTreeNodeValueWithDiffs } from "@b41ex/qubership-apihub-next-data-model/model/jso/tree-with-diffs/node-value"
-import { JsoTreeNodeValueBase } from "@b41ex/qubership-apihub-next-data-model/model/jso/tree/node-value"
-import { isObject } from "@b41ex/qubership-apihub-next-data-model/utilities"
-import { NodeKey } from "@b41ex/qubership-apihub-next-data-model/utility-types"
+import { DiffMetaKeys } from "@alagishev/qubership-apihub-next-data-model/building-service/abstract/tree-with-diffs/node-diffs-data/diff-meta-keys"
+import { ChangedPropertyMetaData } from "@alagishev/qubership-apihub-next-data-model/model/abstract/tree-with-diffs/tree-node.interface"
+import { AsyncApiNodeJsoPropertyValueTypes } from "@alagishev/qubership-apihub-next-data-model/model/async-api/types/node-value-type"
+import { JsoTreeNodeValueWithDiffs } from "@alagishev/qubership-apihub-next-data-model/model/jso/tree-with-diffs/node-value"
+import { JsoTreeNodeValueBase } from "@alagishev/qubership-apihub-next-data-model/model/jso/tree/node-value"
+import { isObject } from "@alagishev/qubership-apihub-next-data-model/utilities"
+import { NodeKey } from "@alagishev/qubership-apihub-next-data-model/utility-types"
 
 export function wrapJsonSchemaForViewer(
   nodeKey: NodeKey,

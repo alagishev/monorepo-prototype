@@ -1,15 +1,15 @@
 import { type FC, memo, useCallback, useMemo } from 'react'
 import { type To, useNavigate, useParams } from 'react-router-dom'
 
-import type { SidebarMenu } from '@b41ex/qubership-apihub-ui-shared/components/NavigationMenu'
-import { NavigationMenu } from '@b41ex/qubership-apihub-ui-shared/components/NavigationMenu'
-import type { Key } from '@b41ex/qubership-apihub-ui-shared/entities/keys'
-import { SPECIAL_VERSION_KEY } from '@b41ex/qubership-apihub-ui-shared/entities/versions'
-import { useActiveTabs } from '@b41ex/qubership-apihub-ui-shared/hooks/pathparams/useActiveTabs'
+import type { SidebarMenu } from '@alagishev/qubership-apihub-ui-shared/components/NavigationMenu'
+import { NavigationMenu } from '@alagishev/qubership-apihub-ui-shared/components/NavigationMenu'
+import type { Key } from '@alagishev/qubership-apihub-ui-shared/entities/keys'
+import { SPECIAL_VERSION_KEY } from '@alagishev/qubership-apihub-ui-shared/entities/versions'
+import { useActiveTabs } from '@alagishev/qubership-apihub-ui-shared/hooks/pathparams/useActiveTabs'
 import {
   useExpandNavigationMenuSearchParam,
-} from '@b41ex/qubership-apihub-ui-shared/hooks/searchparams/useExpandNavigationMenuSearchParam'
-import { ConfigureIcon } from '@b41ex/qubership-apihub-ui-shared/icons/ConfigureIcon'
+} from '@alagishev/qubership-apihub-ui-shared/hooks/searchparams/useExpandNavigationMenuSearchParam'
+import { ConfigureIcon } from '@alagishev/qubership-apihub-ui-shared/icons/ConfigureIcon'
 
 import { CONFIGURATION_PAGE } from '../../../routes'
 import { getVersionPath } from '../../NavigationProvider'

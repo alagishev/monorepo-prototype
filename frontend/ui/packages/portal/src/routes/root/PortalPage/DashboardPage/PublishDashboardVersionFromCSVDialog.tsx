@@ -19,33 +19,33 @@ import { memo, useCallback, useEffect, useMemo, useState } from 'react'
 import { useForm } from 'react-hook-form'
 import { usePackage } from '../../usePackage'
 import { useParams } from 'react-router-dom'
-import type { PopupProps } from '@b41ex/qubership-apihub-ui-shared/components/PopupDelegate'
-import { PopupDelegate } from '@b41ex/qubership-apihub-ui-shared/components/PopupDelegate'
+import type { PopupProps } from '@alagishev/qubership-apihub-ui-shared/components/PopupDelegate'
+import { PopupDelegate } from '@alagishev/qubership-apihub-ui-shared/components/PopupDelegate'
 import { SHOW_PUBLISH_PACKAGE_VERSION_DIALOG } from '@portal/routes/EventBusProvider'
-import { SPECIAL_VERSION_KEY } from '@b41ex/qubership-apihub-ui-shared/entities/versions'
-import { type Package, WORKSPACE_KIND } from '@b41ex/qubership-apihub-ui-shared/entities/packages'
-import { getSplittedVersionKey, getVersionLabelsMap } from '@b41ex/qubership-apihub-ui-shared/utils/versions'
-import type { Key } from '@b41ex/qubership-apihub-ui-shared/entities/keys'
-import type { VersionStatus } from '@b41ex/qubership-apihub-ui-shared/entities/version-status'
+import { SPECIAL_VERSION_KEY } from '@alagishev/qubership-apihub-ui-shared/entities/versions'
+import { type Package, WORKSPACE_KIND } from '@alagishev/qubership-apihub-ui-shared/entities/packages'
+import { getSplittedVersionKey, getVersionLabelsMap } from '@alagishev/qubership-apihub-ui-shared/utils/versions'
+import type { Key } from '@alagishev/qubership-apihub-ui-shared/entities/keys'
+import type { VersionStatus } from '@alagishev/qubership-apihub-ui-shared/entities/version-status'
 import {
   DRAFT_VERSION_STATUS,
   NO_PREVIOUS_RELEASE_VERSION_OPTION,
-} from '@b41ex/qubership-apihub-ui-shared/entities/version-status'
-import type { VersionFormData } from '@b41ex/qubership-apihub-ui-shared/components/VersionDialogForm'
+} from '@alagishev/qubership-apihub-ui-shared/entities/version-status'
+import type { VersionFormData } from '@alagishev/qubership-apihub-ui-shared/components/VersionDialogForm'
 import {
   getPackageOptions,
   getVersionOptions,
   replaceEmptyPreviousVersion,
   VersionDialogForm,
-} from '@b41ex/qubership-apihub-ui-shared/components/VersionDialogForm'
+} from '@alagishev/qubership-apihub-ui-shared/components/VersionDialogForm'
 import { useDashboardVersionFromCSVPublicationStatuses } from '@portal/routes/root/PortalPage/usePublicationStatus'
 import { usePublishDashboardVersionFromCSV } from '@portal/routes/root/PortalPage/usePublishDashboardVersionFromCSV'
 import { usePackages } from '@portal/routes/root/usePackages'
-import { usePackageVersions } from '@b41ex/qubership-apihub-ui-shared/hooks/versions/usePackageVersions'
+import { usePackageVersions } from '@alagishev/qubership-apihub-ui-shared/hooks/versions/usePackageVersions'
 import { useCurrentPackage } from '@portal/components/CurrentPackageProvider'
 import { usePackageVersionConfig } from '@portal/routes/root/PortalPage/usePackageVersionConfig'
-import { REST_API_TYPE } from '@b41ex/qubership-apihub-api-processor'
-import type { ApiType } from '@b41ex/qubership-apihub-ui-shared/entities/api-types'
+import { REST_API_TYPE } from '@alagishev/qubership-apihub-api-processor'
+import type { ApiType } from '@alagishev/qubership-apihub-ui-shared/entities/api-types'
 
 export const PublishDashboardVersionFromCSVDialog: FC = memo(() => {
   return (

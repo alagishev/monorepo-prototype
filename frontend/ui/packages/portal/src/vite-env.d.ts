@@ -16,4 +16,4 @@
 
 /// <reference types="vite/client"/>
 /// <reference types="@emotion/react/types/css-prop"/>
-/// <reference types="@b41ex/qubership-apihub-ui-shared/src/vite-env"/>
+/// <reference types="@alagishev/qubership-apihub-ui-shared/src/vite-env"/>

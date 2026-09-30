@@ -1,5 +1,5 @@
 {
-  "name": "@b41ex/qubership-apihub-api-data-model",
+  "name": "@alagishev/qubership-apihub-api-data-model",
   "version": "0.0.0",
   "license": "Apache-2.0",
   "private": true,
@@ -18,10 +18,10 @@
     "ts-node": "10.7.0"
   },
   "dependencies": {
-    "@b41ex/qubership-apihub-api-diff": "workspace:^",
-    "@b41ex/qubership-apihub-api-unifier": "workspace:^",
-    "@b41ex/qubership-apihub-graphapi": "workspace:^",
-    "@b41ex/qubership-apihub-json-crawl": "workspace:^",
+    "@alagishev/qubership-apihub-api-diff": "workspace:^",
+    "@alagishev/qubership-apihub-api-unifier": "workspace:^",
+    "@alagishev/qubership-apihub-graphapi": "workspace:^",
+    "@alagishev/qubership-apihub-json-crawl": "workspace:^",
     "graphql": "16.12.0"
   },
   "nx": {

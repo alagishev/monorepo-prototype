@@ -1,6 +1,6 @@
 import { denormalize, normalize, NormalizeOptions } from '../../src'
 import { graphapi, TEST_DEFAULTS_FLAG, TEST_INLINE_REFS_FLAG, TEST_ORIGINS_FLAG } from '../helpers'
-import { GRAPH_API_NODE_KIND_ENUM, GRAPH_API_VERSION } from '@b41ex/qubership-apihub-graphapi'
+import { GRAPH_API_NODE_KIND_ENUM, GRAPH_API_VERSION } from '@alagishev/qubership-apihub-graphapi'
 
 describe('GraphAPI', () => {
   it('normilize-denormalize', () => {

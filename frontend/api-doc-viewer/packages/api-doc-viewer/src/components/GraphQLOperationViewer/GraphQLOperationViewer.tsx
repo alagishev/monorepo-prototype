@@ -24,8 +24,8 @@ import {
   GraphApiNodeKind,
   GraphApiNodeMeta,
   ModelTree
-} from '@b41ex/qubership-apihub-api-data-model'
-import { GraphApiState } from '@b41ex/qubership-apihub-api-state-model'
+} from '@alagishev/qubership-apihub-api-data-model'
+import { GraphApiState } from '@alagishev/qubership-apihub-api-state-model'
 import type { FC } from 'react'
 import { useMemo } from 'react'
 import { DEFAULT_EXPANDED_DEPTH } from '../../consts/configuration'

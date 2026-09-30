@@ -1,5 +1,5 @@
 {
-  "name": "@b41ex/qubership-apihub-api-doc-viewer-workspace",
+  "name": "@alagishev/qubership-apihub-api-doc-viewer-workspace",
   "license": "Apache-2.0",
   "private": true,
   "scripts": {
@@ -7,15 +7,15 @@
     "lint:fix": "pnpm run lint:check -- --fix"
   },
   "dependencies": {
-    "@b41ex/qubership-apihub-api-diff": "workspace:^",
-    "@b41ex/qubership-apihub-api-unifier": "workspace:^",
-    "@b41ex/qubership-apihub-ddlapi": "workspace:^",
-    "@b41ex/qubership-apihub-graphapi": "workspace:^",
-    "@b41ex/qubership-apihub-json-crawl": "workspace:^"
+    "@alagishev/qubership-apihub-api-diff": "workspace:^",
+    "@alagishev/qubership-apihub-api-unifier": "workspace:^",
+    "@alagishev/qubership-apihub-ddlapi": "workspace:^",
+    "@alagishev/qubership-apihub-graphapi": "workspace:^",
+    "@alagishev/qubership-apihub-json-crawl": "workspace:^"
   },
   "devDependencies": {
-    "@b41ex/qubership-apihub-compatibility-suites": "workspace:^",
-    "@b41ex/qubership-apihub-jest-chrome-in-docker-environment": "workspace:^",
+    "@alagishev/qubership-apihub-compatibility-suites": "workspace:^",
+    "@alagishev/qubership-apihub-jest-chrome-in-docker-environment": "workspace:^",
     "@types/jest": "30.0.0",
     "@types/jest-image-snapshot": "6.1.0",
     "@types/lodash-es": "^4.17.12",

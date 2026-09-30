@@ -1,16 +1,16 @@
 import { Box } from '@mui/material'
 import { createElement } from 'react'
 
-import { Changes } from '@b41ex/qubership-apihub-ui-shared/components/Changes'
+import { Changes } from '@alagishev/qubership-apihub-ui-shared/components/Changes'
 import {
   CATEGORY_OPERATION,
   CATEGORY_TABLE,
   type ChangesTooltipCategory,
-} from '@b41ex/qubership-apihub-ui-shared/components/ChangesTooltip'
+} from '@alagishev/qubership-apihub-ui-shared/components/ChangesTooltip'
 import {
   BREAKING_CHANGE_SEVERITY,
   type ChangesSummary,
-} from '@b41ex/qubership-apihub-ui-shared/entities/change-severities'
+} from '@alagishev/qubership-apihub-ui-shared/entities/change-severities'
 
 import {
   SUMMARY_IMPACTED_ENTITY_TABLES,

@@ -22,21 +22,21 @@ import { useForm } from 'react-hook-form'
 import { useNavigate, useParams } from 'react-router-dom'
 import { useOperationGroups } from './useOperationGroups'
 import { useRefSearchParam } from '../useRefSearchParam'
-import type { PopupProps } from '@b41ex/qubership-apihub-ui-shared/components/PopupDelegate'
-import { PopupDelegate } from '@b41ex/qubership-apihub-ui-shared/components/PopupDelegate'
+import type { PopupProps } from '@alagishev/qubership-apihub-ui-shared/components/PopupDelegate'
+import { PopupDelegate } from '@alagishev/qubership-apihub-ui-shared/components/PopupDelegate'
 import { SHOW_COMPARE_REST_GROUPS_DIALOG } from '@portal/routes/EventBusProvider'
 import { useBackwardLocationContext, useSetBackwardLocationContext } from '@portal/routes/BackwardLocationProvider'
 import {
   GROUP_SEARCH_PARAM,
   optionalSearchParams,
   REF_SEARCH_PARAM,
-} from '@b41ex/qubership-apihub-ui-shared/utils/search-params'
+} from '@alagishev/qubership-apihub-ui-shared/utils/search-params'
 import type {
   CompareRestGroupsDialogData,
   CompareRestGroupsDialogFormData,
-} from '@b41ex/qubership-apihub-ui-shared/components/CompareRestGroupsDialogForm'
-import { CompareRestGroupsDialogForm } from '@b41ex/qubership-apihub-ui-shared/components/CompareRestGroupsDialogForm'
-import { useSearchParam } from '@b41ex/qubership-apihub-ui-shared/hooks/searchparams/useSearchParam'
+} from '@alagishev/qubership-apihub-ui-shared/components/CompareRestGroupsDialogForm'
+import { CompareRestGroupsDialogForm } from '@alagishev/qubership-apihub-ui-shared/components/CompareRestGroupsDialogForm'
+import { useSearchParam } from '@alagishev/qubership-apihub-ui-shared/hooks/searchparams/useSearchParam'
 
 export const CompareRestGroupsDialog: FC = memo(() => {
   return (

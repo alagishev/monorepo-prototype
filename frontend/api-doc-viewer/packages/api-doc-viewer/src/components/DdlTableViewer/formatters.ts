@@ -1,4 +1,4 @@
-import { DdlApiForeignKeyTarget } from "@b41ex/qubership-apihub-next-data-model/model/ddlapi/tree/node-value"
+import { DdlApiForeignKeyTarget } from "@alagishev/qubership-apihub-next-data-model/model/ddlapi/tree/node-value"
 import { DEFAULT_SCHEMA_NAME } from "./consts"
 
 export function formatForeignKeyTarget(target: DdlApiForeignKeyTarget): string {

@@ -17,21 +17,21 @@
 import { TitledValue } from '@portal/components/TitledValue'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
 import { Accordion, AccordionDetails, AccordionSummary, Box, Grid, Typography } from '@mui/material'
-import { BodyCard } from '@b41ex/qubership-apihub-ui-shared/components/BodyCard'
-import { ButtonWithHint } from '@b41ex/qubership-apihub-ui-shared/components/Buttons/ButtonWithHint'
+import { BodyCard } from '@alagishev/qubership-apihub-ui-shared/components/BodyCard'
+import { ButtonWithHint } from '@alagishev/qubership-apihub-ui-shared/components/Buttons/ButtonWithHint'
 import {
   ConfirmationDialog,
-} from '@b41ex/qubership-apihub-ui-shared/components/ConfirmationDialog/ConfirmationDialog'
-import { LoadingIndicator } from '@b41ex/qubership-apihub-ui-shared/components/LoadingIndicator'
+} from '@alagishev/qubership-apihub-ui-shared/components/ConfirmationDialog/ConfirmationDialog'
+import { LoadingIndicator } from '@alagishev/qubership-apihub-ui-shared/components/LoadingIndicator'
 import {
   CREATE_AND_UPDATE_PACKAGE_PERMISSION,
   DELETE_PACKAGE_PERMISSION,
   NO_PERMISSION_TO_EDIT_PACKAGE,
-} from '@b41ex/qubership-apihub-ui-shared/entities/package-permissions'
-import { DASHBOARD_KIND, GROUP_KIND, PACKAGE_KIND } from '@b41ex/qubership-apihub-ui-shared/entities/packages'
-import { DeleteIcon } from '@b41ex/qubership-apihub-ui-shared/icons/DeleteIcon'
-import { transformStringValue } from '@b41ex/qubership-apihub-ui-shared/utils/strings'
-import { getSplittedVersionKey } from '@b41ex/qubership-apihub-ui-shared/utils/versions'
+} from '@alagishev/qubership-apihub-ui-shared/entities/package-permissions'
+import { DASHBOARD_KIND, GROUP_KIND, PACKAGE_KIND } from '@alagishev/qubership-apihub-ui-shared/entities/packages'
+import { DeleteIcon } from '@alagishev/qubership-apihub-ui-shared/icons/DeleteIcon'
+import { transformStringValue } from '@alagishev/qubership-apihub-ui-shared/utils/strings'
+import { getSplittedVersionKey } from '@alagishev/qubership-apihub-ui-shared/utils/versions'
 import type { FC } from 'react'
 import * as React from 'react'
 import { memo, useCallback, useEffect, useMemo, useState } from 'react'

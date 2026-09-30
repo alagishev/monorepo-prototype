@@ -19,21 +19,21 @@ import fileDownload from 'js-file-download'
 import { generatePath, useParams } from 'react-router-dom'
 import { safeParse } from '@stoplight/json'
 import { useVersionWithRevision } from '../../useVersionWithRevision'
-import type { Key } from '@b41ex/qubership-apihub-ui-shared/entities/keys'
-import type { IsLoading } from '@b41ex/qubership-apihub-ui-shared/utils/aliases'
-import { optionalSearchParams } from '@b41ex/qubership-apihub-ui-shared/utils/search-params'
+import type { Key } from '@alagishev/qubership-apihub-ui-shared/entities/keys'
+import type { IsLoading } from '@alagishev/qubership-apihub-ui-shared/utils/aliases'
+import { optionalSearchParams } from '@alagishev/qubership-apihub-ui-shared/utils/search-params'
 import { portalRequestBlob } from '@portal/utils/requests'
-import { getPackageRedirectDetails } from '@b41ex/qubership-apihub-ui-shared/utils/redirects'
-import type { FileExtension, YML_FILE_EXTENSION } from '@b41ex/qubership-apihub-ui-shared/utils/files'
+import { getPackageRedirectDetails } from '@alagishev/qubership-apihub-ui-shared/utils/redirects'
+import type { FileExtension, YML_FILE_EXTENSION } from '@alagishev/qubership-apihub-ui-shared/utils/files'
 import {
   getFileExtension,
   isYamlFile,
   JSON_FILE_EXTENSION,
   YAML_FILE_EXTENSION,
-} from '@b41ex/qubership-apihub-ui-shared/utils/files'
+} from '@alagishev/qubership-apihub-ui-shared/utils/files'
 import { resolveRefs } from '@portal/utils/specifications'
-import { toFormattedJsonString } from '@b41ex/qubership-apihub-ui-shared/utils/strings'
-import { toJsonSchema, toYaml } from '@b41ex/qubership-apihub-ui-shared/utils/specifications'
+import { toFormattedJsonString } from '@alagishev/qubership-apihub-ui-shared/utils/strings'
+import { toJsonSchema, toYaml } from '@alagishev/qubership-apihub-ui-shared/utils/specifications'
 
 export function useDownloadPublishedDocument(options: {
   packageKey?: Key

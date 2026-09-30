@@ -1,5 +1,5 @@
 {
-  "name": "@b41ex/qubership-apihub-apispec-view-diff-block",
+  "name": "@alagishev/qubership-apihub-apispec-view-diff-block",
   "version": "0.0.1",
   "private": true,
   "keywords": [],
@@ -10,7 +10,7 @@
     "**/*"
   ],
   "devDependencies": {
-    "@b41ex/qubership-apihub-api-diff": "workspace:^",
+    "@alagishev/qubership-apihub-api-diff": "workspace:^",
     "@stoplight/mosaic": "^1.40.0",
     "jotai": "1.6.3",
     "lodash": "^4.17.21",

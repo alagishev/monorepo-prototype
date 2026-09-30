@@ -3,20 +3,20 @@ import { styled } from '@mui/material/styles'
 import { isPlainObject } from 'lodash-es'
 import { type FC, memo } from 'react'
 
-import { BodyCard } from '@b41ex/qubership-apihub-ui-shared/components/BodyCard'
-import { LoadingIndicator } from '@b41ex/qubership-apihub-ui-shared/components/LoadingIndicator'
-import { McpOverviewDetails } from '@b41ex/qubership-apihub-ui-shared/components/Mcp/McpOverviewDetails'
-import { CONTENT_PLACEHOLDER_AREA, Placeholder } from '@b41ex/qubership-apihub-ui-shared/components/Placeholder'
-import { DocumentTitleWithVersion } from '@b41ex/qubership-apihub-ui-shared/components/Titles/DocumentTitleWithVersion'
+import { BodyCard } from '@alagishev/qubership-apihub-ui-shared/components/BodyCard'
+import { LoadingIndicator } from '@alagishev/qubership-apihub-ui-shared/components/LoadingIndicator'
+import { McpOverviewDetails } from '@alagishev/qubership-apihub-ui-shared/components/Mcp/McpOverviewDetails'
+import { CONTENT_PLACEHOLDER_AREA, Placeholder } from '@alagishev/qubership-apihub-ui-shared/components/Placeholder'
+import { DocumentTitleWithVersion } from '@alagishev/qubership-apihub-ui-shared/components/Titles/DocumentTitleWithVersion'
 import {
   MCP_COLLECTION_INIT,
   MCP_EMPTY_SCOPE_MESSAGE,
   type McpContractEntity,
   type McpContractEntityDetails,
-} from '@b41ex/qubership-apihub-ui-shared/entities/contracts-mcp'
-import type { Key, PackageKey } from '@b41ex/qubership-apihub-ui-shared/entities/keys'
-import { DASHBOARD_KIND } from '@b41ex/qubership-apihub-ui-shared/entities/packages'
-import { toOptionalString } from '@b41ex/qubership-apihub-ui-shared/utils/strings'
+} from '@alagishev/qubership-apihub-ui-shared/entities/contracts-mcp'
+import type { Key, PackageKey } from '@alagishev/qubership-apihub-ui-shared/entities/keys'
+import { DASHBOARD_KIND } from '@alagishev/qubership-apihub-ui-shared/entities/packages'
+import { toOptionalString } from '@alagishev/qubership-apihub-ui-shared/utils/strings'
 
 import { usePackageKind } from '../../usePackageKind'
 import { usePackageParamsWithRef } from '../../usePackageParamsWithRef'

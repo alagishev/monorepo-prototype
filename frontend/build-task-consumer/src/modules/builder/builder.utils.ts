@@ -23,7 +23,7 @@ import {
   REST_API_TYPE,
   ApihubApiCompatibilityKind as ApiKindFromProcessor,
   ApiAudience as ApiAudienceFromProcessor,
-} from '@b41ex/qubership-apihub-api-processor'
+} from '@alagishev/qubership-apihub-api-processor'
 
 export type OperationsDto = Readonly<{
   operations: ReadonlyArray<OperationDto>

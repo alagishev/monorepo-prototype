@@ -21,7 +21,7 @@ import {
   GraphSchemaDiffNodeValue,
   JsonSchemaDiffNodeValue,
   JsonSchemaDiffTreeNode,
-} from '@b41ex/qubership-apihub-api-data-model'
+} from '@alagishev/qubership-apihub-api-data-model'
 import { GraphPropNodePropsWithState, JsonPropNodePropsWithState } from './internal/PropsWithState'
 import { CustomizationOptions } from '../contexts/CustomizationOptionsContext'
 

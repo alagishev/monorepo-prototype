@@ -25,7 +25,7 @@ import type {
   OperationChanges,
   OperationChangesMetadata,
   RestChangesMetadata,
-} from '@b41ex/qubership-apihub-api-processor'
+} from '@alagishev/qubership-apihub-api-processor'
 import { useBackwardLocation } from '../../../useBackwardLocation'
 import { useChangesLoadingStatus, useSetChangesLoadingStatus } from '../ChangesLoadingStatusProvider'
 import { useChangesSummaryContext } from '../ChangesSummaryProvider'
@@ -35,7 +35,7 @@ import { useTagSearchFilter } from '../useTagSearchFilter'
 import { ComparisonSwapper } from '../ComparisonSwapper'
 import { useComparisonParams } from '../useComparisonParams'
 import { useNavigation } from '../../../../NavigationProvider'
-import { useSearchParam } from '@b41ex/qubership-apihub-ui-shared/hooks/searchparams/useSearchParam'
+import { useSearchParam } from '@alagishev/qubership-apihub-ui-shared/hooks/searchparams/useSearchParam'
 import {
   FILTERS_SEARCH_PARAM,
   GROUP_SEARCH_PARAM,
@@ -45,31 +45,31 @@ import {
   REF_SEARCH_PARAM,
   TAG_SEARCH_PARAM,
   VERSION_SEARCH_PARAM,
-} from '@b41ex/qubership-apihub-ui-shared/utils/search-params'
+} from '@alagishev/qubership-apihub-ui-shared/utils/search-params'
 import { useEventBus } from '@portal/routes/EventBusProvider'
 import { useBackwardLocationContext, useSetBackwardLocationContext } from '@portal/routes/BackwardLocationProvider'
 import {
   useSeverityFiltersSearchParam,
-} from '@b41ex/qubership-apihub-ui-shared/hooks/change-severities/useSeverityFiltersSearchParam'
+} from '@alagishev/qubership-apihub-ui-shared/hooks/change-severities/useSeverityFiltersSearchParam'
 import {
   filterChangesBySeverity,
   getMajorSeverity,
-} from '@b41ex/qubership-apihub-ui-shared/utils/change-severities'
-import { isEmpty, isNotEmpty } from '@b41ex/qubership-apihub-ui-shared/utils/arrays'
-import { LoadingIndicator } from '@b41ex/qubership-apihub-ui-shared/components/LoadingIndicator'
-import { CONTENT_PLACEHOLDER_AREA, Placeholder } from '@b41ex/qubership-apihub-ui-shared/components/Placeholder'
+} from '@alagishev/qubership-apihub-ui-shared/utils/change-severities'
+import { isEmpty, isNotEmpty } from '@alagishev/qubership-apihub-ui-shared/utils/arrays'
+import { LoadingIndicator } from '@alagishev/qubership-apihub-ui-shared/components/LoadingIndicator'
+import { CONTENT_PLACEHOLDER_AREA, Placeholder } from '@alagishev/qubership-apihub-ui-shared/components/Placeholder'
 import { getActionForRestOperation } from '@portal/utils/operations'
-import type { ChangeSeverity } from '@b41ex/qubership-apihub-ui-shared/entities/change-severities'
+import type { ChangeSeverity } from '@alagishev/qubership-apihub-ui-shared/entities/change-severities'
 import {
   ACTION_TYPE_COLOR_MAP,
   CHANGE_SEVERITIES,
   REPLACE_ACTION_TYPE,
-} from '@b41ex/qubership-apihub-ui-shared/entities/change-severities'
-import { format } from '@b41ex/qubership-apihub-ui-shared/utils/strings'
-import { ChangeSeverityIndicator } from '@b41ex/qubership-apihub-ui-shared/components/ChangeSeverityIndicator'
-import { CustomChip } from '@b41ex/qubership-apihub-ui-shared/components/CustomChip'
-import { OverflowTooltip } from '@b41ex/qubership-apihub-ui-shared/components/OverflowTooltip'
-import { Changes } from '@b41ex/qubership-apihub-ui-shared/components/Changes'
+} from '@alagishev/qubership-apihub-ui-shared/entities/change-severities'
+import { format } from '@alagishev/qubership-apihub-ui-shared/utils/strings'
+import { ChangeSeverityIndicator } from '@alagishev/qubership-apihub-ui-shared/components/ChangeSeverityIndicator'
+import { CustomChip } from '@alagishev/qubership-apihub-ui-shared/components/CustomChip'
+import { OverflowTooltip } from '@alagishev/qubership-apihub-ui-shared/components/OverflowTooltip'
+import { Changes } from '@alagishev/qubership-apihub-ui-shared/components/Changes'
 import type { ComparedPackagesBreadcrumbsData } from '../breadcrumbs'
 
 type GroupCompareContentProps = {

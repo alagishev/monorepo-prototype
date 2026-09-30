@@ -1,5 +1,5 @@
-import { stringifyCyclicJso } from '@b41ex/qubership-apihub-api-unifier'
-import { Diff, isDiffAdd, isDiffRemove, isDiffRename, isDiffReplace } from '@b41ex/qubership-apihub-api-diff'
+import { stringifyCyclicJso } from '@alagishev/qubership-apihub-api-unifier'
+import { Diff, isDiffAdd, isDiffRemove, isDiffRename, isDiffReplace } from '@alagishev/qubership-apihub-api-diff'
 import { isEmpty } from 'lodash'
 
 export const stringifyDiffs = (diffs: Diff[]): string => {

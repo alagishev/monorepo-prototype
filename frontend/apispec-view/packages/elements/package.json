@@ -1,5 +1,5 @@
 {
-  "name": "@b41ex/qubership-apihub-apispec-view",
+  "name": "@alagishev/qubership-apihub-apispec-view",
   "version": "2.1.7",
   "description": "Web Component to represent various API-specifications as a human-readable document",
   "license": "Apache-2.0",
@@ -46,13 +46,13 @@
     "openapi3-ts": "2.0.2"
   },
   "devDependencies": {
-    "@b41ex/qubership-apihub-api-diff": "workspace:^",
-    "@b41ex/qubership-apihub-api-doc-viewer": "workspace:^",
-    "@b41ex/qubership-apihub-api-unifier": "workspace:^",
-    "@b41ex/qubership-apihub-apispec-view-samples": "workspace:*",
-    "@b41ex/qubership-apihub-compatibility-suites": "workspace:^",
-    "@b41ex/qubership-apihub-http-spec": "workspace:^",
-    "@b41ex/qubership-apihub-jest-chrome-in-docker-environment": "workspace:^",
+    "@alagishev/qubership-apihub-api-diff": "workspace:^",
+    "@alagishev/qubership-apihub-api-doc-viewer": "workspace:^",
+    "@alagishev/qubership-apihub-api-unifier": "workspace:^",
+    "@alagishev/qubership-apihub-apispec-view-samples": "workspace:*",
+    "@alagishev/qubership-apihub-compatibility-suites": "workspace:^",
+    "@alagishev/qubership-apihub-http-spec": "workspace:^",
+    "@alagishev/qubership-apihub-jest-chrome-in-docker-environment": "workspace:^",
     "@fortawesome/fontawesome-svg-core": "6.1.1",
     "@jest/globals": "30.4.1",
     "@schemastore/package": "0.0.4",

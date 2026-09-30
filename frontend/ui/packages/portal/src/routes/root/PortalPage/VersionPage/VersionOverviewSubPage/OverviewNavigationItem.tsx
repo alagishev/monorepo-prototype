@@ -20,10 +20,10 @@ import { Box, ListItem, ListItemButton, ListItemText, Tooltip } from '@mui/mater
 import { PACKAGES_PAGE } from '../../../../../routes'
 import type { To } from 'react-router-dom'
 import { useNavigate } from 'react-router-dom'
-import type { Key } from '@b41ex/qubership-apihub-ui-shared/entities/keys'
-import type { TestableProps } from '@b41ex/qubership-apihub-ui-shared/components/Testable'
-import { isNotEmptyMap } from '@b41ex/qubership-apihub-ui-shared/utils/arrays'
-import { RedWarningIcon } from '@b41ex/qubership-apihub-ui-shared/icons/WarningIcon'
+import type { Key } from '@alagishev/qubership-apihub-ui-shared/entities/keys'
+import type { TestableProps } from '@alagishev/qubership-apihub-ui-shared/components/Testable'
+import { isNotEmptyMap } from '@alagishev/qubership-apihub-ui-shared/utils/arrays'
+import { RedWarningIcon } from '@alagishev/qubership-apihub-ui-shared/icons/WarningIcon'
 
 type OverviewNavigationItemProps = Readonly<{
   url: To | undefined

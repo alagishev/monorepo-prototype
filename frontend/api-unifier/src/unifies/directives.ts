@@ -1,6 +1,6 @@
-import { isObject } from "@b41ex/qubership-apihub-json-crawl";
+import { isObject } from "@alagishev/qubership-apihub-json-crawl";
 import { DEFAULT_TYPE_FLAG_PURE, DEFAULT_TYPE_FLAG_SYNTHETIC, UnifyFunction } from "../types";
-import { isGraphApiDirectiveDefinition, type GraphApiDirective } from '@b41ex/qubership-apihub-graphapi'
+import { isGraphApiDirectiveDefinition, type GraphApiDirective } from '@alagishev/qubership-apihub-graphapi'
 import { GRAPH_API_PROPERTY_DEFAULT } from "../rules/graphapi.const";
 import { copyOrigins, resolveOriginsMetaRecord } from "../origins";
 import { setJsoProperty } from "../utils";

@@ -36,8 +36,8 @@ module.exports = {
     '<rootDir>/dist/',
   ],
 //  moduleNameMapper: {
-//     "^@b41ex/qubership-apihub-api-unifier$":'<rootDir>/../qubership-apihub-api-unifier/src',
-//     "^@b41ex/qubership-apihub-json-crawl$":'<rootDir>/../qubership-apihub-json-crawl/src'
+//     "^@alagishev/qubership-apihub-api-unifier$":'<rootDir>/../qubership-apihub-api-unifier/src',
+//     "^@alagishev/qubership-apihub-json-crawl$":'<rootDir>/../qubership-apihub-json-crawl/src'
 //  },
   setupFilesAfterEnv: ['jest-extended/all'],
 }

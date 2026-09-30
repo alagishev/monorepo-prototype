@@ -17,12 +17,12 @@
 import { useInvalidateSecurityReports } from './useSecurityReports'
 import { useMutation } from '@tanstack/react-query'
 import type { Key } from '@agents/entities/keys'
-import type { HttpError } from '@b41ex/qubership-apihub-ui-shared/utils/responses'
-import { API_V3, requestVoid } from '@b41ex/qubership-apihub-ui-shared/utils/requests'
-import type { IsLoading } from '@b41ex/qubership-apihub-ui-shared/utils/aliases'
+import type { HttpError } from '@alagishev/qubership-apihub-ui-shared/utils/responses'
+import { API_V3, requestVoid } from '@alagishev/qubership-apihub-ui-shared/utils/requests'
+import type { IsLoading } from '@alagishev/qubership-apihub-ui-shared/utils/aliases'
 import {
   useGetNcServicePrefix,
-} from '@b41ex/qubership-apihub-ui-shared/features/system-extensions/useSystemExtensions'
+} from '@alagishev/qubership-apihub-ui-shared/features/system-extensions/useSystemExtensions'
 
 export type CheckRoutingDetails = {
   agentId: string

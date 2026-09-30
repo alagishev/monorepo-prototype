@@ -16,8 +16,8 @@
 
 import { useMemo } from 'react'
 import type { Key } from '@portal/entities/keys'
-import { useSearchParam } from '@b41ex/qubership-apihub-ui-shared/hooks/searchparams/useSearchParam'
-import { useSetSearchParams } from '@b41ex/qubership-apihub-ui-shared/hooks/searchparams/useSetSearchParams'
+import { useSearchParam } from '@alagishev/qubership-apihub-ui-shared/hooks/searchparams/useSearchParam'
+import { useSetSearchParams } from '@alagishev/qubership-apihub-ui-shared/hooks/searchparams/useSetSearchParams'
 
 export function useViewSearchParam(): [Key | undefined, SetViewSearchParam] {
   const param = useSearchParam<Key>('view')

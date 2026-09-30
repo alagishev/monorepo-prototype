@@ -34,20 +34,20 @@ import { BaselinePackageTableCell } from '../BaselinePackageTableCell'
 import { ServiceLabelsTableCell } from '../ServiceLabelsTableCell'
 import { useEventBus } from '../../../../../EventBusProvider'
 import { BwcStatusTableCell } from '../BwcStatusTableCell'
-import type { ColumnModel } from '@b41ex/qubership-apihub-ui-shared/hooks/table-resizing/useColumnResizing'
+import type { ColumnModel } from '@alagishev/qubership-apihub-ui-shared/hooks/table-resizing/useColumnResizing'
 import {
   DEFAULT_CONTAINER_WIDTH,
   useColumnsSizing,
-} from '@b41ex/qubership-apihub-ui-shared/hooks/table-resizing/useColumnResizing'
-import { Changes } from '@b41ex/qubership-apihub-ui-shared/components/Changes'
-import { DEFAULT_API_TYPE } from '@b41ex/qubership-apihub-ui-shared/entities/operations'
-import { ColumnDelimiter } from '@b41ex/qubership-apihub-ui-shared/components/ColumnDelimiter'
-import type { Spec } from '@b41ex/qubership-apihub-ui-shared/entities/specs'
-import type { ChangesSummary } from '@b41ex/qubership-apihub-ui-shared/entities/change-severities'
-import { createComponents } from '@b41ex/qubership-apihub-ui-shared/utils/components'
-import { DEFAULT_NUMBER_SKELETON_ROWS } from '@b41ex/qubership-apihub-ui-shared/utils/constants'
-import { useResizeObserver } from '@b41ex/qubership-apihub-ui-shared/hooks/common/useResizeObserver'
-import type { ApiType } from '@b41ex/qubership-apihub-ui-shared/entities/api-types'
+} from '@alagishev/qubership-apihub-ui-shared/hooks/table-resizing/useColumnResizing'
+import { Changes } from '@alagishev/qubership-apihub-ui-shared/components/Changes'
+import { DEFAULT_API_TYPE } from '@alagishev/qubership-apihub-ui-shared/entities/operations'
+import { ColumnDelimiter } from '@alagishev/qubership-apihub-ui-shared/components/ColumnDelimiter'
+import type { Spec } from '@alagishev/qubership-apihub-ui-shared/entities/specs'
+import type { ChangesSummary } from '@alagishev/qubership-apihub-ui-shared/entities/change-severities'
+import { createComponents } from '@alagishev/qubership-apihub-ui-shared/utils/components'
+import { DEFAULT_NUMBER_SKELETON_ROWS } from '@alagishev/qubership-apihub-ui-shared/utils/constants'
+import { useResizeObserver } from '@alagishev/qubership-apihub-ui-shared/hooks/common/useResizeObserver'
+import type { ApiType } from '@alagishev/qubership-apihub-ui-shared/entities/api-types'
 
 export type ValidationResultsStepTableProps = {
   value: ReadonlyArray<Service>

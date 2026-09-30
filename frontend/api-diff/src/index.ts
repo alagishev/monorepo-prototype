@@ -1,5 +1,5 @@
 /**
- * Public entry point for @b41ex/qubership-apihub-api-diff.
+ * Public entry point for @alagishev/qubership-apihub-api-diff.
  *
  * Everything re-exported below is API surface. Anything not listed here is internal and may
  * change without a major bump, so add an export deliberately rather than to reach one symbol.

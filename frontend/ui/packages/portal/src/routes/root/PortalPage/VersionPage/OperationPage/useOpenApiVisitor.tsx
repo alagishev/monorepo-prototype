@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 
-import type { JsonPath } from '@b41ex/qubership-apihub-json-crawl'
-import { OpenApiWalker, type VisitorCallbackArgument } from '@b41ex/qubership-apihub-api-visitor'
+import type { JsonPath } from '@alagishev/qubership-apihub-json-crawl'
+import { OpenApiWalker, type VisitorCallbackArgument } from '@alagishev/qubership-apihub-api-visitor'
 import type { OpenAPIV3 } from 'openapi-types'
 import { useMemo } from 'react'
 import type {
@@ -29,7 +29,7 @@ import {
   OPEN_API_SECTION_REQUESTS,
   OPEN_API_SECTION_RESPONSES,
 } from '@portal/entities/operation-structure'
-import type { DenormalizeOptions, NormalizeOptions } from '@b41ex/qubership-apihub-api-unifier'
+import type { DenormalizeOptions, NormalizeOptions } from '@alagishev/qubership-apihub-api-unifier'
 import {
   denormalize,
   JSON_SCHEMA_PROPERTY_TITLE,
@@ -37,7 +37,7 @@ import {
   OPEN_API_PROPERTY_COMPONENTS,
   OPEN_API_PROPERTY_SCHEMAS,
   pathItemToFullPath,
-} from '@b41ex/qubership-apihub-api-unifier'
+} from '@alagishev/qubership-apihub-api-unifier'
 import {
   resolveSharedSchemaNames,
   VISITOR_FLAG_DEFAULTS,
@@ -45,8 +45,8 @@ import {
   VISITOR_FLAG_INLINE_REFS,
   VISITOR_FLAG_ORIGINS,
   VISITOR_FLAG_TITLE,
-} from '@b41ex/qubership-apihub-ui-shared/components/SchemaGraphView/visitor-utils'
-import { schemaHashWithTitle } from '@b41ex/qubership-apihub-ui-shared/components/SchemaGraphView/oasToClassDiagramService'
+} from '@alagishev/qubership-apihub-ui-shared/components/SchemaGraphView/visitor-utils'
+import { schemaHashWithTitle } from '@alagishev/qubership-apihub-ui-shared/components/SchemaGraphView/oasToClassDiagramService'
 
 const walker = new OpenApiWalker()
 

@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-import { DiffRecord } from '@b41ex/qubership-apihub-api-data-model'
-import { Diff } from '@b41ex/qubership-apihub-api-diff'
-import { DiffsClassesBuilder } from '@b41ex/qubership-apihub-next-data-model/building-service/abstract/tree-with-diffs/node-diffs-data/utilities'
-import { HighlightVariant } from '@b41ex/qubership-apihub-next-data-model/model/abstract/tree-with-diffs/tree-node.interface'
+import { DiffRecord } from '@alagishev/qubership-apihub-api-data-model'
+import { Diff } from '@alagishev/qubership-apihub-api-diff'
+import { DiffsClassesBuilder } from '@alagishev/qubership-apihub-next-data-model/building-service/abstract/tree-with-diffs/node-diffs-data/utilities'
+import { HighlightVariant } from '@alagishev/qubership-apihub-next-data-model/model/abstract/tree-with-diffs/tree-node.interface'
 import type { FC } from 'react'
 import { CHANGED_LAYOUT_SIDE, LayoutSide, ORIGIN_LAYOUT_SIDE } from '../../types/internal/LayoutSide'
 import { LayoutMode } from '../../types/LayoutMode'

@@ -5,9 +5,9 @@ import {
   SHAREABILITY_STATUS_SHAREABLE,
   SHAREABILITY_STATUS_UNKNOWN,
   type ShareabilityStatus,
-} from '@b41ex/qubership-apihub-api-processor'
-import { AlertCustom, type AlertCustomProps } from '@b41ex/qubership-apihub-ui-shared/components/AlertCustom'
-import { ALERT_SEVERITY, type AlertSeverity } from '@b41ex/qubership-apihub-ui-shared/themes/alert'
+} from '@alagishev/qubership-apihub-api-processor'
+import { AlertCustom, type AlertCustomProps } from '@alagishev/qubership-apihub-ui-shared/components/AlertCustom'
+import { ALERT_SEVERITY, type AlertSeverity } from '@alagishev/qubership-apihub-ui-shared/themes/alert'
 import { ExportSettingsFormFieldOptionScope } from '../entities/export-settings-form-field'
 import type { ShareabilitySummary } from '../hooks/useShareabilitySummary'
 

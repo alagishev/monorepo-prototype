@@ -41,8 +41,8 @@ import { SourceFile, TextFile } from './internal'
 import { ApiOperation } from './operation'
 import { McpEntity } from '../package/mcp'
 import { DdlEntity, DdlEntityId } from '../package/ddl'
-import { Diff } from '@b41ex/qubership-apihub-api-diff'
-import { Realm } from '@b41ex/qubership-apihub-ddlapi'
+import { Diff } from '@alagishev/qubership-apihub-api-diff'
+import { Realm } from '@alagishev/qubership-apihub-ddlapi'
 import { ResolvedPackage } from '../external/package'
 import {
   ASYNCAPI_API_TYPE,
@@ -53,7 +53,7 @@ import {
   MCP_CONTRACT_TYPE,
   REST_API_TYPE,
 } from '../../consts'
-import { OpenApiExtensionKey } from '@b41ex/qubership-apihub-api-unifier'
+import { OpenApiExtensionKey } from '@alagishev/qubership-apihub-api-unifier'
 import { OperationsMap } from '../../components'
 import { ObjectHashCache } from '../../utils/hashes'
 

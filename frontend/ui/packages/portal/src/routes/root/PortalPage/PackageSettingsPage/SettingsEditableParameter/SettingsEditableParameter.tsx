@@ -3,14 +3,14 @@ import { Box, IconButton, type SxProps, type Theme, Tooltip, Typography } from '
 import {
   DISABLED_BUTTON_COLOR,
   ENABLED_BUTTON_COLOR,
-} from '@b41ex/qubership-apihub-ui-shared/entities/operation-groups'
+} from '@alagishev/qubership-apihub-ui-shared/entities/operation-groups'
 import {
   CREATE_AND_UPDATE_PACKAGE_PERMISSION,
   NO_PERMISSION_TO_EDIT_PACKAGE,
-} from '@b41ex/qubership-apihub-ui-shared/entities/package-permissions'
-import { EditIcon } from '@b41ex/qubership-apihub-ui-shared/icons/EditIcon'
+} from '@alagishev/qubership-apihub-ui-shared/entities/package-permissions'
+import { EditIcon } from '@alagishev/qubership-apihub-ui-shared/icons/EditIcon'
 import type { BoxProps } from '@mui/system/Box/Box'
-import type { Package } from '@b41ex/qubership-apihub-ui-shared/entities/packages'
+import type { Package } from '@alagishev/qubership-apihub-ui-shared/entities/packages'
 
 export type SettingsEditableParameterProps = {
   title: string

@@ -1,7 +1,7 @@
-import type { ApiType } from '@b41ex/qubership-apihub-ui-shared/entities/api-types'
-import type { ContractType } from '@b41ex/qubership-apihub-ui-shared/entities/contract-types'
-import type { Key } from '@b41ex/qubership-apihub-ui-shared/entities/keys'
-import type { IsLoading } from '@b41ex/qubership-apihub-ui-shared/utils/aliases'
+import type { ApiType } from '@alagishev/qubership-apihub-ui-shared/entities/api-types'
+import type { ContractType } from '@alagishev/qubership-apihub-ui-shared/entities/contract-types'
+import type { Key } from '@alagishev/qubership-apihub-ui-shared/entities/keys'
+import type { IsLoading } from '@alagishev/qubership-apihub-ui-shared/utils/aliases'
 
 import {
   getDefaultApiTypeFromTabApiTypes,

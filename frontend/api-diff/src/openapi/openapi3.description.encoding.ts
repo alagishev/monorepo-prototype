@@ -23,7 +23,7 @@ import {
   OPEN_API_PROPERTY_RESPONSES,
   PREDICATE_ANY_VALUE,
   PREDICATE_UNCLOSED_END,
-} from '@b41ex/qubership-apihub-api-unifier'
+} from '@alagishev/qubership-apihub-api-unifier'
 import { calculateChangedProperty, calculateRequestPlace, calculateResponsePlace } from './openapi3.description'
 
 export const encodingParamsCalculator: DiffTemplateParamsCalculator = (diff, _) => {

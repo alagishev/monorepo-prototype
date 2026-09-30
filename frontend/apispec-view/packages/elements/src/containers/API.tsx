@@ -10,10 +10,10 @@ import {
   withQueryClientProvider,
   withRouter,
   withStyles,
-} from '@b41ex/qubership-apihub-apispec-view-elements-core';
-import { IServer } from '@b41ex/qubership-apihub-apispec-view-elements-core/utils/http-spec/IServer';
+} from '@alagishev/qubership-apihub-apispec-view-elements-core';
+import { IServer } from '@alagishev/qubership-apihub-apispec-view-elements-core/utils/http-spec/IServer';
 import { Box, Flex, Icon } from '@stoplight/mosaic';
-import { SchemaViewMode } from '@b41ex/qubership-apihub-apispec-view-json-schema-viewer';
+import { SchemaViewMode } from '@alagishev/qubership-apihub-apispec-view-json-schema-viewer';
 import { flow } from 'lodash';
 import * as React from 'react';
 import { useMemo } from 'react';

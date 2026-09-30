@@ -17,8 +17,8 @@
 import { useParams } from 'react-router-dom'
 import { useState } from 'react'
 import { getOperationGroups } from './useOperationGroups'
-import { isEmpty } from '@b41ex/qubership-apihub-ui-shared/utils/arrays'
-import type { OperationGroup } from '@b41ex/qubership-apihub-ui-shared/entities/operation-groups'
+import { isEmpty } from '@alagishev/qubership-apihub-ui-shared/utils/arrays'
+import type { OperationGroup } from '@alagishev/qubership-apihub-ui-shared/entities/operation-groups'
 
 export const useOperationGroupComparison = (): [boolean, GetOperationGroupFunction] => {
   const { packageId, versionId } = useParams()

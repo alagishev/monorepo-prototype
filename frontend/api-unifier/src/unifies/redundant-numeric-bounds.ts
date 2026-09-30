@@ -1,4 +1,4 @@
-import { isArray, isObject } from '@b41ex/qubership-apihub-json-crawl'
+import { isArray, isObject } from '@alagishev/qubership-apihub-json-crawl'
 import { InternalUnifyOptions, TransformFunction, UnifyContext } from '../types'
 import {
   JSON_SCHEMA_PROPERTY_EXCLUSIVE_MAXIMUM,

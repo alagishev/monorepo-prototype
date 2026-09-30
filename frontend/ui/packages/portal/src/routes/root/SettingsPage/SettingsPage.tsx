@@ -20,10 +20,10 @@ import { SettingsBody } from './SettingsBody'
 import { SettingsToolbar } from './SettingsToolbar'
 import type { SettingsPageRoute } from '../../../routes'
 import { USER_ROLES_PAGE } from '../../../routes'
-import { useActiveTabs } from '@b41ex/qubership-apihub-ui-shared/hooks/pathparams/useActiveTabs'
-import { useSuperAdminCheck } from '@b41ex/qubership-apihub-ui-shared/hooks/user-roles/useSuperAdminCheck'
-import { LayoutWithToolbar } from '@b41ex/qubership-apihub-ui-shared/components/PageLayouts/LayoutWithToolbar'
-import { CONTENT_PLACEHOLDER_AREA, NO_PERMISSION, Placeholder } from '@b41ex/qubership-apihub-ui-shared/components/Placeholder'
+import { useActiveTabs } from '@alagishev/qubership-apihub-ui-shared/hooks/pathparams/useActiveTabs'
+import { useSuperAdminCheck } from '@alagishev/qubership-apihub-ui-shared/hooks/user-roles/useSuperAdminCheck'
+import { LayoutWithToolbar } from '@alagishev/qubership-apihub-ui-shared/components/PageLayouts/LayoutWithToolbar'
+import { CONTENT_PLACEHOLDER_AREA, NO_PERMISSION, Placeholder } from '@alagishev/qubership-apihub-ui-shared/components/Placeholder'
 
 export const SettingsPage: FC = memo(() => {
   const [menuItem] = useActiveTabs()

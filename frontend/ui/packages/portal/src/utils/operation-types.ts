@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-import { DEFAULT_API_TYPE } from '@b41ex/qubership-apihub-ui-shared/entities/operations'
-import { isEmpty } from '@b41ex/qubership-apihub-ui-shared/utils/arrays'
-import type { ApiType } from '@b41ex/qubership-apihub-ui-shared/entities/api-types'
-import type { ContractType } from '@b41ex/qubership-apihub-ui-shared/entities/contract-types'
+import { DEFAULT_API_TYPE } from '@alagishev/qubership-apihub-ui-shared/entities/operations'
+import { isEmpty } from '@alagishev/qubership-apihub-ui-shared/utils/arrays'
+import type { ApiType } from '@alagishev/qubership-apihub-ui-shared/entities/api-types'
+import type { ContractType } from '@alagishev/qubership-apihub-ui-shared/entities/contract-types'
 
 export type OperationTypeForm =
   | ReadonlyArray<ApiType | ContractType>

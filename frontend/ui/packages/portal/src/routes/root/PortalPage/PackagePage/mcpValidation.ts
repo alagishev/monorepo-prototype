@@ -1,4 +1,4 @@
-import { unwrapJsonRpc } from '@b41ex/qubership-apihub-api-processor'
+import { unwrapJsonRpc } from '@alagishev/qubership-apihub-api-processor'
 
 import {
   getMcpCollectionForDocumentType,
@@ -6,9 +6,9 @@ import {
   MCP_COLLECTION_LABELS,
   MCP_LIST_COLLECTIONS,
   type McpCollection,
-} from '@b41ex/qubership-apihub-ui-shared/entities/contracts-mcp'
-import { isObject } from '@b41ex/qubership-apihub-ui-shared/utils/objects'
-import { MCP_DOCUMENT_TYPE, type McpDocumentType } from '@b41ex/qubership-apihub-ui-shared/utils/specs'
+} from '@alagishev/qubership-apihub-ui-shared/entities/contracts-mcp'
+import { isObject } from '@alagishev/qubership-apihub-ui-shared/utils/objects'
+import { MCP_DOCUMENT_TYPE, type McpDocumentType } from '@alagishev/qubership-apihub-ui-shared/utils/specs'
 
 import type { McpStagedFileMeta } from '@portal/routes/root/PortalPage/PackagePage/mcpPublish'
 

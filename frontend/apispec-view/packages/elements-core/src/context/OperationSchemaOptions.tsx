@@ -1,4 +1,4 @@
-import { SchemaViewMode } from '@b41ex/qubership-apihub-apispec-view-json-schema-viewer';
+import { SchemaViewMode } from '@alagishev/qubership-apihub-apispec-view-json-schema-viewer';
 import * as React from 'react';
 
 export type OperationSchemaOptions = {

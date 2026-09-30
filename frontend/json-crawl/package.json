@@ -1,5 +1,5 @@
 {
-  "name": "@b41ex/qubership-apihub-json-crawl",
+  "name": "@alagishev/qubership-apihub-json-crawl",
   "version": "1.2.5",
   "description": "Async and sync crawler for json object",
   "module": "./dist/index.es.js",

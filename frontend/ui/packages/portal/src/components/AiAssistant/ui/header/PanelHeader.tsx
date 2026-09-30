@@ -5,8 +5,8 @@ import { styled } from '@mui/material/styles'
 import Typography from '@mui/material/Typography'
 import { type FC, memo } from 'react'
 
-import { BackArrowIcon } from '@b41ex/qubership-apihub-ui-shared/icons/BackArrowIcon'
-import { RobotFilledIcon } from '@b41ex/qubership-apihub-ui-shared/icons/RobotFilledIcon'
+import { BackArrowIcon } from '@alagishev/qubership-apihub-ui-shared/icons/BackArrowIcon'
+import { RobotFilledIcon } from '@alagishev/qubership-apihub-ui-shared/icons/RobotFilledIcon'
 
 import type { PANEL_SCREEN_CHAT } from '../../state/panelContext'
 import { PANEL_SCREEN_HISTORY, usePanel } from '../../state/panelContext'

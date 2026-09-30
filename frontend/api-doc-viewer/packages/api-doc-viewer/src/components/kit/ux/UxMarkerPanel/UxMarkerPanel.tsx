@@ -15,7 +15,7 @@
  */
 
 import { useMemo, type FC } from 'react'
-import { DiffType } from '@b41ex/qubership-apihub-api-diff'
+import { DiffType } from '@alagishev/qubership-apihub-api-diff'
 import { UxDiffMarker } from '../UxMarker/UxDiffMarker'
 
 export type UxMarkerPanelProps = {

@@ -24,8 +24,8 @@ import {
   CONTENT_PLACEHOLDER_AREA,
   NO_SEARCH_RESULTS,
   Placeholder,
-} from '@b41ex/qubership-apihub-ui-shared/components/Placeholder'
-import { isNotEmpty } from '@b41ex/qubership-apihub-ui-shared/utils/arrays'
+} from '@alagishev/qubership-apihub-ui-shared/components/Placeholder'
+import { isNotEmpty } from '@alagishev/qubership-apihub-ui-shared/utils/arrays'
 
 export const DiscoverServicesStep: FC = memo(() => {
   const [{ services }, isLoading] = useServices()

@@ -26,11 +26,11 @@ import { useCurrentDocumentsList } from './CurrentDocumentsListProvider'
 import { usePackageKind } from '../../usePackageKind'
 import { SelectedDocumentContext } from './SelectedDocumentProvider'
 import type { Document } from '@portal/entities/documents'
-import { useSearchParam } from '@b41ex/qubership-apihub-ui-shared/hooks/searchparams/useSearchParam'
-import { REF_SEARCH_PARAM } from '@b41ex/qubership-apihub-ui-shared/utils/search-params'
-import { DASHBOARD_KIND } from '@b41ex/qubership-apihub-ui-shared/entities/packages'
-import { CONTENT_PLACEHOLDER_AREA, Placeholder } from '@b41ex/qubership-apihub-ui-shared/components/Placeholder'
-import { BodyCard } from '@b41ex/qubership-apihub-ui-shared/components/BodyCard'
+import { useSearchParam } from '@alagishev/qubership-apihub-ui-shared/hooks/searchparams/useSearchParam'
+import { REF_SEARCH_PARAM } from '@alagishev/qubership-apihub-ui-shared/utils/search-params'
+import { DASHBOARD_KIND } from '@alagishev/qubership-apihub-ui-shared/entities/packages'
+import { CONTENT_PLACEHOLDER_AREA, Placeholder } from '@alagishev/qubership-apihub-ui-shared/components/Placeholder'
+import { BodyCard } from '@alagishev/qubership-apihub-ui-shared/components/BodyCard'
 
 export const DocumentsCard: FC = memo(() => {
   const { documentId } = useParams()

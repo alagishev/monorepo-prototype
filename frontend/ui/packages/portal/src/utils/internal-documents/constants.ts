@@ -1,5 +1,5 @@
-import { DIFF_META_KEY, DIFFS_AGGREGATED_META_KEY } from '@b41ex/qubership-apihub-api-diff'
-import { FIRST_REFERENCE_KEY_PROPERTY, HASH_FLAG, ORIGINS_SYMBOL, SYNTHETIC_TITLE_FLAG } from '@b41ex/qubership-apihub-api-processor'
+import { DIFF_META_KEY, DIFFS_AGGREGATED_META_KEY } from '@alagishev/qubership-apihub-api-diff'
+import { FIRST_REFERENCE_KEY_PROPERTY, HASH_FLAG, ORIGINS_SYMBOL, SYNTHETIC_TITLE_FLAG } from '@alagishev/qubership-apihub-api-processor'
 
 export const INTERNAL_DOCUMENT_STRING_SYMBOL_MAPPING = new Map([
   ['HASH_FLAG', HASH_FLAG],

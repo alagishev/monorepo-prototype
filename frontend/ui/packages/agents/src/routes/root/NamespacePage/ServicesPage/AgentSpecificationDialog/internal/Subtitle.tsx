@@ -17,7 +17,7 @@
 import type { FC } from 'react'
 import { memo } from 'react'
 import { Box, Typography } from '@mui/material'
-import { OverflowTooltip } from '@b41ex/qubership-apihub-ui-shared/components/OverflowTooltip'
+import { OverflowTooltip } from '@alagishev/qubership-apihub-ui-shared/components/OverflowTooltip'
 
 type SubtitleProps = {
   label: string

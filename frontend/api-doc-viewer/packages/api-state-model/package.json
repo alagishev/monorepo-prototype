@@ -1,12 +1,12 @@
 {
-  "name": "@b41ex/qubership-apihub-api-state-model",
+  "name": "@alagishev/qubership-apihub-api-state-model",
   "version": "0.0.0",
   "license": "Apache-2.0",
   "private": true,
   "main": "src/index.ts",
   "dependencies": {
-    "@b41ex/qubership-apihub-api-data-model": "workspace:*",
-    "@b41ex/qubership-apihub-graphapi": "workspace:^"
+    "@alagishev/qubership-apihub-api-data-model": "workspace:*",
+    "@alagishev/qubership-apihub-graphapi": "workspace:^"
   },
   "nx": {
     "name": "api-doc-viewer-api-state-model"

@@ -8,17 +8,17 @@ import {
   takeDdlPropertyTitleRowDiff,
   takeDdlTableNodeDiffIfPresent,
   takeDdlTableTitleRowDiff,
-} from "@b41ex/qubership-apihub-next-data-model/model/ddlapi/tree-with-diffs/property-row-diffs"
+} from "@alagishev/qubership-apihub-next-data-model/model/ddlapi/tree-with-diffs/property-row-diffs"
 
 export type {
   DdlApiPropertyNodeWithDiffs,
   DdlApiPropertyRowValue,
-} from "@b41ex/qubership-apihub-next-data-model/model/ddlapi/tree-with-diffs/property-row-diffs"
+} from "@alagishev/qubership-apihub-next-data-model/model/ddlapi/tree-with-diffs/property-row-diffs"
 
 export {
   DDL_COLUMN_FLAG_DIFF_KEYS,
   DDL_INDEX_FLAG_DIFF_KEYS,
-} from "@b41ex/qubership-apihub-next-data-model/model/ddlapi/tree-with-diffs/property-row-diffs"
+} from "@alagishev/qubership-apihub-next-data-model/model/ddlapi/tree-with-diffs/property-row-diffs"
 
 export const takeNodeDiffIfPresent = takeDdlPropertyNodeDiffIfPresent
 

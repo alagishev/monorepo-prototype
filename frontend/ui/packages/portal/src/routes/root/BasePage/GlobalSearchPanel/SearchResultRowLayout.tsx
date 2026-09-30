@@ -3,9 +3,9 @@ import { type FC, memo } from 'react'
 import { Marker } from 'react-mark.js'
 import { NavLink, type To } from 'react-router-dom'
 
-import { OverflowTooltip } from '@b41ex/qubership-apihub-ui-shared/components/OverflowTooltip'
-import type { TestableProps } from '@b41ex/qubership-apihub-ui-shared/components/Testable'
-import { TextWithOverflowTooltip } from '@b41ex/qubership-apihub-ui-shared/components/TextWithOverflowTooltip'
+import { OverflowTooltip } from '@alagishev/qubership-apihub-ui-shared/components/OverflowTooltip'
+import type { TestableProps } from '@alagishev/qubership-apihub-ui-shared/components/Testable'
+import { TextWithOverflowTooltip } from '@alagishev/qubership-apihub-ui-shared/components/TextWithOverflowTooltip'
 
 import { CONTENT_WIDTH, INFINITE_SCROLL_SENTINEL_HEIGHT } from './globalSearchConstants'
 

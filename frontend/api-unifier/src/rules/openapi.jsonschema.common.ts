@@ -1,4 +1,4 @@
-import { CrawlPrefixRules } from "@b41ex/qubership-apihub-json-crawl"
+import { CrawlPrefixRules } from "@alagishev/qubership-apihub-json-crawl"
 import { NormalizationRule, NormalizationRules } from "../types"
 import { TYPE_JSON_ANY, TYPE_OBJECT, TYPE_STRING } from "../validate/checker"
 import { checkType } from "../validate/checker"

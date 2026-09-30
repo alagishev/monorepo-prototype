@@ -1,4 +1,4 @@
-import { isObject, JsonPath } from '@b41ex/qubership-apihub-json-crawl'
+import { isObject, JsonPath } from '@alagishev/qubership-apihub-json-crawl'
 
 
 export interface GrepValuePredicate {

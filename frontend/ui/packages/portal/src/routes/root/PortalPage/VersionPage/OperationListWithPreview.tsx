@@ -21,26 +21,26 @@ import {
 } from '@portal/routes/root/PortalPage/VersionPage/useRawGraphQlCroppedToSingleOperationRawGraphQl'
 import type {
   OperationListSubComponentProps,
-} from '@b41ex/qubership-apihub-ui-shared/components/Operations/OperationWithMetaClickableList'
+} from '@alagishev/qubership-apihub-ui-shared/components/Operations/OperationWithMetaClickableList'
 import {
   OperationWithMetaClickableList,
-} from '@b41ex/qubership-apihub-ui-shared/components/Operations/OperationWithMetaClickableList'
-import type { ApiType } from '@b41ex/qubership-apihub-ui-shared/entities/api-types'
-import type { Key } from '@b41ex/qubership-apihub-ui-shared/entities/keys'
-import { RAW_OPERATION_VIEW_MODE } from '@b41ex/qubership-apihub-ui-shared/entities/operation-view-mode'
+} from '@alagishev/qubership-apihub-ui-shared/components/Operations/OperationWithMetaClickableList'
+import type { ApiType } from '@alagishev/qubership-apihub-ui-shared/entities/api-types'
+import type { Key } from '@alagishev/qubership-apihub-ui-shared/entities/keys'
+import { RAW_OPERATION_VIEW_MODE } from '@alagishev/qubership-apihub-ui-shared/entities/operation-view-mode'
 import type {
   FetchNextOperationList,
   OperationData,
   OperationsData,
   PackageRef,
-} from '@b41ex/qubership-apihub-ui-shared/entities/operations'
-import { isGraphQlOperation } from '@b41ex/qubership-apihub-ui-shared/entities/operations'
-import { DASHBOARD_KIND } from '@b41ex/qubership-apihub-ui-shared/entities/packages'
-import { useSystemInfo } from '@b41ex/qubership-apihub-ui-shared/features/system-info'
-import { usePublishedDocumentRaw } from '@b41ex/qubership-apihub-ui-shared/hooks/documents/usePublishedDocumentRaw'
+} from '@alagishev/qubership-apihub-ui-shared/entities/operations'
+import { isGraphQlOperation } from '@alagishev/qubership-apihub-ui-shared/entities/operations'
+import { DASHBOARD_KIND } from '@alagishev/qubership-apihub-ui-shared/entities/packages'
+import { useSystemInfo } from '@alagishev/qubership-apihub-ui-shared/features/system-info'
+import { usePublishedDocumentRaw } from '@alagishev/qubership-apihub-ui-shared/hooks/documents/usePublishedDocumentRaw'
 import {
   useOperationsPairStringified,
-} from '@b41ex/qubership-apihub-ui-shared/hooks/operations/useOperationsPairAsStrings'
+} from '@alagishev/qubership-apihub-ui-shared/hooks/operations/useOperationsPairAsStrings'
 import type { ResizeCallback } from 're-resizable'
 import type { FC } from 'react'
 import { memo, useCallback, useMemo } from 'react'

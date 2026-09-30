@@ -1,9 +1,9 @@
 import { DdlTableDiffsViewer } from "../../components/DdlTableViewer/DdlTableDiffsViewer";
-import { apiDiff } from "@b41ex/qubership-apihub-api-diff";
-import type { Realm } from "@b41ex/qubership-apihub-ddlapi";
+import { apiDiff } from "@alagishev/qubership-apihub-api-diff";
+import type { Realm } from "@alagishev/qubership-apihub-ddlapi";
 import type { ArgTypes, Meta, StoryObj } from "@storybook/react-vite";
-import { NavigationLinkBuilder } from "@b41ex/qubership-apihub-next-data-model/shared/ddlapi/types/navigation-link-builder";
-import { TableKey } from "@b41ex/qubership-apihub-next-data-model/shared/ddlapi/types/table-key";
+import { NavigationLinkBuilder } from "@alagishev/qubership-apihub-next-data-model/shared/ddlapi/types/navigation-link-builder";
+import { TableKey } from "@alagishev/qubership-apihub-next-data-model/shared/ddlapi/types/table-key";
 import { buildFromDdlInBrowser, resolveDdlDiffComparePair } from "../ddlapi-suite/build-from-ddl-browser";
 import { TEST_DIFF_META_KEYS } from "./shared-test-data";
 

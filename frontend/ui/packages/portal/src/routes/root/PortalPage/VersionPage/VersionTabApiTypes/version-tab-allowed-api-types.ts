@@ -1,15 +1,15 @@
-import type { ApiType } from '@b41ex/qubership-apihub-ui-shared/entities/api-types'
+import type { ApiType } from '@alagishev/qubership-apihub-ui-shared/entities/api-types'
 import {
   API_TYPE_ASYNCAPI,
   API_TYPE_GRAPHQL,
   API_TYPE_REST,
-} from '@b41ex/qubership-apihub-ui-shared/entities/api-types'
+} from '@alagishev/qubership-apihub-ui-shared/entities/api-types'
 import {
   CONTRACT_TYPE_DDL,
   CONTRACT_TYPE_MCP,
   type ContractType,
-} from '@b41ex/qubership-apihub-ui-shared/entities/contract-types'
-import { isEmpty } from '@b41ex/qubership-apihub-ui-shared/utils/arrays'
+} from '@alagishev/qubership-apihub-ui-shared/entities/contract-types'
+import { isEmpty } from '@alagishev/qubership-apihub-ui-shared/utils/arrays'
 
 import { getDefaultApiType } from '../../../../../utils/operation-types'
 

@@ -1,11 +1,11 @@
-import { DiffBlock, useValueFromObjWithDiff } from '@b41ex/qubership-apihub-apispec-view-diff-block';
+import { DiffBlock, useValueFromObjWithDiff } from '@alagishev/qubership-apihub-apispec-view-diff-block';
 import { keys } from 'lodash';
 import { nanoid } from 'nanoid';
 import React, { FC } from 'react';
 
 import { Extension, ExtensionMeta, Extensions } from './Extensions';
-import { useDiffsMetaKey } from "@b41ex/qubership-apihub-apispec-view/containers/DiffsMetaKeyContext";
-import { buildOpenApiDiffCause } from "@b41ex/qubership-apihub-api-doc-viewer";
+import { useDiffsMetaKey } from "@alagishev/qubership-apihub-apispec-view/containers/DiffsMetaKeyContext";
+import { buildOpenApiDiffCause } from "@alagishev/qubership-apihub-api-doc-viewer";
 
 interface ExtensionsDiffBlockProps {
   idPrefix: string;

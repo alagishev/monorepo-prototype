@@ -15,12 +15,12 @@
  */
 
 import { useQuery } from '@tanstack/react-query'
-import type { Agents } from '@b41ex/qubership-apihub-ui-shared/entities/agents'
-import { EMPTY_AGENTS, getAgents } from '@b41ex/qubership-apihub-ui-shared/entities/agents'
-import type { IsLoading } from '@b41ex/qubership-apihub-ui-shared/utils/aliases'
+import type { Agents } from '@alagishev/qubership-apihub-ui-shared/entities/agents'
+import { EMPTY_AGENTS, getAgents } from '@alagishev/qubership-apihub-ui-shared/entities/agents'
+import type { IsLoading } from '@alagishev/qubership-apihub-ui-shared/utils/aliases'
 import {
   useGetAgentPrefix,
-} from '@b41ex/qubership-apihub-ui-shared/features/system-extensions/useSystemExtensions'
+} from '@alagishev/qubership-apihub-ui-shared/features/system-extensions/useSystemExtensions'
 
 const AGENTS_QUERY_KEY = 'agents-query-key'
 

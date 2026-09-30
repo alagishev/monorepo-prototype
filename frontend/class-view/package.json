@@ -1,5 +1,5 @@
 {
-  "name": "@b41ex/qubership-apihub-class-view",
+  "name": "@alagishev/qubership-apihub-class-view",
   "version": "1.0.8",
   "license": "Apache-2.0",
   "type": "module",
@@ -42,7 +42,7 @@
     "svg-round-corners": "0.4.1"
   },
   "devDependencies": {
-    "@b41ex/qubership-apihub-jest-chrome-in-docker-environment": "workspace:^",
+    "@alagishev/qubership-apihub-jest-chrome-in-docker-environment": "workspace:^",
     "@storybook/addon-actions": "^7.5.2",
     "@storybook/addon-essentials": "^7.5.2",
     "@storybook/addon-links": "^7.5.2",

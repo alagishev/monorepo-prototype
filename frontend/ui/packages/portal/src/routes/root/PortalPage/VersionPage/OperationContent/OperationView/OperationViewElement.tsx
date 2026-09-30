@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 
-import '@b41ex/qubership-apihub-apispec-view'
-import type { OperationView } from '@b41ex/qubership-apihub-apispec-view'
+import '@alagishev/qubership-apihub-apispec-view'
+import type { OperationView } from '@alagishev/qubership-apihub-apispec-view'
 
 export type OperationViewElementProps = {
   router: 'history' | 'memory' | 'hash' | 'static'

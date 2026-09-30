@@ -29,7 +29,7 @@ const path = require('path')
 const COMPONENTS = JSON.parse(fs.readFileSync(path.join(__dirname, 'storybooks.json'), 'utf8')).map(
   (c) => c.component,
 )
-const CONTENT_KEY = 'com.b41ex.storybook.content'
+const CONTENT_KEY = 'com.alagishev.storybook.content'
 const CONTENT_TAG = /^(out|src)-[0-9a-f]{16}$/
 
 // Always published whatever the budget, and the canonical copy of any content they share with

@@ -7,9 +7,9 @@ a library, and the UI is one pull request.
 > **Temporary names.** This repository is a prototype published under a personal account. The following names are
 > placeholders for their `Netcracker` equivalents:
 >
-> - npm scope `@b41ex` (target: `@netcracker`), published to GitHub Packages
-> - image registry `ghcr.io/b41ex/apihub-*`
-> - repository `b41ex/monorepo-prototype`, and its Storybook site `https://b41ex.github.io/monorepo-prototype/`
+> - npm scope `@alagishev` (target: `@netcracker`), published to GitHub Packages
+> - image registry `ghcr.io/alagishev/apihub-*`
+> - repository `alagishev/monorepo-prototype`, and its Storybook site `https://alagishev.github.io/monorepo-prototype/`
 > - the `image_owner` input of the E2E workflows
 
 ## Prerequisites
@@ -45,10 +45,10 @@ name and the directory:
 
 | Directory | Nx project | Package |
 | --- | --- | --- |
-| `frontend/api-diff` | `api-diff` | `@b41ex/qubership-apihub-api-diff` |
-| `frontend/apispec-view` | `apispec-view-root` | `@b41ex/qubership-apihub-apispec-view-workspace` |
-| `frontend/apispec-view/packages/elements` | `apispec-view` | `@b41ex/qubership-apihub-apispec-view` |
-| `frontend/ui/packages/portal` | `ui-portal` | `@b41ex/qubership-apihub-ui-portal` |
+| `frontend/api-diff` | `api-diff` | `@alagishev/qubership-apihub-api-diff` |
+| `frontend/apispec-view` | `apispec-view-root` | `@alagishev/qubership-apihub-apispec-view-workspace` |
+| `frontend/apispec-view/packages/elements` | `apispec-view` | `@alagishev/qubership-apihub-apispec-view` |
+| `frontend/ui/packages/portal` | `ui-portal` | `@alagishev/qubership-apihub-ui-portal` |
 
 Nx commands take the project name; `pnpm --filter` takes the package name or a path. To look names up:
 
@@ -183,13 +183,13 @@ pnpm nx show projects --affected --base=develop # list the selection without run
 Add a third-party package to one project, from anywhere in the worktree:
 
 ```bash
-pnpm add lodash --filter @b41ex/qubership-apihub-api-diff
+pnpm add lodash --filter @alagishev/qubership-apihub-api-diff
 ```
 
 Add an internal package with `--workspace`, which writes `workspace:^`:
 
 ```bash
-pnpm add @b41ex/qubership-apihub-api-unifier --workspace --filter @b41ex/qubership-apihub-api-diff
+pnpm add @alagishev/qubership-apihub-api-unifier --workspace --filter @alagishev/qubership-apihub-api-diff
 ```
 
 Nx builds its graph from `package.json` only. A dependency that exists only as a tsconfig `paths` entry, a bundler

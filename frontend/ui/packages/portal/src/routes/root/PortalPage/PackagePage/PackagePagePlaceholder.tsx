@@ -17,15 +17,15 @@
 import { useBackwardLocationContext, useSetBackwardLocationContext } from '@portal/routes/BackwardLocationProvider'
 import { useEventBus } from '@portal/routes/EventBusProvider'
 import { Box, Button, capitalize, Link } from '@mui/material'
-import { EmptyPackageDialog } from '@b41ex/qubership-apihub-ui-shared/components/EmptyPackageDialog'
-import { CONTENT_PLACEHOLDER_AREA, Placeholder } from '@b41ex/qubership-apihub-ui-shared/components/Placeholder'
+import { EmptyPackageDialog } from '@alagishev/qubership-apihub-ui-shared/components/EmptyPackageDialog'
+import { CONTENT_PLACEHOLDER_AREA, Placeholder } from '@alagishev/qubership-apihub-ui-shared/components/Placeholder'
 import {
   navigateToExternalPage,
   VS_CODE_EXTENSION_URL,
-} from '@b41ex/qubership-apihub-ui-shared/entities/external-navigation'
-import type { PackageKind } from '@b41ex/qubership-apihub-ui-shared/entities/packages'
-import { PACKAGE_KIND } from '@b41ex/qubership-apihub-ui-shared/entities/packages'
-import { SPECIAL_VERSION_KEY } from '@b41ex/qubership-apihub-ui-shared/entities/versions'
+} from '@alagishev/qubership-apihub-ui-shared/entities/external-navigation'
+import type { PackageKind } from '@alagishev/qubership-apihub-ui-shared/entities/packages'
+import { PACKAGE_KIND } from '@alagishev/qubership-apihub-ui-shared/entities/packages'
+import { SPECIAL_VERSION_KEY } from '@alagishev/qubership-apihub-ui-shared/entities/versions'
 import type { FC } from 'react'
 import { memo, useCallback, useMemo } from 'react'
 import { NavLink, useParams } from 'react-router-dom'

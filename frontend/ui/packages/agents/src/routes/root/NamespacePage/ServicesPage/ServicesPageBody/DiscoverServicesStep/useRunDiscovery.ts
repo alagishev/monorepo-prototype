@@ -17,14 +17,14 @@
 import { useMutation } from '@tanstack/react-query'
 import { useParams } from 'react-router-dom'
 import { useInvalidateServices } from '../../../useServices'
-import type { IsError, IsLoading, IsSuccess } from '@b41ex/qubership-apihub-ui-shared/utils/aliases'
+import type { IsError, IsLoading, IsSuccess } from '@alagishev/qubership-apihub-ui-shared/utils/aliases'
 import { runServiceDiscovery } from '@agents/entities/services'
-import { WORKSPACE_SEARCH_PARAM } from '@b41ex/qubership-apihub-ui-shared/utils/search-params'
-import { useSearchParam } from '@b41ex/qubership-apihub-ui-shared/hooks/searchparams/useSearchParam'
+import { WORKSPACE_SEARCH_PARAM } from '@alagishev/qubership-apihub-ui-shared/utils/search-params'
+import { useSearchParam } from '@alagishev/qubership-apihub-ui-shared/hooks/searchparams/useSearchParam'
 import type { WorkspaceKey } from '@agents/entities/keys'
 import {
   useGetAgentPrefix,
-} from '@b41ex/qubership-apihub-ui-shared/features/system-extensions/useSystemExtensions'
+} from '@alagishev/qubership-apihub-ui-shared/features/system-extensions/useSystemExtensions'
 
 export function useRunDiscovery(): [RunDiscovery, IsLoading, IsSuccess, IsError] {
   const { agentId, namespaceKey } = useParams()

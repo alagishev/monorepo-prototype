@@ -18,13 +18,13 @@ import { useQuery, useQueryClient } from '@tanstack/react-query'
 import type {
   VersionChangesSummary,
   VersionChangesSummaryDto,
-} from '@b41ex/qubership-apihub-ui-shared/entities/version-changes-summary'
-import { toVersionChangesSummary } from '@b41ex/qubership-apihub-ui-shared/entities/version-changes-summary'
+} from '@alagishev/qubership-apihub-ui-shared/entities/version-changes-summary'
+import { toVersionChangesSummary } from '@alagishev/qubership-apihub-ui-shared/entities/version-changes-summary'
 import { useVersionWithRevision } from '../../../useVersionWithRevision'
 import { generatePath } from 'react-router-dom'
-import type { Key } from '@b41ex/qubership-apihub-ui-shared/entities/keys'
-import type { InvalidateQuery, IsFetching, IsLoading } from '@b41ex/qubership-apihub-ui-shared/utils/aliases'
-import { optionalSearchParams } from '@b41ex/qubership-apihub-ui-shared/utils/search-params'
+import type { Key } from '@alagishev/qubership-apihub-ui-shared/entities/keys'
+import type { InvalidateQuery, IsFetching, IsLoading } from '@alagishev/qubership-apihub-ui-shared/utils/aliases'
+import { optionalSearchParams } from '@alagishev/qubership-apihub-ui-shared/utils/search-params'
 import { portalRequestJson } from '@portal/utils/requests'
 import { useCallback } from 'react'
 

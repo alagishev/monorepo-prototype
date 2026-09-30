@@ -1,6 +1,6 @@
 import { type FC, memo } from 'react'
 import { Alert } from '@mui/material'
-import { InfoContextIcon } from '@b41ex/qubership-apihub-ui-shared/icons/InfoContextIcon'
+import { InfoContextIcon } from '@alagishev/qubership-apihub-ui-shared/icons/InfoContextIcon'
 
 type SpecPathWarningAlertProps = {
   path: string

@@ -19,7 +19,7 @@ import {
   API_COMPATIBILITY_KIND_BACKWARD_COMPATIBLE,
   API_COMPATIBILITY_KIND_NOT_BACKWARD_COMPATIBLE,
   ApiCompatibilityKind,
-} from '@b41ex/qubership-apihub-api-diff'
+} from '@alagishev/qubership-apihub-api-diff'
 
 /**
  * Maps one or more resolved api-kinds to an api-diff compatibility scope:

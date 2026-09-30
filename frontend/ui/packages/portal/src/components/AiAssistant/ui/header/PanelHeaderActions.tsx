@@ -3,9 +3,9 @@ import IconButton from '@mui/material/IconButton'
 import { styled } from '@mui/material/styles'
 import { type FC, memo } from 'react'
 
-import { ClockBackwardIcon } from '@b41ex/qubership-apihub-ui-shared/icons/ClockBackwardIcon'
-import { CloseIcon } from '@b41ex/qubership-apihub-ui-shared/icons/CloseIcon'
-import { NewChatIcon } from '@b41ex/qubership-apihub-ui-shared/icons/NewChatIcon'
+import { ClockBackwardIcon } from '@alagishev/qubership-apihub-ui-shared/icons/ClockBackwardIcon'
+import { CloseIcon } from '@alagishev/qubership-apihub-ui-shared/icons/CloseIcon'
+import { NewChatIcon } from '@alagishev/qubership-apihub-ui-shared/icons/NewChatIcon'
 
 type PanelHeaderActionsProps = {
   onNewChat: () => void

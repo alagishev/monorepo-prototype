@@ -19,7 +19,7 @@ import {
   PREDICATE_ANY_VALUE,
   PREDICATE_UNCLOSED_END,
   startFromOpenApiComponents,
-} from '@b41ex/qubership-apihub-api-unifier'
+} from '@alagishev/qubership-apihub-api-unifier'
 import {
   calculateChangedProperty,
   calculateComponentsPath,

@@ -1,5 +1,5 @@
-import { GraphApiSchema } from '@b41ex/qubership-apihub-graphapi';
-import { syncCrawl } from '@b41ex/qubership-apihub-json-crawl';
+import { GraphApiSchema } from '@alagishev/qubership-apihub-graphapi';
+import { syncCrawl } from '@alagishev/qubership-apihub-json-crawl';
 import { DiffRecord, NodeChange } from '../../abstract/diff';
 import { escapeSlash, isDiff, isObject, objectKeys, pick } from '../../utils';
 import { GraphApiDiffComplexNode, GraphApiDiffTreeNode } from './types';

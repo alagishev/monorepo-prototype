@@ -20,8 +20,8 @@ import { useInfiniteQuery } from '@tanstack/react-query'
 import {
   CONTRACT_TYPE_DDL,
   CONTRACT_TYPE_MCP,
-} from '@b41ex/qubership-apihub-ui-shared/entities/contract-types'
-import type { HasNextPage, IsFetchingNextPage, IsLoading } from '@b41ex/qubership-apihub-ui-shared/utils/aliases'
+} from '@alagishev/qubership-apihub-ui-shared/entities/contract-types'
+import type { HasNextPage, IsFetchingNextPage, IsLoading } from '@alagishev/qubership-apihub-ui-shared/utils/aliases'
 
 import {
   type ApiContract,

@@ -15,9 +15,9 @@
  */
 
 import { useMemo } from 'react'
-import { useSearchParam } from '@b41ex/qubership-apihub-ui-shared/hooks/searchparams/useSearchParam'
-import { useSetSearchParams } from '@b41ex/qubership-apihub-ui-shared/hooks/searchparams/useSetSearchParams'
-import { ALL_OPERATION_GROUPS } from '@b41ex/qubership-apihub-ui-shared/entities/operation-groups'
+import { useSearchParam } from '@alagishev/qubership-apihub-ui-shared/hooks/searchparams/useSearchParam'
+import { useSetSearchParams } from '@alagishev/qubership-apihub-ui-shared/hooks/searchparams/useSetSearchParams'
+import { ALL_OPERATION_GROUPS } from '@alagishev/qubership-apihub-ui-shared/entities/operation-groups'
 
 export function useOperationGroupSearchFilter(): [OperationGroupName, SetOperationGroupName] {
   const param = useSearchParam<OperationGroupName>(OPERATION_GROUP_SEARCH_PARAM)

@@ -23,10 +23,10 @@ import {
   OPERATIONS_REMOVE_FROM_GROUP_ACTION,
   useEventBus,
 } from '@portal/routes/EventBusProvider'
-import { OutlinedIconButton } from '@b41ex/qubership-apihub-ui-shared/components/OutlinedIconButton'
-import { ToLeftIcon } from '@b41ex/qubership-apihub-ui-shared/icons/ToLeftIcon'
-import { DISABLED_BUTTON_COLOR, ENABLED_BUTTON_COLOR } from '@b41ex/qubership-apihub-ui-shared/entities/operation-groups'
-import { ToRightIcon } from '@b41ex/qubership-apihub-ui-shared/icons/ToRightIcon'
+import { OutlinedIconButton } from '@alagishev/qubership-apihub-ui-shared/components/OutlinedIconButton'
+import { ToLeftIcon } from '@alagishev/qubership-apihub-ui-shared/icons/ToLeftIcon'
+import { DISABLED_BUTTON_COLOR, ENABLED_BUTTON_COLOR } from '@alagishev/qubership-apihub-ui-shared/entities/operation-groups'
+import { ToRightIcon } from '@alagishev/qubership-apihub-ui-shared/icons/ToRightIcon'
 
 const VerticalDivider: FC = () => {
   return (

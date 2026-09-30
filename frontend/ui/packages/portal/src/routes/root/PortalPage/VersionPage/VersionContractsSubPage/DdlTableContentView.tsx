@@ -15,53 +15,53 @@ import { useBreadcrumbsData } from '@portal/routes/root/PortalPage/VersionPage/C
 import { OperationsSwapper } from '@portal/routes/root/PortalPage/VersionPage/OperationContent/OperationsSwapper'
 import type { OperationDisplayMode } from '@portal/routes/root/PortalPage/VersionPage/OperationContent/OperationView/OperationDisplayMode'
 import { useOperationViewMode } from '@portal/routes/root/PortalPage/VersionPage/useOperationViewMode'
-import { LoadingIndicator } from '@b41ex/qubership-apihub-ui-shared/components/LoadingIndicator'
+import { LoadingIndicator } from '@alagishev/qubership-apihub-ui-shared/components/LoadingIndicator'
 import {
   CONTENT_PLACEHOLDER_AREA,
   Placeholder,
   PLACEHOLDER_MESSAGE_NO_INTERNAL_DOCUMENT,
   SEARCH_RAINY_DAY_PLACEHOLDER_VARIANT,
-} from '@b41ex/qubership-apihub-ui-shared/components/Placeholder'
-import { RawSpecDiffView } from '@b41ex/qubership-apihub-ui-shared/components/RawSpecDiffView'
-import { RawSpecView } from '@b41ex/qubership-apihub-ui-shared/components/SpecificationDialog/RawSpecView'
+} from '@alagishev/qubership-apihub-ui-shared/components/Placeholder'
+import { RawSpecDiffView } from '@alagishev/qubership-apihub-ui-shared/components/RawSpecDiffView'
+import { RawSpecView } from '@alagishev/qubership-apihub-ui-shared/components/SpecificationDialog/RawSpecView'
 import {
   DOC_SPEC_VIEW_MODE,
   RAW_SPEC_VIEW_MODE,
   SIMPLE_SPEC_VIEW_MODE,
   type SpecViewMode,
-} from '@b41ex/qubership-apihub-ui-shared/components/SpecViewToggler'
-import { CONTRACT_TYPE_DDL } from '@b41ex/qubership-apihub-ui-shared/entities/contract-types'
+} from '@alagishev/qubership-apihub-ui-shared/components/SpecViewToggler'
+import { CONTRACT_TYPE_DDL } from '@alagishev/qubership-apihub-ui-shared/entities/contract-types'
 import {
   DDL_ENTITY_KIND_TABLE,
   type DdlContractEntity,
   type DdlContractEntityDetails,
-} from '@b41ex/qubership-apihub-ui-shared/entities/contracts-ddl'
-import type { Key } from '@b41ex/qubership-apihub-ui-shared/entities/keys'
-import { DEFAULT_VIEW_MODE_MAP_BY_API_TYPE } from '@b41ex/qubership-apihub-ui-shared/entities/operation-view-mode'
-import { DASHBOARD_KIND } from '@b41ex/qubership-apihub-ui-shared/entities/packages'
+} from '@alagishev/qubership-apihub-ui-shared/entities/contracts-ddl'
+import type { Key } from '@alagishev/qubership-apihub-ui-shared/entities/keys'
+import { DEFAULT_VIEW_MODE_MAP_BY_API_TYPE } from '@alagishev/qubership-apihub-ui-shared/entities/operation-view-mode'
+import { DASHBOARD_KIND } from '@alagishev/qubership-apihub-ui-shared/entities/packages'
 import {
   DETAILED_SCHEMA_VIEW_MODE,
   SIMPLE_SCHEMA_VIEW_MODE,
-} from '@b41ex/qubership-apihub-ui-shared/entities/schema-view-mode'
+} from '@alagishev/qubership-apihub-ui-shared/entities/schema-view-mode'
 import {
   useSeverityFiltersSearchParam,
-} from '@b41ex/qubership-apihub-ui-shared/hooks/change-severities/useSeverityFiltersSearchParam'
+} from '@alagishev/qubership-apihub-ui-shared/hooks/change-severities/useSeverityFiltersSearchParam'
 import {
   useIsDocOperationViewMode,
   useIsRawOperationViewMode,
-} from '@b41ex/qubership-apihub-ui-shared/hooks/operations/useOperationMode'
-import { theme } from '@b41ex/qubership-apihub-ui-shared/themes/theme'
-import { SQL_FILE_EXTENSION } from '@b41ex/qubership-apihub-ui-shared/utils/files'
-import { DDL_DOCUMENT_TYPE } from '@b41ex/qubership-apihub-ui-shared/utils/specs'
+} from '@alagishev/qubership-apihub-ui-shared/hooks/operations/useOperationMode'
+import { theme } from '@alagishev/qubership-apihub-ui-shared/themes/theme'
+import { SQL_FILE_EXTENSION } from '@alagishev/qubership-apihub-ui-shared/utils/files'
+import { DDL_DOCUMENT_TYPE } from '@alagishev/qubership-apihub-ui-shared/utils/specs'
 
 import { useNormalizedDdlContract } from '@portal/api-hooks/InternalDocuments/useNormalizedDdlContract'
-import { DIFF_META_KEY, DIFFS_AGGREGATED_META_KEY } from '@b41ex/qubership-apihub-api-diff'
+import { DIFF_META_KEY, DIFFS_AGGREGATED_META_KEY } from '@alagishev/qubership-apihub-api-diff'
 import {
   DdlTableDiffsViewer,
   DdlTableViewer,
   type NavigationLinkBuilder,
-} from '@b41ex/qubership-apihub-api-doc-viewer'
-import { calculateDdlEntityId } from '@b41ex/qubership-apihub-api-processor'
+} from '@alagishev/qubership-apihub-api-doc-viewer'
+import { calculateDdlEntityId } from '@alagishev/qubership-apihub-api-processor'
 import { usePackageKind } from '../../usePackageKind'
 import { usePackageParamsWithRef } from '../../usePackageParamsWithRef'
 import { useRefSearchParam } from '../../useRefSearchParam'
