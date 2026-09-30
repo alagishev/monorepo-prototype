@@ -113,7 +113,7 @@ func generateFileId(path string) string {
 
 func getXApiKind(path string) string {
 	name := getFileName(path)
-	if strings.HasSuffix(name, "_internal") {
+	if strings.HasSuffix(name, "_internal_test") {
 		return "no-BWC"
 	}
 	return "BWC"

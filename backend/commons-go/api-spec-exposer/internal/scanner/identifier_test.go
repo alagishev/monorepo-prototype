@@ -336,13 +336,16 @@ func TestGetXApiKind(t *testing.T) {
 		path     string
 		expected string
 	}{
-		{"/path/to/api_internal.json", "no-BWC"},
-		{"/path/to/api_internal.yaml", "no-BWC"},
-		{"/path/to/public_internal.yml", "no-BWC"},
+		{"/path/to/api_internal_test.json", "no-BWC"},
+		{"/path/to/api_internal_test.yaml", "no-BWC"},
+		{"/path/to/public_internal_test.yml", "no-BWC"},
+		{"/path/to/api_internal.json", "BWC"},
+		{"/path/to/api_internal.yaml", "BWC"},
+		{"/path/to/public_internal.yml", "BWC"},
 		{"/path/to/api.json", "BWC"},
 		{"/path/to/schema.yaml", "BWC"},
 		{"/path/to/public.yml", "BWC"},
-		{"internal_api.json", "BWC"}, // _internal suffix only
+		{"internal_api.json", "BWC"}, // _internal_test suffix only
 		{"api.json", "BWC"},
 	}
 
